@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document*/body {
+	background-color: rgb(30, 29, 31);
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
+section {
+	background-color: rgb(39, 38, 38);
+}
+
+nav {
+	display: none;
+	clear: both;
+	width: 10%;
+}
+
+nav ul {
+	margin: 0;
+	padding: 10px;
+}
+
+nav ul li {
+	list-style-type: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	margin: 5px;
+	padding: 14px 20px;
+	color: white;
+}
+
+nav ul li a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+#hamburger {
+	float: right;
+	padding: 7px 10px;
+	margin: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+#hamburger:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+.logo {
+	font-family: sans-serif;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	background: linear-gradient(to right, #fb5b0c 10%, #e6de5f 50%, #fb5b0c 90%);
+	background-size: 200% auto;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 2s linear infinite;
+	text-decoration: none;
+	margin: 5px;
+}
+
+.Logo-YZD {
+	margin: 5px;
+	width: 60px;
+	height: 60px;
+}
+
+.active {
+	color: orange;
+	font-weight: bold;
+}
+
+.other {
+	margin-top: 50px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 15px;
+	flex-wrap: wrap;
+	margin-right: 25px;
+	margin-left: 25px;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+h2 a {
+	color: white;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+footer {
+    color: white;
+    text-align: center;
+	font-family: sans-serif;
+	margin-top: 30px;
+	background-color: rgb(39, 38, 38);
+	padding: 10px;
+}
+
+.isi-footer {
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.menu-footer {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.pilihan-menu-footer {
+    display: inline;
+}
+
+.pilihan-menu-footer a {
+    font-size: 11px;
+    margin: 20px;
+}
+
+.menu-sosial-media {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 375px) {
+	nav {
+		width: 10%;
+	}
+	#hamburger {
+		display: block;
+	}
+	h1 {
+		font-size: 8px;
+	}
+	h2 a {
+		font-size: 20px;
+	}
+	footer {
+		font-size: 9px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 667px) {
+	footer {
+		font-size: 10px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 390px) {
+	footer {
+		font-size: 10px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 384px) {
+	footer {
+		font-size: 9px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	footer {
+		font-size: 11px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 11px;
+	}
+}

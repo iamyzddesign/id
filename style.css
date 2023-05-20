@@ -1,0 +1,642 @@
+@charset "utf-8";
+/* CSS Document*/body {
+	background-color: rgb(30, 29, 31);
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
+section {
+	background-color: rgb(39, 38, 38);
+}
+
+nav {
+	display: none;
+	clear: both;
+	width: 10%;
+}
+
+nav ul {
+	margin: 0;
+	padding: 10px;
+}
+
+nav ul li {
+	list-style-type: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	margin: 5px;
+	padding: 14px 20px;
+	color: white;
+}
+
+nav ul li a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+#hamburger {
+	float: right;
+	padding: 7px 10px;
+	margin: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+#hamburger:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+.shop {
+	float: right;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	padding: 7px 10px;
+	margin: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.logo {
+	font-family: sans-serif;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	background: linear-gradient(to right, #fb5b0c 10%, #e6de5f 50%, #fb5b0c 90%);
+	background-size: 200% auto;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 2s linear infinite;
+	text-decoration: none;
+	margin: 5px;
+}
+
+.Logo-YZD {
+	margin: 5px;
+	width: 60px;
+	height: 60px;
+}
+
+.active {
+	color: orange;
+	font-weight: bold;
+}
+
+.aboutme {
+	margin: 50px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+	flex-wrap: wrap;
+	margin-right: 25px;
+	margin-left: 25px;
+	position: relative;
+	animation: fall 3s ease-out forwards;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+footer {
+    color: white;
+    text-align: center;
+	font-family: sans-serif;
+	background-color: rgb(39, 38, 38);
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.isi-footer {
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.menu-footer {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.pilihan-menu-footer {
+    display: inline;
+}
+
+.pilihan-menu-footer a {
+    font-size: 11px;
+    margin: 20px;
+}
+
+.menu-sosial-media {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+	animation:  myAnim 3s ease 0s 1 normal forwards;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 500px;
+    height: 600px;
+}
+
+.scrollsnap-container {
+	display: flex;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	padding: 20px;
+	gap: 12px;
+}
+
+.scrollsnap-container > img {
+	flex: 0 0 100%;
+}
+
+.posters-scrollsnap {
+	width: 300px;
+	height: 390px;
+}
+
+.nav-download {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin: 20px;
+	background-color: rgb(39, 38, 38);
+	padding: 17px;
+}
+
+.nama-nav {
+	margin: 10px;
+	cursor: pointer;
+}
+
+h3 a {
+	text-decoration: none;
+}
+
+.container-textures {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	animation:  myAnim 3s ease 0s 1 normal forwards;
+}
+
+.container-font {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	animation:  myAnim 3s ease 0s 1 normal forwards;
+}
+
+#card-1 {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: rgb(39, 38, 38);
+	border-radius: 7px;
+	padding: 10px;
+	width: 200px;
+	height: 220px;
+	margin: 5px;
+}
+
+#card-1 img {
+	width: 200px;
+	height: 150px;
+	object-fit: cover;
+}
+
+#card-2 {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: rgb(39, 38, 38);
+	border-radius: 7px;
+	padding: 10px;
+	width: 200px;
+	height: 220px;
+	margin: 5px;
+}
+
+#card-2 img {
+	width: 200px;
+	height: 150px;
+	object-fit: cover;
+}
+
+.nama-file {
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+button {
+	background-color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 3px;
+	cursor: pointer;
+	font-size: 13px;
+	border-radius: 7px;
+}
+
+button:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+@media screen and (max-width: 375px) {
+	nav {
+		width: 10%;
+	}
+	#hamburger {
+		display: block;
+	}
+	h1 {
+		font-size: 8px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.nav-download {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#card-1 {
+		width: 140px;
+		height: 160px;
+	}
+	#card-1 img {
+		width: 170px;
+		height: 120px;
+		object-fit: cover;
+	}
+	#card-2 {
+		width: 140px;
+		height: 160px;
+	}
+	#card-2 img {
+		width: 170px;
+		height: 120px;
+		object-fit: cover;
+	}
+	.nama-file {
+		font-size: 11px;
+		margin: 2px;
+	}
+	button {
+		font-size: 10px;
+		margin: 2px;
+	}
+	footer {
+		font-size: 9px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+	.slide img {
+		width: 300px;
+		height: 400px;
+	}
+
+	.posters-scrollsnap {
+		width: 100px;
+		height: 110px;
+	}
+}
+
+@media screen and (min-width: 667px) {
+	.nav-download {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#card-1 {
+		width: 150px;
+		height: 170px;
+	}
+	#card-1 img {
+		width: 180px;
+		height: 130px;
+		object-fit: cover;
+	}
+	#card-2 {
+		width: 150px;
+		height: 170px;
+	}
+	#card-2 img {
+		width: 180px;
+		height: 130px;
+		object-fit: cover;
+	}
+	.nama-file {
+		font-size: 11px;
+		margin: 2px;
+	}
+	button {
+		font-size: 10px;
+		margin: 2px;
+	}
+	footer {
+		font-size: 10px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+	.slide img {
+		width: 300px;
+		height: 400px;
+	}
+	.posters-scrollsnap {
+		width: 110px;
+		height: 120px;
+	}
+}
+
+@media screen and (min-width: 390px) {
+	.nav-download {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#card-1 {
+		width: 150px;
+		height: 170px;
+	}
+	#card-1 img {
+		width: 180px;
+		height: 130px;
+		object-fit: cover;
+	}
+	#card-2 {
+		width: 150px;
+		height: 170px;
+	}
+	#card-2 img {
+		width: 180px;
+		height: 130px;
+		object-fit: cover;
+	}
+	.nama-file {
+		font-size: 11px;
+		margin: 2px;
+	}
+	button {
+		font-size: 10px;
+		margin: 2px;
+	}
+	footer {
+		font-size: 10px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+	.slide img {
+		width: 300px;
+		height: 400px;
+	}
+	.posters-scrollsnap {
+		width: 110px;
+		height: 120px;
+	}
+}
+
+@media screen and (min-width: 384px) {
+	.nav-download {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#card-1 {
+		width: 150px;
+		height: 170px;
+	}
+	#card-1 img {
+		width: 180px;
+		height: 130px;
+		object-fit: cover;
+	}
+	#card-2 {
+		width: 150px;
+		height: 170px;
+	}
+	#card-2 img {
+		width: 180px;
+		height: 130px;
+		object-fit: cover;
+	}
+	.nama-file {
+		font-size: 11px;
+		margin: 2px;
+	}
+	button {
+		font-size: 10px;
+		margin: 2px;
+	}
+	footer {
+		font-size: 9px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+	.slide img {
+		width: 300px;
+		height: 400px;
+	}
+	.posters-scrollsnap {
+		width: 110px;
+		height: 120px;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.nav-download {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 13px;
+		color: white;
+		margin: 20px;
+		background-color: rgb(39, 38, 38);
+		padding: 17px;
+	}
+	#card-1 {
+		width: 200px;
+		height: 220px;
+	}
+	#card-1 img {
+		width: 200px;
+		height: 150px;
+		object-fit: cover;
+	}
+	#card-2 {
+		width: 200px;
+		height: 220px;
+	}
+	#card-2 img {
+		width: 200px;
+		height: 150px;
+		object-fit: cover;
+	}
+	.nama-file {
+		font-size: 15px;
+	}
+	button {
+		font-size: 13px;
+		margin: 3px;
+	}
+	footer {
+		font-size: 11px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 11px;
+	}
+	.slide img {
+		width: 500px;
+		height: 600px;
+	}
+	.posters-scrollsnap {
+		width: 300px;
+		height: 390px;
+	}
+}
+
+@media screen and (width: 800px) {
+	.nav-download {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 13px;
+		justify-content: center;
+		align-items: center;
+	}
+	.posters-scrollsnap {
+		width: 150px;
+		height: 250px;
+	}
+}
+
+@media screen and (width: 810px) {
+	.nav-download {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 13px;
+		justify-content: center;
+		align-items: center;
+	}
+	.posters-scrollsnap {
+		width: 150px;
+		height: 250px;
+	}
+}
+
+@media screen and (width: 360px) {
+	.nav-download {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#card-1 {
+		width: 130px;
+		height: 150px;
+	}
+	#card-1 img {
+		width: 160px;
+		height: 110px;
+		object-fit: cover;
+	}
+	#card-2 {
+		width: 130px;
+		height: 150px;
+	}
+	#card-2 img {
+		width: 160px;
+		height: 110px;
+		object-fit: cover;
+	}
+}
+
+@keyframes fall {
+	0% {
+		top: -100px;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
