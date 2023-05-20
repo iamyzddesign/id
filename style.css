@@ -170,6 +170,10 @@ footer {
 }
 
 .scrollsnap-container {
+	margin: 20px;
+	background-color: rgb(39, 38, 38);
+	max-width: 100%;
+	padding: 17px;
 	display: flex;
 	overflow: auto;
 	scroll-snap-type: x mandatory;
@@ -182,7 +186,7 @@ footer {
 }
 
 .posters-scrollsnap {
-	width: 300px;
+	width: 370px;
 	height: 400px;
 }
 
@@ -348,8 +352,8 @@ button:hover {
 	}
 
 	.posters-scrollsnap {
-		width: 150%;
-		height: 90%;
+		width: 73px;
+		height: 93px;
 	}
 }
 
@@ -399,8 +403,8 @@ button:hover {
 		height: 400px;
 	}
 	.posters-scrollsnap {
-		width: 170%;
-		height: 110%;
+		width: 87px;
+		height: 107px;
 	}
 }
 
@@ -450,8 +454,8 @@ button:hover {
 		height: 400px;
 	}
 	.posters-scrollsnap {
-		width: 170%;
-		height: 110%;
+		width: 87px;
+		height: 107px;
 	}
 }
 
@@ -501,8 +505,8 @@ button:hover {
 		height: 400px;
 	}
 	.posters-scrollsnap {
-		width: 170%;
-		height: 110%;
+		width: 87px;
+		height: 107px;
 	}
 }
 
@@ -555,7 +559,7 @@ button:hover {
 		height: 600px;
 	}
 	.posters-scrollsnap {
-		width: 300px;
+		width: 370px;
 		height: 400px;
 	}
 }
@@ -571,7 +575,7 @@ button:hover {
 	}
 	.posters-scrollsnap {
 		width: 150px;
-		height: 250px;
+		height: 230px;
 	}
 }
 
@@ -586,7 +590,7 @@ button:hover {
 	}
 	.posters-scrollsnap {
 		width: 150px;
-		height: 250px;
+		height: 230px;
 	}
 }
 
@@ -618,15 +622,106 @@ button:hover {
 		object-fit: cover;
 	}
 	.posters-scrollsnap {
-		width: 170%;
-		height: 110%;
+		width: 70px;
+		height: 90px;
 	}
 }
 
 @media screen and (width: 390px) {
 	.posters-scrollsnap {
-		width: 170%;
-		height: 110%;
+		width: 77px;
+		height: 97px;
+	}
+}
+
+@media screen and (width: 667px) {
+	.posters-scrollsnap {
+		width: 150px;
+		height: 190px;
+	}
+}
+
+@media screen and (width: 851px) {
+	.posters-scrollsnap {
+		width: 200px;
+		height: 260px;
+	}
+}
+
+@media screen and (width: 1280px) {
+	.posters-scrollsnap {
+		width: 250px;
+		height: 380px;
+	}
+}
+
+@media screen and (width: 393px) {
+	.posters-scrollsnap {
+		width: 80px;
+		height: 100px;
+	}
+}
+
+@media screen and (width: 1080px) {
+	.posters-scrollsnap {
+		width: 240px;
+		height: 310px;
+	}
+}
+
+@media screen and (width: 926px) {
+	.posters-scrollsnap {
+		width: 150px;
+		height: 270px;
+	}
+}
+
+@media screen and (width: 812px) {
+	.posters-scrollsnap {
+		width: 170px;
+		height: 240px;
+	}
+}
+
+@media screen and (width: 844px) {
+	.posters-scrollsnap {
+		width: 140px;
+		height: 240px;
+	}
+}
+
+@media screen and (width: 896px) {
+	.posters-scrollsnap {
+		width: 150px;
+		height: 260px;
+	}
+}
+
+@media screen and (width: 854px) {
+	.posters-scrollsnap {
+		width: 150px;
+		height: 250px;
+	}
+}
+
+@media screen and (width: 915px) {
+	.posters-scrollsnap {
+		width: 150px;
+		height: 270px;
+	}
+}
+
+@media screen and (width: 760px) {
+	.posters-scrollsnap {
+		width: 150px;
+		height: 220px;
+	}
+}
+
+@media screen and (width: 883px) {
+	.posters-scrollsnap {
+		width: 150px;
+		height: 250px;
 	}
 }
 
