@@ -169,27 +169,6 @@ footer {
     height: 600px;
 }
 
-.scrollsnap-container {
-	margin: 20px;
-	background-color: rgb(39, 38, 38);
-	max-width: 100%;
-	padding: 17px;
-	display: flex;
-	overflow: auto;
-	scroll-snap-type: x mandatory;
-	padding: 20px;
-	gap: 12px;
-}
-
-.scrollsnap-container > img {
-	flex: 0 0 100%;
-}
-
-.posters-scrollsnap {
-	width: 370px;
-	height: 400px;
-}
-
 .nav-download {
 	display: flex;
 	text-align: center;
@@ -350,11 +329,6 @@ button:hover {
 		width: 300px;
 		height: 400px;
 	}
-
-	.posters-scrollsnap {
-		width: 73px;
-		height: 93px;
-	}
 }
 
 @media screen and (min-width: 667px) {
@@ -401,10 +375,6 @@ button:hover {
 	.slide img {
 		width: 300px;
 		height: 400px;
-	}
-	.posters-scrollsnap {
-		width: 87px;
-		height: 107px;
 	}
 }
 
@@ -453,10 +423,6 @@ button:hover {
 		width: 300px;
 		height: 400px;
 	}
-	.posters-scrollsnap {
-		width: 87px;
-		height: 107px;
-	}
 }
 
 @media screen and (min-width: 384px) {
@@ -503,10 +469,6 @@ button:hover {
 	.slide img {
 		width: 300px;
 		height: 400px;
-	}
-	.posters-scrollsnap {
-		width: 87px;
-		height: 107px;
 	}
 }
 
@@ -558,10 +520,6 @@ button:hover {
 		width: 500px;
 		height: 600px;
 	}
-	.posters-scrollsnap {
-		width: 370px;
-		height: 400px;
-	}
 }
 
 @media screen and (width: 800px) {
@@ -573,10 +531,6 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
-	.posters-scrollsnap {
-		width: 150px;
-		height: 230px;
-	}
 }
 
 @media screen and (width: 810px) {
@@ -587,10 +541,6 @@ button:hover {
 		font-size: 13px;
 		justify-content: center;
 		align-items: center;
-	}
-	.posters-scrollsnap {
-		width: 150px;
-		height: 230px;
 	}
 }
 
@@ -620,108 +570,6 @@ button:hover {
 		width: 160px;
 		height: 110px;
 		object-fit: cover;
-	}
-	.posters-scrollsnap {
-		width: 70px;
-		height: 90px;
-	}
-}
-
-@media screen and (width: 390px) {
-	.posters-scrollsnap {
-		width: 77px;
-		height: 97px;
-	}
-}
-
-@media screen and (width: 667px) {
-	.posters-scrollsnap {
-		width: 150px;
-		height: 190px;
-	}
-}
-
-@media screen and (width: 851px) {
-	.posters-scrollsnap {
-		width: 200px;
-		height: 260px;
-	}
-}
-
-@media screen and (width: 1280px) {
-	.posters-scrollsnap {
-		width: 250px;
-		height: 380px;
-	}
-}
-
-@media screen and (width: 393px) {
-	.posters-scrollsnap {
-		width: 80px;
-		height: 100px;
-	}
-}
-
-@media screen and (width: 1080px) {
-	.posters-scrollsnap {
-		width: 240px;
-		height: 310px;
-	}
-}
-
-@media screen and (width: 926px) {
-	.posters-scrollsnap {
-		width: 150px;
-		height: 270px;
-	}
-}
-
-@media screen and (width: 812px) {
-	.posters-scrollsnap {
-		width: 170px;
-		height: 240px;
-	}
-}
-
-@media screen and (width: 844px) {
-	.posters-scrollsnap {
-		width: 140px;
-		height: 240px;
-	}
-}
-
-@media screen and (width: 896px) {
-	.posters-scrollsnap {
-		width: 150px;
-		height: 260px;
-	}
-}
-
-@media screen and (width: 854px) {
-	.posters-scrollsnap {
-		width: 150px;
-		height: 250px;
-	}
-}
-
-@media screen and (width: 915px) {
-	.posters-scrollsnap {
-		width: 150px;
-		height: 270px;
-	}
-}
-
-@media screen and (width: 760px) {
-	.posters-scrollsnap {
-		width: 150px;
-		height: 220px;
-	}
-}
-
-@media screen and (width: 883px) {
-	.posters-scrollsnap {
-		width: 150px;
-		height: 250px;
 	}
 }
 
