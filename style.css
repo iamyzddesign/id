@@ -182,9 +182,21 @@ footer {
 	padding: 17px;
 }
 
+.nav-tshirtdesign {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin: 20px;
+	background-color: rgb(39, 38, 38);
+	padding: 17px;
+}
+
 .nama-nav {
 	margin: 10px;
-	cursor: pointer;
 }
 
 h3 a {
@@ -209,7 +221,16 @@ h3 a {
 	animation:  myAnim 3s ease 0s 1 normal forwards;
 }
 
-#card-1 {
+.container-tshirt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	animation:  myAnim 3s ease 0s 1 normal forwards;
+}
+
+#card-texture {
 	margin-top: 50px;
 	display: flex;
 	align-items: center;
@@ -223,13 +244,13 @@ h3 a {
 	margin: 5px;
 }
 
-#card-1 img {
+#card-texture img {
 	width: 200px;
 	height: 150px;
 	object-fit: cover;
 }
 
-#card-2 {
+#card-font {
 	margin-top: 50px;
 	display: flex;
 	align-items: center;
@@ -243,7 +264,7 @@ h3 a {
 	margin: 5px;
 }
 
-#card-2 img {
+#card-font img {
 	width: 200px;
 	height: 150px;
 	object-fit: cover;
@@ -255,6 +276,45 @@ h3 a {
 	text-align: center;
 	font-weight: bold;
 	color: white;
+}
+
+#card-saletshirt {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: rgb(39, 38, 38);
+	border-radius: 7px;
+	padding: 10px;
+	width: 200px;
+	height: 220px;
+	margin: 5px;
+}
+
+#card-saletshirt img {
+	width: 200px;
+	height: 150px;
+	object-fit: cover;
+}
+
+.nama-produk {
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	margin: 7px;
+}
+
+.price {
+	font-family: sans-serif;
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: orange;
+	margin: 5px;
 }
 
 button {
@@ -293,20 +353,20 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
-	#card-1 {
+	#card-texture {
 		width: 140px;
 		height: 160px;
 	}
-	#card-1 img {
+	#card-texture img {
 		width: 170px;
 		height: 120px;
 		object-fit: cover;
 	}
-	#card-2 {
+	#card-font {
 		width: 140px;
 		height: 160px;
 	}
-	#card-2 img {
+	#card-font img {
 		width: 170px;
 		height: 120px;
 		object-fit: cover;
@@ -314,6 +374,27 @@ button:hover {
 	.nama-file {
 		font-size: 11px;
 		margin: 2px;
+	}
+	.nav-tshirtdesign {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#card-saletshirt {
+		width: 140px;
+		height: 160px;
+	}
+	#card-saletshirt img {
+		width: 170px;
+		height: 120px;
+		object-fit: cover;
+	}
+	.nama-produk {
+		font-size: 11px;
+		margin: 3px;
 	}
 	button {
 		font-size: 10px;
@@ -340,20 +421,20 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
-	#card-1 {
+	#card-texture {
 		width: 150px;
 		height: 170px;
 	}
-	#card-1 img {
+	#card-texture img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
-	#card-2 {
+	#card-font {
 		width: 150px;
 		height: 170px;
 	}
-	#card-2 img {
+	#card-font img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
@@ -361,6 +442,27 @@ button:hover {
 	.nama-file {
 		font-size: 11px;
 		margin: 2px;
+	}
+	.nav-tshirtdesign {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#card-saletshirt {
+		width: 150px;
+		height: 170px;
+	}
+	#card-saletshirt img {
+		width: 180px;
+		height: 130px;
+		object-fit: cover;
+	}
+	.nama-produk {
+		font-size: 11px;
+		margin: 3px;
 	}
 	button {
 		font-size: 10px;
@@ -387,20 +489,20 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
-	#card-1 {
+	#card-texture {
 		width: 150px;
 		height: 170px;
 	}
-	#card-1 img {
+	#card-texture img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
-	#card-2 {
+	#card-font {
 		width: 150px;
 		height: 170px;
 	}
-	#card-2 img {
+	#card-font img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
@@ -408,6 +510,27 @@ button:hover {
 	.nama-file {
 		font-size: 11px;
 		margin: 2px;
+	}
+	.nav-tshirtdesign {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#card-saletshirt {
+		width: 150px;
+		height: 170px;
+	}
+	#card-saletshirt img {
+		width: 180px;
+		height: 130px;
+		object-fit: cover;
+	}
+	.nama-produk {
+		font-size: 11px;
+		margin: 3px;
 	}
 	button {
 		font-size: 10px;
@@ -434,20 +557,20 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
-	#card-1 {
+	#card-texture {
 		width: 150px;
 		height: 170px;
 	}
-	#card-1 img {
+	#card-texture img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
-	#card-2 {
+	#card-font {
 		width: 150px;
 		height: 170px;
 	}
-	#card-2 img {
+	#card-font img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
@@ -455,6 +578,27 @@ button:hover {
 	.nama-file {
 		font-size: 11px;
 		margin: 2px;
+	}
+	.nav-tshirtdesign {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#card-saletshirt {
+		width: 150px;
+		height: 170px;
+	}
+	#card-saletshirt img {
+		width: 180px;
+		height: 130px;
+		object-fit: cover;
+	}
+	.nama-produk {
+		font-size: 11px;
+		margin: 3px;
 	}
 	button {
 		font-size: 10px;
@@ -485,25 +629,49 @@ button:hover {
 		background-color: rgb(39, 38, 38);
 		padding: 17px;
 	}
-	#card-1 {
+	#card-texture {
 		width: 200px;
 		height: 220px;
 	}
-	#card-1 img {
+	#card-texture img {
 		width: 200px;
 		height: 150px;
 		object-fit: cover;
 	}
-	#card-2 {
+	#card-font {
 		width: 200px;
 		height: 220px;
 	}
-	#card-2 img {
+	#card-font img {
 		width: 200px;
 		height: 150px;
 		object-fit: cover;
 	}
 	.nama-file {
+		font-size: 15px;
+	}
+	.nav-tshirtdesign {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 13px;
+		color: white;
+		margin: 20px;
+		background-color: rgb(39, 38, 38);
+		padding: 17px;
+	}
+	#card-saletshirt {
+		width: 200px;
+		height: 220px;
+	}
+	#card-saletshirt img {
+		width: 200px;
+		height: 150px;
+		object-fit: cover;
+	}
+	.nama-produk {
 		font-size: 15px;
 	}
 	button {
@@ -531,10 +699,26 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+	.nav-tshirtdesign {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 13px;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 @media screen and (width: 810px) {
 	.nav-download {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 13px;
+		justify-content: center;
+		align-items: center;
+	}
+	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
 		scroll-snap-type: x mandatory;
@@ -553,20 +737,37 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
-	#card-1 {
+	#card-texture {
 		width: 130px;
 		height: 150px;
 	}
-	#card-1 img {
+	#card-texture img {
 		width: 160px;
 		height: 110px;
 		object-fit: cover;
 	}
-	#card-2 {
+	#card-font {
 		width: 130px;
 		height: 150px;
 	}
-	#card-2 img {
+	#card-font img {
+		width: 160px;
+		height: 110px;
+		object-fit: cover;
+	}
+	.nav-tshirtdesign {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#card-saletshirt {
+		width: 130px;
+		height: 150px;
+	}
+	#card-saletshirt img {
 		width: 160px;
 		height: 110px;
 		object-fit: cover;

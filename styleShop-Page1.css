@@ -165,7 +165,6 @@ footer {
 
 .nama-nav {
 	margin: 10px;
-	cursor: pointer;
 }
 
 h3 a {
@@ -225,6 +224,7 @@ h3 a {
 	justify-content: center;
 	text-align: center;
 	color: orange;
+	margin: 5px;
 }
 
 button {
