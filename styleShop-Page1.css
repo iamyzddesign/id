@@ -196,16 +196,15 @@ h3 a {
 	justify-content: center;
 	flex-wrap: wrap;
 	background-color: rgb(39, 38, 38);
-	border-radius: 7px;
 	padding: 10px;
-	width: 200px;
-	height: 220px;
+	width: 400px;
+	height: 480px;
 	margin: 5px;
 }
 
 #card-1 img {
-	width: 190px;
-	height: 140px;
+	width: 400px;
+	height: 400px;
 	object-fit: cover;
 }
 
@@ -259,17 +258,17 @@ button:hover {
 		display: block;
 	}
 	#card-1 {
-		width: 140px;
-		height: 160px;
+		width: 300px;
+		height: 380px;
 	}
 	#card-1 img {
-		width: 140px;
-		height: 90px;
+		width: 300px;
+		height: 300px;
 		object-fit: cover;
 	}
 	.nama-produk {
 		font-size: 11px;
-		margin: 2px;
+		margin: 3px;
 	}
 	button {
 		font-size: 10px;
@@ -288,17 +287,17 @@ button:hover {
 		display: block;
 	}
 	#card-1 {
-		width: 150px;
-		height: 170px;
+		width: 310px;
+		height: 390px;
 	}
 	#card-1 img {
-		width: 150px;
-		height: 100px;
+		width: 310px;
+		height: 310px;
 		object-fit: cover;
 	}
 	.nama-produk {
 		font-size: 11px;
-		margin: 2px;
+		margin: 3px;
 	}
 	button {
 		font-size: 10px;
@@ -317,17 +316,17 @@ button:hover {
 		display: block;
 	}
 	#card-1 {
-		width: 150px;
-		height: 170px;
+		width: 310px;
+		height: 390px;
 	}
 	#card-1 img {
-		width: 150px;
-		height: 100px;
+		width: 310px;
+		height: 310px;
 		object-fit: cover;
 	}
 	.nama-produk {
 		font-size: 11px;
-		margin: 2px;
+		margin: 3px;
 	}
 	button {
 		font-size: 10px;
@@ -346,17 +345,17 @@ button:hover {
 		display: block;
 	}
 	#card-1 {
-		width: 150px;
-		height: 170px;
+		width: 310px;
+		height: 390px;
 	}
 	#card-1 img {
-		width: 150px;
-		height: 100px;
+		width: 310px;
+		height: 310px;
 		object-fit: cover;
 	}
 	.nama-produk {
 		font-size: 11px;
-		margin: 2px;
+		margin: 3px;
 	}
 	button {
 		font-size: 10px;
@@ -375,12 +374,12 @@ button:hover {
 		display: flex;
 	}
 	#card-1 {
-		width: 200px;
-		height: 220px;
+		width: 400px;
+		height: 480px;
 	}
 	#card-1 img {
-		width: 200px;
-		height: 150px;
+		width: 400px;
+		height: 400px;
 		object-fit: cover;
 	}
 	.nama-produk {
@@ -400,12 +399,12 @@ button:hover {
 
 @media screen and (width: 360px) {
 	#card-1 {
-		width: 130px;
-		height: 150px;
+		width: 290px;
+		height: 370px;
 	}
 	#card-1 img {
-		width: 140px;
-		height: 90px;
+		width: 290px;
+		height: 290px;
 		object-fit: cover;
 	}
 }
