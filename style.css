@@ -169,6 +169,33 @@ footer {
     height: 600px;
 }
 
+.nav-allposters {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin: 20px;
+	background-color: rgb(39, 38, 38);
+	padding: 17px;
+}
+
+#container-allposters {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+#container-allposters img {
+	width: 500px;
+    height: 600px;
+	animation:  myAnim 3s ease 0s 1 normal forwards;
+}
+
 .nav-download {
 	display: flex;
 	text-align: center;
@@ -372,6 +399,14 @@ button:hover {
 		font-size: 11px;
 		margin: 2px;
 	}
+	.nav-allposters {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
 	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
@@ -404,6 +439,10 @@ button:hover {
 		font-size: 9px;
 	}
 	.slide img {
+		width: 300px;
+		height: 400px;
+	}
+	#container-allposters img {
 		width: 300px;
 		height: 400px;
 	}
@@ -440,6 +479,14 @@ button:hover {
 		font-size: 11px;
 		margin: 2px;
 	}
+	.nav-allposters {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
 	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
@@ -472,6 +519,10 @@ button:hover {
 		font-size: 9px;
 	}
 	.slide img {
+		width: 300px;
+		height: 400px;
+	}
+	#container-allposters img {
 		width: 300px;
 		height: 400px;
 	}
@@ -508,6 +559,14 @@ button:hover {
 		font-size: 11px;
 		margin: 2px;
 	}
+	.nav-allposters {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
 	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
@@ -540,6 +599,10 @@ button:hover {
 		font-size: 9px;
 	}
 	.slide img {
+		width: 300px;
+		height: 400px;
+	}
+	#container-allposters img {
 		width: 300px;
 		height: 400px;
 	}
@@ -576,6 +639,14 @@ button:hover {
 		font-size: 11px;
 		margin: 2px;
 	}
+	.nav-allposters {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
 	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
@@ -608,6 +679,10 @@ button:hover {
 		font-size: 9px;
 	}
 	.slide img {
+		width: 300px;
+		height: 400px;
+	}
+	#container-allposters img {
 		width: 300px;
 		height: 400px;
 	}
@@ -647,6 +722,18 @@ button:hover {
 	.nama-file {
 		font-size: 15px;
 	}
+	.nav-allposters {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 13px;
+		color: white;
+		margin: 20px;
+		background-color: rgb(39, 38, 38);
+		padding: 17px;
+	}
 	.nav-tshirtdesign {
 		display: flex;
 		text-align: center;
@@ -685,10 +772,22 @@ button:hover {
 		width: 500px;
 		height: 600px;
 	}
+	#container-allposters img {
+		width: 500px;
+		height: 600px;
+	}
 }
 
 @media screen and (width: 800px) {
 	.nav-download {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 13px;
+		justify-content: center;
+		align-items: center;
+	}
+	.nav-allposters {
 		display: flex;
 		overflow: auto;
 		scroll-snap-type: x mandatory;
@@ -708,6 +807,14 @@ button:hover {
 
 @media screen and (width: 810px) {
 	.nav-download {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 13px;
+		justify-content: center;
+		align-items: center;
+	}
+	.nav-allposters {
 		display: flex;
 		overflow: auto;
 		scroll-snap-type: x mandatory;
@@ -751,6 +858,14 @@ button:hover {
 		width: 160px;
 		height: 110px;
 		object-fit: cover;
+	}
+	.nav-allposters {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
 	}
 	.nav-tshirtdesign {
 		display: flex;
