@@ -184,10 +184,12 @@ footer {
 
 #container-allposters {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
 	gap: 10px;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	margin: 20px;
 }
 
 #container-allposters img {
