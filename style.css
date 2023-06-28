@@ -195,6 +195,7 @@ footer {
 #container-allposters img {
 	width: 500px;
     height: 600px;
+	margin-top: 6px;
 	animation:  myAnim 3s ease 0s 1 normal forwards;
 }
 
@@ -252,11 +253,12 @@ h3 a {
 
 .container-tshirt {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	margin-top: 20px;
-	animation:  myAnim 3s ease 0s 1 normal forwards;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 10px;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	margin: 20px;
 }
 
 #card-texture {
@@ -270,6 +272,7 @@ h3 a {
 	width: 200px;
 	height: 220px;
 	margin: 5px;
+	margin-top: 6px;
 }
 
 #card-texture img {
@@ -315,7 +318,8 @@ h3 a {
 	padding: 10px;
 	width: 400px;
 	height: 480px;
-	margin: 5px;
+	margin-top: 6px;
+	animation:  myAnim 3s ease 0s 1 normal forwards;
 }
 
 #card-saletshirt img {
