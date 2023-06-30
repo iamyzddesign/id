@@ -161,10 +161,11 @@ h3 a {
 
 .container-tshirts {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	margin-top: 20px;
+	justify-content: flex-start;
+	align-items: flex-start;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	margin: 20px;
 	animation:  myAnim 3s ease 0s 1 normal forwards;
 }
 
@@ -185,7 +186,7 @@ h3 a {
 	padding: 10px;
 	width: 400px;
 	height: 480px;
-	margin: 5px;
+	margin: 6px;
 }
 
 #card-1 img {

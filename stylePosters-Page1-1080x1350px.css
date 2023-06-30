@@ -107,6 +107,11 @@ nav ul li a:hover {
 	height: 60px;
 }
 
+.active {
+	color: orange;
+	font-weight: bold;
+}
+
 .myposters {
 	flex-wrap: wrap;
 	text-align: center;

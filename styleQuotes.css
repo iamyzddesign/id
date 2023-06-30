@@ -81,26 +81,6 @@ nav ul li a:hover {
 	font-weight: bold;
 }
 
-.quotes {
-	margin-top: 50px;
-	font-family: sans-serif;
-	color: white;
-	font-size: 15px;
-	flex-wrap: wrap;
-	margin-right: 25px;
-	margin-left: 25px;
-}
-
-h2 a {
-	color: white;
-	text-decoration: none;
-}
-
-h2 a:hover {
-	color: rgb(168, 247, 21);
-	transition: all .5s ease 0s;
-}
-
 a {
 	color: white;
 }
@@ -114,9 +94,9 @@ footer {
     color: white;
     text-align: center;
 	font-family: sans-serif;
-	margin-top: 30px;
 	background-color: rgb(39, 38, 38);
 	padding: 10px;
+	margin-top: 30px;
 }
 
 .isi-footer {
@@ -144,6 +124,44 @@ footer {
     margin-bottom: 20px;
 }
 
+.nav-englishquotes {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin: 20px;
+	background-color: rgb(39, 38, 38);
+	padding: 17px;
+}
+
+.nama-nav {
+	margin: 10px;
+}
+
+h3 a {
+	text-decoration: none;
+}
+
+#container-englishquotes {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 10px;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	margin: 20px;
+}
+
+#container-englishquotes img {
+	width: 400px;
+    height: 400px;
+	margin-top: 6px;
+	animation:  myAnim 3s ease 0s 1 normal forwards;
+}
+
 @media screen and (max-width: 375px) {
 	nav {
 		width: 10%;
@@ -154,8 +172,20 @@ footer {
 	h1 {
 		font-size: 8px;
 	}
-	h2 a {
+	h2 {
 		font-size: 20px;
+	}
+	.nav-englishquotes {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#container-englishquotes img {
+		width: 300px;
+		height: 300px;
 	}
 	footer {
 		font-size: 9px;
@@ -166,6 +196,18 @@ footer {
 }
 
 @media screen and (min-width: 667px) {
+	.nav-englishquotes {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#container-englishquotes img {
+		width: 310px;
+		height: 310px;
+	}
 	footer {
 		font-size: 10px;
 	}
@@ -175,6 +217,18 @@ footer {
 }
 
 @media screen and (min-width: 390px) {
+	.nav-englishquotes {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#container-englishquotes img {
+		width: 310px;
+		height: 310px;
+	}
 	footer {
 		font-size: 10px;
 	}
@@ -184,6 +238,18 @@ footer {
 }
 
 @media screen and (min-width: 384px) {
+	.nav-englishquotes {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#container-englishquotes img {
+		width: 310px;
+		height: 310px;
+	}
 	footer {
 		font-size: 9px;
 	}
@@ -192,11 +258,75 @@ footer {
 	}
 }
 
-@media screen and (min-width: 720px) {
+ @media screen and (min-width: 720px) {
+	.nav-englishquotes {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 13px;
+		color: white;
+		margin: 20px;
+		background-color: rgb(39, 38, 38);
+		padding: 17px;
+	}
+	#container-englishquotes img {
+		width: 400px;
+		height: 400px;
+	}
 	footer {
 		font-size: 11px;
 	}
 	.pilihan-menu-footer a {
 		font-size: 11px;
+	}
+}
+
+@media screen and (width: 800px) {
+	.nav-englishquotes {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 13px;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media screen and (width: 810px) {
+	.nav-englishquotes {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 13px;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media screen and (width: 360px) {
+	.nav-englishquotes {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#container-englishquotes img {
+		width: 290px;
+		height: 290px;
+	}
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
 	}
 }

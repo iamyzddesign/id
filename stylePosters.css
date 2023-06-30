@@ -329,11 +329,6 @@ h2 a:hover {
 		justify-content: center;
 		align-items: center;
 	}
-	#card-saletshirt img {
-		width: 290px;
-		height: 290px;
-		object-fit: cover;
-	}
 }
 
 @keyframes myAnim {

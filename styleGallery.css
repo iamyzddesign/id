@@ -55,46 +55,42 @@ nav ul li a:hover {
 	transition: all .5s ease 0s;
 }
 
-h1 {
-	color: white;
-	font-size: 22px;
-	font-family: sans-serif;
-	font-weight: bold;
-	text-align: center;
-	justify-content: center;
-	margin: 50px;
-}
-
-.item {
-	display: none;
-	padding: 5px;
-	margin-bottom: auto;
-}
-
-.item-luar {
-	padding: 5px;
-	margin-bottom: auto;
-}
-
-#load-more {
-	color: white;
-	font-size: 13px;
-	font-weight: bold;
-	font-family: sans-serif;
-	text-align: center;
-	cursor: pointer;
-}
-
-img {
-	width: 372px;
-	height: 472px;
-}
-
-.all-galerry {
-	justify-content: center;
-	align-items: center;
+.nav-gallery {
 	display: flex;
-	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin: 20px;
+	background-color: rgb(39, 38, 38);
+	padding: 17px;
+}
+
+.nama-nav {
+	margin: 10px;
+}
+
+h3 a {
+	text-decoration: none;
+}
+
+#container-allgallery {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 10px;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	margin: 20px;
+}
+
+#container-allgallery img {
+	width: 500px;
+    height: 600px;
+	margin-top: 6px;
+	animation:  myAnim 3s ease 0s 1 normal forwards;
 }
 
 .logo {
@@ -173,9 +169,11 @@ footer {
 	#hamburger {
 		display: block;
 	}
-	img {
-		width: 32%;
-		height: 52%;
+	h1 {
+		font-size: 8px;
+	}
+	h2 a {
+		font-size: 20px;
 	}
 	footer {
 		font-size: 9px;
@@ -183,71 +181,148 @@ footer {
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
-	h1 {
-		font-size: 22px;
-	}
-}
-
-@media screen and (max-width: 476px) {
-	img {
-		width: 33%;
-		height: 53%;
-	}
-	footer {
+	.nav-gallery {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
 		font-size: 10px;
+		justify-content: center;
+		align-items: center;
 	}
-	.pilihan-menu-footer a {
-		font-size: 9px;
-	}
-	h1 {
-		font-size: 22px;
-	}
-}
-
-@media screen and (min-width: 390px) {
-	img {
-		width: 33%;
-		height: 53%;
-	}
-	footer {
-		font-size: 10px;
-	}
-	.pilihan-menu-footer a {
-		font-size: 9px;
-	}
-	h1 {
-		font-size: 22px;
+	#container-allgallery img {
+		width: 300px;
+		height: 400px;
 	}
 }
 
 @media screen and (min-width: 667px) {
-	img {
-		width: 33%;
-		height: 53%;
-	}
 	footer {
 		font-size: 10px;
 	}
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
-	h1 {
-		font-size: 22px;
+	.nav-gallery {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#container-allgallery img {
+		width: 300px;
+		height: 400px;
+	}
+}
+
+@media screen and (min-width: 390px) {
+	footer {
+		font-size: 10px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+	.nav-gallery {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#container-allgallery img {
+		width: 300px;
+		height: 400px;
+	}
+}
+
+@media screen and (min-width: 384px) {
+	footer {
+		font-size: 9px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+	.nav-gallery {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+	#container-allgallery img {
+		width: 300px;
+		height: 400px;
 	}
 }
 
 @media screen and (min-width: 720px) {
-	img {
-		width: 372px;
-		height: 472px;
-	}
 	footer {
 		font-size: 11px;
 	}
 	.pilihan-menu-footer a {
 		font-size: 11px;
 	}
-	h1 {
-		font-size: 22px;
+	.nav-gallery {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 13px;
+		color: white;
+		margin: 20px;
+		background-color: rgb(39, 38, 38);
+		padding: 17px;
+	}
+	#container-allgallery img {
+		width: 500px;
+		height: 600px;
+	}
+}
+
+@media screen and (width: 800px) {
+	.nav-gallery {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 13px;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media screen and (width: 810px) {
+	.nav-gallery {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 13px;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media screen and (width: 360px) {
+	.nav-gallery {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
 	}
 }
