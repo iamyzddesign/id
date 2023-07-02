@@ -172,6 +172,23 @@ footer {
     font-weight: bold;
 }
 
+.footer-share {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.share-buttons {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	gap: 5px;
+}
+
+.share-buttons img {
+	width: 40px;
+	height: 40px;
+}
+
 .pilihan-menu-footer {
     display: inline;
 }
