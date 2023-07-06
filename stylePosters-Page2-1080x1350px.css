@@ -3,6 +3,7 @@
 	background-color: rgb(30, 29, 31);
 	margin: 0px;
 	padding: 0px;
+	scroll-behavior: smooth;
 }
 
 section {
