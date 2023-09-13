@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="stylePosters.css">
+	<link rel="stylesheet" type="text/css" href="styleStore-Page7.css">
 	<title>YZD DESIGN</title>
 </head>
 <body>
-	<section>
+    <section>
         <a href="home.html" class="logo"><img src="YZD LOGO 2.png" class="Logo-YZD"></a>
 	    <b id="hamburger" onclick="showMenu();">Menu</b>
 	    <nav id="menu_vertikal">
@@ -15,8 +15,8 @@
 			    <li><a href="home.html">Home</a></li>
 			    <li><a href="about.html">About</a></li>
 			    <li><a href="gallery.html">Gallery</a></li>
-			    <li><a href="posters.html" class="active">Posters</a></li>
-			    <li><a href="store-page1.html">Store</a></li>
+			    <li><a href="posters.html">Posters</a></li>
+				<li><a href="store-page1.html" class="active">Store</a></li>
 			    <li><a href="quotes.html">Quotes</a></li>
 			    <li><a href="mailto:yzddesign1@gmail.com">Contact</a></li>
 			    <li><a href="other.html">Other</a></li>
@@ -24,28 +24,40 @@
 	    </nav>
     </section>
 
-	<div class="resolution">
-		<h2><a href="posters-page1-1080x1350px.html">1080x1350 px</a></h2>
-		<h2><a href="posters-page1-4320x1350px.html">4320x1350 px</a></h2>
+	<div class="aboutme">
+		<h2>Welcome to YZD Store!</h2>
+		<p>I only sell designs for t-shirts, if there is interest, please click "buy".</p>
 	</div>
 
-	<div class="nav-allposters">
-        <h3 class="nama-nav"><a href="#container-allposters">ALL POSTERS</a></h3>
+    <div class="nav-categories">
+        <h3 class="nama-nav">[SALE] T-SHIRT DESIGNS</h3>
     </div>
 
-	<div id="container-allposters">
-		<img src="ALL POSTERS 9.jpg" alt="ALL POSTERS 9">
-		<img src="ALL POSTERS 8.jpg" alt="ALL POSTERS 8">
-		<img src="ALL POSTERS 7.jpg" alt="ALL POSTERS 7">
-		<img src="ALL POSTERS 6.jpg" alt="ALL POSTERS 6">
-		<img src="ALL POSTERS 5.jpg" alt="ALL POSTERS 5">
+    <div class="container-tshirts">
+		<div id="card-1">
+			<div class="container-img">
+				<img src="BEST FRIEND (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="BEST FRIEND (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">BEST FRIEND</p>
+            <h1 class="price">IDR. 30.000</h1>
+            <button id="buyButton12" onclick="sendMessage('BEST FRIEND')">BUY💸</button>
+        </div>
+		
+		<div id="card-1">
+			<div class="container-img">
+				<img src="FUCK (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="FUCK (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">FUCK</p>
+            <h1 class="price">IDR. 30.000</h1>
+            <button id="buyButton13" onclick="sendMessage('FUCK')">BUY💸</button>
+        </div>
     </div>
 
-	<div id="container-allposters">
-		<img src="ALL POSTERS 4.jpg" alt="ALL POSTERS 4">
-		<img src="ALL POSTERS 3.jpg" alt="ALL POSTERS 3">
-		<img src="ALL POSTERS 2.jpg" alt="ALL POSTERS 2">
-        <img src="ALL POSTERS 1.jpg" alt="ALL POSTERS 1">
+    <div class="page">
+        <button class="btn-page"><a href="store-page6.html">Previous Page</a></button>
+        <button class="btn-page"><a href="#">Next Page</a></button>
     </div>
 
 	<!-- Add here -->
@@ -72,8 +84,33 @@
             <p class="pilihan-menu-footer"><a href="https://www.instagram.com/yzddesign_">INSTAGRAM</a></p>
             <p class="pilihan-menu-footer"><a href="mailto:yzddesign1@gmail.com">CONTACT</a></p>
         </div>
+		<div class="payment">
+			<p>Payments 100% secured</p>
+			<div class="dana">
+				<img src="DANA-LOGO.png" alt="" class="dana-logo">
+			</div>
+			<div class="paypal">
+				<img src="PAYPAL-LOGO.png" alt="" class="paypal-logo">
+			</div>
+		</div>
 	</footer>
 
+	<script>
+		function redirInstagram() {
+			window.location.href = "https://www.instagram.com/yzddesign_"
+		}
+		function redirPaypal() {
+			window.location.href = "https://www.paypal.com/yzdramadhan"
+		}
+        function redirTelegram() {
+			window.location.href = "https://t.me/yzddesign"
+		}
+        function redirWhatsApp() {
+			window.location.href = "https://wa.me/6281218141079"
+		}
+	</script>
+	<script src="payment-store-4.js"></script>
+    <script src="downloadfile.js"></script>
 	<script src="hamburger.js"></script>
 </body>
 </html>
