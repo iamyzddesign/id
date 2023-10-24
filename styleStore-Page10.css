@@ -1,0 +1,539 @@
+@charset "utf-8";
+/* CSS Document*/body {
+	background-color: rgb(30, 29, 31);
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
+section {
+	background-color: rgb(39, 38, 38);
+}
+
+nav {
+	display: none;
+	clear: both;
+	width: 10%;
+}
+
+nav ul {
+	margin: 0;
+	padding: 10px;
+}
+
+nav ul li {
+	list-style-type: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	margin: 5px;
+	padding: 14px 20px;
+	color: white;
+}
+
+nav ul li a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+#hamburger {
+	float: right;
+	padding: 7px 10px;
+	margin: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+#hamburger:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+.logo {
+	font-family: sans-serif;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	background: linear-gradient(to right, #fb5b0c 10%, #e6de5f 50%, #fb5b0c 90%);
+	background-size: 200% auto;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 2s linear infinite;
+	text-decoration: none;
+	margin: 5px;
+}
+
+.Logo-YZD {
+	margin: 5px;
+	width: 60px;
+	height: 60px;
+}
+
+.active {
+	color: orange;
+	font-weight: bold;
+}
+
+.aboutme {
+	margin: 50px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+	flex-wrap: wrap;
+	margin-right: 25px;
+	margin-left: 25px;
+	position: relative;
+	animation: fall 3s ease-out forwards;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+footer {
+    color: white;
+    text-align: center;
+	font-family: sans-serif;
+	background-color: rgb(39, 38, 38);
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.isi-footer {
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.menu-footer {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.footer-share {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.share-buttons {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	gap: 5px;
+}
+
+.share-buttons img {
+	width: 40px;
+	height: 40px;
+}
+
+.pilihan-menu-footer {
+    display: inline;
+}
+
+.pilihan-menu-footer a {
+    font-size: 11px;
+    margin: 20px;
+}
+
+.menu-sosial-media {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.nav-categories {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin: 20px;
+	background-color: rgb(39, 38, 38);
+	padding: 17px;
+}
+
+.nama-nav {
+	margin: 10px;
+}
+
+h3 a {
+	text-decoration: none;
+}
+
+.container-tshirts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	animation:  myAnim 3s ease 0s 1 normal forwards;
+}
+
+.container-img {
+	display: flex;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	gap: 10px;
+}
+
+#card-1 {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: rgb(39, 38, 38);
+	padding: 10px;
+	width: 400px;
+	height: 480px;
+	margin: 5px;
+}
+
+#card-1 img {
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+}
+
+.nama-produk {
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+.price {
+	font-family: sans-serif;
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: orange;
+	margin: 5px;
+}
+
+button {
+	background-color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 3px;
+	cursor: pointer;
+	font-size: 13px;
+	border-radius: 7px;
+}
+
+button:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+.page {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+.btn-page {
+    margin: 15px;
+    background-color: rgb(39, 38, 38);
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.btn-page a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+.btn-page a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dana-logo {
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+}
+
+.paypal-logo {
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+}
+
+@media screen and (max-width: 375px) {
+	nav {
+		width: 10%;
+	}
+	#hamburger {
+		display: block;
+	}
+	h1 {
+		font-size: 8px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.nav-categories {
+		display: block;
+        font-size: 10px;
+	}
+	#card-1 {
+		width: 300px;
+		height: 380px;
+	}
+	#card-1 img {
+		width: 300px;
+		height: 300px;
+		object-fit: cover;
+	}
+	.nama-produk {
+		font-size: 11px;
+		margin: 3px;
+	}
+	button {
+		font-size: 10px;
+		margin: 2px;
+	}
+	footer {
+		font-size: 9px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+	.container-img {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		gap: 10px;
+	}
+	.btn-page {
+		font-size: 13px;
+		padding: 4px;
+	}
+}
+
+@media screen and (min-width: 667px) {
+	.nav-categories {
+		display: block;
+		font-size: 10px;
+	}
+	#card-1 {
+		width: 310px;
+		height: 390px;
+	}
+	#card-1 img {
+		width: 310px;
+		height: 310px;
+		object-fit: cover;
+	}
+	.nama-produk {
+		font-size: 11px;
+		margin: 3px;
+	}
+	button {
+		font-size: 10px;
+		margin: 2px;
+	}
+	footer {
+		font-size: 10px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+	.container-img {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		gap: 10px;
+	}
+	.btn-page {
+		font-size: 13px;
+		padding: 5px;
+	}
+}
+
+@media screen and (min-width: 390px) {
+	.nav-categories {
+		display: block;
+		font-size: 10px;
+	}
+	#card-1 {
+		width: 310px;
+		height: 390px;
+	}
+	#card-1 img {
+		width: 310px;
+		height: 310px;
+		object-fit: cover;
+	}
+	.nama-produk {
+		font-size: 11px;
+		margin: 3px;
+	}
+	button {
+		font-size: 10px;
+		margin: 2px;
+	}
+	footer {
+		font-size: 10px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+	.container-img {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		gap: 10px;
+	}
+	.btn-page {
+		font-size: 13px;
+		padding: 5px;
+	}
+}
+
+@media screen and (min-width: 384px) {
+	.nav-categories {
+		display: block;
+		font-size: 10px;
+	}
+	#card-1 {
+		width: 310px;
+		height: 390px;
+	}
+	#card-1 img {
+		width: 310px;
+		height: 310px;
+		object-fit: cover;
+	}
+	.nama-produk {
+		font-size: 11px;
+		margin: 3px;
+	}
+	button {
+		font-size: 10px;
+		margin: 2px;
+	}
+	footer {
+		font-size: 9px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+	.container-img {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		gap: 10px;
+	}
+	.btn-page {
+		font-size: 13px;
+		padding: 5px;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.nav-categories {
+		display: flex;
+		font-size: 13px;
+	}
+	#card-1 {
+		width: 400px;
+		height: 480px;
+	}
+	#card-1 img {
+		width: 400px;
+		height: 400px;
+		object-fit: cover;
+	}
+	.nama-produk {
+		font-size: 15px;
+	}
+	button {
+		font-size: 13px;
+		margin: 3px;
+	}
+	footer {
+		font-size: 11px;
+	}
+	.pilihan-menu-footer a {
+		font-size: 11px;
+	}
+	.container-img {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		gap: 10px;
+	}
+	.btn-page {
+		padding: 7px;
+	}
+}
+
+@media screen and (width: 360px) {
+	.nav-categories {
+		font-size: 10px;
+	}
+	#card-1 {
+		width: 290px;
+		height: 370px;
+	}
+	#card-1 img {
+		width: 290px;
+		height: 290px;
+		object-fit: cover;
+	}
+	.container-img {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		gap: 10px;
+	}
+	.btn-page {
+		font-size: 13px;
+		padding: 4px;
+	}
+}
+
+@keyframes fall {
+	0% {
+		top: -100px;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
