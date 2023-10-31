@@ -58,6 +58,37 @@ nav ul li a:hover {
 	transition: all .5s ease 0s;
 }
 
+#hamburger-size {
+	float: right;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	padding: 7px 10px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+#hamburger-size:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+#menu-size {
+	flex-wrap: wrap;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 40px;
+}
+
+.jenis-resolusi {
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+.jenis-resolusi:hover {
+	transition: all .5s ease 0s;
+}
+
 .logo {
 	font-family: sans-serif;
 	color: white;
@@ -84,26 +115,41 @@ nav ul li a:hover {
 	font-weight: bold;
 }
 
-.other {
-	margin-top: 50px;
-	font-family: sans-serif;
-	color: white;
-	font-size: 15px;
+.myposters {
 	flex-wrap: wrap;
-	margin-right: 25px;
-	margin-left: 25px;
-	list-style-type: none;
-	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	margin: 50px;
 }
 
-h2 a {
-	color: white;
-	text-decoration: none;
+.myposters img {
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	border: 1px solid #23112a;
 }
 
-h2 a:hover {
+.page {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+.btn-page {
+    margin: 15px;
+    background-color: rgb(15, 15, 15);
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.btn-page a:hover {
 	color: rgb(168, 247, 21);
 	transition: all .5s ease 0s;
+}
+
+.btn-page a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 a {
@@ -119,9 +165,9 @@ footer {
     color: white;
     text-align: center;
 	font-family: sans-serif;
-	margin-top: 30px;
 	background-color: rgb(15, 15, 15);
 	padding: 10px;
+	margin-top: 30px;
 }
 
 .isi-footer {
@@ -176,49 +222,72 @@ footer {
 	h1 {
 		font-size: 8px;
 	}
-	h2 a {
-		font-size: 20px;
+	.myposters img {
+		width: 91%;
+		height: 71%;
 	}
 	footer {
 		font-size: 9px;
 	}
 	.pilihan-menu-footer a {
 		font-size: 9px;
+	}
+	.btn-page {
+		padding: 4px;
 	}
 }
 
 @media screen and (min-width: 667px) {
+	.myposters img {
+		width: 91%;
+		height: 71%;
+	}
 	footer {
 		font-size: 10px;
 	}
 	.pilihan-menu-footer a {
 		font-size: 9px;
+	}
+	.btn-page {
+		padding: 5px;
 	}
 }
 
 @media screen and (min-width: 390px) {
+	.myposters img {
+		width: 91%;
+		height: 71%;
+	}
 	footer {
 		font-size: 10px;
 	}
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
+	.btn-page {
+		padding: 5px;
+	}
 }
 
-@media screen and (min-width: 384px) {
-	footer {
-		font-size: 9px;
-	}
-	.pilihan-menu-footer a {
-		font-size: 9px;
+@media screen and (max-width: 854px) {
+	.myposters img {
+		width: 91%;
+		height: 71%;
 	}
 }
 
 @media screen and (min-width: 720px) {
+	.myposters img {
+		width: 91%;
+		height: 71%;
+	}
 	footer {
 		font-size: 11px;
 	}
 	.pilihan-menu-footer a {
 		font-size: 11px;
+	}
+	.btn-page {
+		padding: 7px;
 	}
 }

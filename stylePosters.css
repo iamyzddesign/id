@@ -1,13 +1,16 @@
 @charset "utf-8";
 /* CSS Document*/body {
-	background-color: rgb(30, 29, 31);
+	background-color: #00283b;
 	margin: 0px;
 	padding: 0px;
 	scroll-behavior: smooth;
 }
 
 section {
-	background-color: rgb(39, 38, 38);
+	background-color: rgb(15, 15, 15);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 nav {
@@ -108,7 +111,8 @@ a:hover {
 	font-size: 13px;
 	color: white;
 	margin: 20px;
-	background-color: rgb(39, 38, 38);
+	background: linear-gradient(to bottom, #0073e6, #00b5ff);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 	padding: 17px;
 }
 
@@ -127,6 +131,7 @@ a:hover {
     height: 600px;
 	margin-top: 6px;
 	animation:  myAnim 3s ease 0s 1 normal forwards;
+	border: 1px solid #23112a;
 }
 
 h3 a {
@@ -138,7 +143,7 @@ footer {
     text-align: center;
 	font-family: sans-serif;
 	margin-top: 30px;
-	background-color: rgb(39, 38, 38);
+	background-color: rgb(15, 15, 15);
 	padding: 10px;
 }
 
