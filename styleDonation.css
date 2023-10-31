@@ -92,11 +92,18 @@ nav ul li a:hover {
 	flex-wrap: wrap;
 	margin-right: 25px;
 	margin-left: 25px;
+	display: flex;
+	justify-content: left;
+	gap: 15px;
 }
 
 h2 a {
 	color: white;
 	text-decoration: none;
+	background: linear-gradient(to bottom, #0073e6, #00b5ff);
+	border-radius: 5px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	padding: 10px;
 }
 
 h2 a:hover {
