@@ -127,6 +127,11 @@ nav ul li a:hover {
 	border: 1px solid #23112a;
 }
 
+.myposters img:hover {
+	animation: borderAnimation 4s linear infinite;
+    border: 2px solid transparent;
+}
+
 .page {
     display: flex;
     margin: 30px;
@@ -290,4 +295,27 @@ footer {
 	.btn-page {
 		padding: 7px;
 	}
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-image-source: linear-gradient(0deg, yellow, #0073e6, blue);
+        border-image-slice: 1;
+    }
+    25% {
+        border-image-source: linear-gradient(90deg, yellow, #0073e6, blue);
+        border-image-slice: 1;
+    }
+    50% {
+        border-image-source: linear-gradient(180deg, yellow, #0073e6, blue);
+        border-image-slice: 1;
+    }
+    75% {
+        border-image-source: linear-gradient(270deg, yellow, #0073e6, blue);
+        border-image-slice: 1;
+    }
+    100% {
+        border-image-source: linear-gradient(360deg, yellow, #0073e6, blue);
+        border-image-slice: 1;
+    }
 }

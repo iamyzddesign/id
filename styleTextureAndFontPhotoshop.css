@@ -255,6 +255,11 @@ button:hover {
 	transition: all .5s ease 0s;
 }
 
+.btn-texturefont {
+	animation: borderAnimation 4s linear infinite;
+    border: 2px solid transparent;
+}
+
 @media screen and (max-width: 375px) {
 	nav {
 		width: 10%;

@@ -198,7 +198,6 @@ h3 a {
 	flex-wrap: wrap;
 	background: linear-gradient(to bottom, #1e1e1e, #23112a);
 	border: 1px solid #23112a;
-	border-top-right-radius: 10px;
 	padding: 10px;
 	width: 400px;
 	height: 480px;
@@ -206,13 +205,17 @@ h3 a {
 }
 
 #card-saletshirt:hover {
-	transform: translateY(-10px);
+	transform: translateY(-5px);
+	animation: borderAnimation 4s linear infinite;
+    border: 2px solid transparent;
 }
 
 #card-saletshirt img {
 	width: 400px;
 	height: 400px;
 	object-fit: cover;
+	animation: borderAnimation 4s linear infinite;
+    border: 2px solid transparent;
 }
 
 .nama-produk {
@@ -247,6 +250,11 @@ button {
 button:hover {
 	color: rgb(168, 247, 21);
 	transition: all .5s ease 0s;
+}
+
+#buyButton1 {
+	animation: borderAnimation 4s linear infinite;
+    border: 2px solid transparent;
 }
 
 .dana-logo {
@@ -508,4 +516,27 @@ button:hover {
 		opacity: 1;
 		transform: translateX(0);
 	}
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-image-source: linear-gradient(0deg, yellow, #0073e6, blue);
+        border-image-slice: 1;
+    }
+    25% {
+        border-image-source: linear-gradient(90deg, yellow, #0073e6, blue);
+        border-image-slice: 1;
+    }
+    50% {
+        border-image-source: linear-gradient(180deg, yellow, #0073e6, blue);
+        border-image-slice: 1;
+    }
+    75% {
+        border-image-source: linear-gradient(270deg, yellow, #0073e6, blue);
+        border-image-slice: 1;
+    }
+    100% {
+        border-image-source: linear-gradient(360deg, yellow, #0073e6, blue);
+        border-image-slice: 1;
+    }
 }
