@@ -246,7 +246,6 @@ button {
 	margin: 3px;
 	cursor: pointer;
 	font-size: 13px;
-	border-radius: 7px;
 }
 
 button:hover {
