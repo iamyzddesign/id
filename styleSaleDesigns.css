@@ -205,7 +205,6 @@ h3 a {
 }
 
 #card-saletshirt:hover {
-	transform: translateY(-5px);
 	animation: borderAnimation 4s linear infinite;
     border: 2px solid transparent;
 }
