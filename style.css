@@ -285,6 +285,7 @@ h3 a {
 	overflow: auto;
 	scroll-snap-type: x mandatory;
 	margin: 20px;
+	animation:  myAnim 3s ease 0s 1 normal forwards;
 }
 
 #card-texture {
