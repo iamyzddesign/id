@@ -402,13 +402,99 @@ button {
 	margin: 3px;
 	cursor: pointer;
 	font-size: 13px;
-	animation: borderAnimation 4s linear infinite;
-    border: 2px solid transparent;
 }
 
 button:hover {
 	color: rgb(168, 247, 21);
 	transition: all .5s ease 0s;
+}
+
+#buyButton1 {
+	color: #FFF;
+	border: 2px solid orange;
+	box-shadow: 0px 0px 0px 1px #0073e6 inset;
+	background: linear-gradient(to bottom, #0073e6, #0073e6);
+	padding: 5px;
+	overflow: hidden;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+}
+
+#buyButton1:hover {
+	border: 2px solid orange;
+	background-color: #FFF;
+	box-shadow: 0px 0px 0px 4px #0073e6 inset;
+	letter-spacing: 0.13em;
+}
+
+#buyButton1::after {
+	background: #FFF;
+	border: 0px solid #000;
+	content: "";
+	height: 155px;
+	left: -75px;
+	opacity: .8;
+	position: absolute;
+	top: -50px;
+	-webkit-transform: rotate(35deg);
+	transform: rotate(35deg);
+	width: 50px;
+	transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+	/*easeOutCirc*/
+	z-index: 1;
+}
+
+#buyButton1:hover:after {
+	background: #FFF;
+	border: 20px solid #000;
+	opacity: 0;
+	left: 120%;
+	-webkit-transform: rotate(40deg);
+	transform: rotate(40deg);
+}
+
+#downloadButton {
+	color: #FFF;
+	border: 2px solid orange;
+	box-shadow: 0px 0px 0px 1px #0073e6 inset;
+	background: linear-gradient(to bottom, #0073e6, #0073e6);
+	padding: 5px;
+	overflow: hidden;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+}
+
+#downloadButton:hover {
+	border: 2px solid orange;
+	background-color: #FFF;
+	box-shadow: 0px 0px 0px 4px #0073e6 inset;
+	letter-spacing: 0.13em;
+}
+
+#downloadButton::after {
+	background: #FFF;
+	border: 0px solid #000;
+	content: "";
+	height: 155px;
+	left: -75px;
+	opacity: .8;
+	position: absolute;
+	top: -50px;
+	-webkit-transform: rotate(35deg);
+	transform: rotate(35deg);
+	width: 50px;
+	transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+	/*easeOutCirc*/
+	z-index: 1;
+}
+
+#downloadButton:hover:after {
+	background: #FFF;
+	border: 20px solid #000;
+	opacity: 0;
+	left: 120%;
+	-webkit-transform: rotate(40deg);
+	transform: rotate(40deg);
 }
 
 @media screen and (max-width: 375px) {
@@ -501,6 +587,9 @@ button:hover {
 		width: 300px;
 		height: 400px;
 	}
+	#downloadButton {
+		padding: 3px;
+	}
 }
 
 @media screen and (min-width: 667px) {
@@ -580,6 +669,9 @@ button:hover {
 	#container-allposters img {
 		width: 300px;
 		height: 400px;
+	}
+	#downloadButton {
+		padding: 3px;
 	}
 }
 
@@ -661,6 +753,9 @@ button:hover {
 		width: 300px;
 		height: 400px;
 	}
+	#downloadButton {
+		padding: 3px;
+	}
 }
 
 @media screen and (min-width: 384px) {
@@ -740,6 +835,9 @@ button:hover {
 	#container-allposters img {
 		width: 300px;
 		height: 400px;
+	}
+	#downloadButton {
+		padding: 3px;
 	}
 }
 
@@ -830,6 +928,9 @@ button:hover {
 	#container-allposters img {
 		width: 500px;
 		height: 600px;
+	}
+	#downloadButton {
+		padding: 5px;
 	}
 }
 
@@ -938,6 +1039,9 @@ button:hover {
 		width: 290px;
 		height: 290px;
 		object-fit: cover;
+	}
+	#downloadButton {
+		padding: 3px;
 	}
 }
 
