@@ -188,6 +188,7 @@ h3 a {
 	overflow: auto;
 	scroll-snap-type: x mandatory;
 	margin: 20px;
+	animation:  myAnim 3s ease 0s 1 normal forwards;
 }
 
 #card-saletshirt {
@@ -205,8 +206,7 @@ h3 a {
 }
 
 #card-saletshirt:hover {
-	animation: borderAnimation 4s linear infinite;
-    border: 2px solid transparent;
+	transform: translateY(-3px);
 }
 
 #card-saletshirt img {
