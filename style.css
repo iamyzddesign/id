@@ -251,6 +251,20 @@ footer {
 	padding: 17px;
 }
 
+.nav-thelatestinstore {
+	display: flex;
+	text-align: center;
+	justify-content: left;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin: 20px;
+	margin-top: 100px;
+	background: linear-gradient(to bottom, #0073e6, #00b5ff);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
 .nama-nav {
 	margin: 10px;
 }
@@ -393,6 +407,59 @@ h3 a {
 	text-align: center;
 	color: orange;
 	margin: 5px;
+}
+
+.all-card-thelatestinstore {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 10px;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	margin: 20px;
+}
+
+.card-thelatestinstore {
+    width: 270px;
+    height: 280px;
+    position: relative;
+	background-color: white;
+    transition: box-shadow 0.3s, transform 0.3s;
+	animation: borderAnimation 4s linear infinite;
+    border: 2px solid transparent;
+}
+
+.card-thelatestinstore img {
+	width: 270px;
+	height: 270px;
+}
+
+.card-thelatestinstore:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    padding: 60px;
+    text-align: center;
+    transition: opacity 0.7s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(24, 24, 23, 0), rgba(97, 6, 255, 0.8));
+    color: #fff;
+    opacity: 0;
+    font-size: 14px;
+    font-family:  sans-serif;
+}
+
+.content p {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.card-thelatestinstore:hover .content {
+    opacity: 1;
 }
 
 button {
@@ -556,6 +623,9 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+	.nav-thelatestinstore {
+		font-size: 10px;
+	}
 	#card-saletshirt {
 		width: 300px;
 		height: 380px;
@@ -638,6 +708,9 @@ button:hover {
 		font-size: 10px;
 		justify-content: center;
 		align-items: center;
+	}
+	.nav-thelatestinstore {
+		font-size: 10px;
 	}
 	#card-saletshirt {
 		width: 310px;
@@ -722,6 +795,9 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+	.nav-thelatestinstore {
+		font-size: 10px;
+	}
 	#card-saletshirt {
 		width: 310px;
 		height: 390px;
@@ -804,6 +880,9 @@ button:hover {
 		font-size: 10px;
 		justify-content: center;
 		align-items: center;
+	}
+	.nav-thelatestinstore {
+		font-size: 10px;
 	}
 	#card-saletshirt {
 		width: 310px;
@@ -899,6 +978,9 @@ button:hover {
 		background-color: rgb(39, 38, 38);
 		padding: 17px;
 	}
+	.nav-thelatestinstore {
+		font-size: 13px;
+	}
 	#card-saletshirt {
 		width: 400px;
 		height: 480px;
@@ -959,6 +1041,9 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+	.nav-thelatestinstore {
+		font-size: 13px;
+	}
 }
 
 @media screen and (width: 810px) {
@@ -985,6 +1070,9 @@ button:hover {
 		font-size: 13px;
 		justify-content: center;
 		align-items: center;
+	}
+	.nav-thelatestinstore {
+		font-size: 13px;
 	}
 }
 
@@ -1030,6 +1118,9 @@ button:hover {
 		font-size: 10px;
 		justify-content: center;
 		align-items: center;
+	}
+	.nav-thelatestinstore {
+		font-size: 10px;
 	}
 	#card-saletshirt {
 		width: 290px;
