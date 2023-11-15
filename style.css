@@ -514,6 +514,7 @@ h3 a {
 .card:hover {
 	transform: translate(-2px, -4px);
 	box-shadow: 16px 16px 0 var(--cardShadowHover);
+	border: 2px solid #0073e6;
 }
 
 .card:active {
