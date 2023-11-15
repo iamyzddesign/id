@@ -267,22 +267,25 @@ footer {
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
-.nav-skills {
+.nav-end {
 	display: flex;
 	text-align: center;
-	justify-content: left;
+	justify-content: center;
 	font-family: sans-serif;
 	font-weight: bold;
 	font-size: 13px;
 	color: white;
-	margin: 20px;
-	margin-top: 100px;
+	margin-top: 200px;
 	background: linear-gradient(to bottom, #0073e6, #00b5ff);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
 .nama-nav {
 	margin: 10px;
+}
+
+.nama-nav-end {
+	margin-left: 20px;
 }
 
 h3 a {
@@ -477,10 +480,76 @@ h3 a {
 	opacity: 1;
 }
 
-.card-myskills {
+.all-card-menu-other {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin-top: 70px;
+	font-size: 17px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.card-menu-other {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin: 20px;
+}
+
+.card-menu-other .btn {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(to bottom, #0073e6, #00b5ff);
+	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 30px;
+	width: 300px;
+	height: 70px;
+	align-items: center;
+}
+
+.btn a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+
+.background-1 {
+	background: linear-gradient(to bottom, #1e1e1e, #23112a);
+}
+
+/* Card Posters */
+#card-indoposters {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+#card-englishposters {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 80px;
+}
+
+.photo-posters {
+	width: 70px;
+	height: 95px;
+}
+
+/* Card Skills */
+#card-myskills {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 80px;
 }
 
 .card {
@@ -617,11 +686,6 @@ button {
 	font-size: 13px;
 }
 
-button:hover {
-	color: rgb(168, 247, 21);
-	transition: all .5s ease 0s;
-}
-
 #buyButton1 {
 	color: #FFF;
 	border: 2px solid orange;
@@ -726,7 +790,7 @@ button:hover {
 	h2 {
 		font-size: 20px;
 	}
-	
+
 	.nav-download {
 		display: flex;
 		overflow: auto;
@@ -785,7 +849,7 @@ button:hover {
 		font-size: 10px;
 	}
 
-	.nav-skills {
+	.nav-end {
 		font-size: 10px;
 	}
 
@@ -892,7 +956,7 @@ button:hover {
 		font-size: 10px;
 	}
 
-	.nav-skills {
+	.nav-end {
 		font-size: 10px;
 	}
 
@@ -999,7 +1063,7 @@ button:hover {
 		font-size: 10px;
 	}
 
-	.nav-skills {
+	.nav-end {
 		font-size: 10px;
 	}
 
@@ -1106,7 +1170,7 @@ button:hover {
 		font-size: 10px;
 	}
 
-	.nav-skills {
+	.nav-end {
 		font-size: 10px;
 	}
 
@@ -1224,7 +1288,7 @@ button:hover {
 		font-size: 13px;
 	}
 
-	.nav-skills {
+	.nav-end {
 		font-size: 13px;
 	}
 
@@ -1269,6 +1333,11 @@ button:hover {
 	#downloadButton {
 		padding: 5px;
 	}
+
+	.container-menu-other .btn {
+		width: 250px;
+		height: 50px;
+	}
 }
 
 @media screen and (width: 800px) {
@@ -1303,7 +1372,7 @@ button:hover {
 		font-size: 13px;
 	}
 
-	.nav-skills {
+	.nav-end {
 		font-size: 13px;
 	}
 }
@@ -1340,7 +1409,7 @@ button:hover {
 		font-size: 13px;
 	}
 
-	.nav-skills {
+	.nav-end {
 		font-size: 13px;
 	}
 }
@@ -1399,7 +1468,7 @@ button:hover {
 		font-size: 10px;
 	}
 
-	.nav-skills {
+	.nav-end {
 		font-size: 10px;
 	}
 

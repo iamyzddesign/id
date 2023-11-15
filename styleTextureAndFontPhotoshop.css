@@ -251,11 +251,6 @@ button {
 	font-size: 13px;
 }
 
-button:hover {
-	color: rgb(168, 247, 21);
-	transition: all .5s ease 0s;
-}
-
 .btn-texturefont {
 	color: #FFF;
 	border: 2px solid orange;
