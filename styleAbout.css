@@ -1,5 +1,7 @@
 @charset "utf-8";
-/* CSS Document*/body {
+
+/* CSS Document*/
+body {
 	background-color: #00283b;
 	margin: 0px;
 	padding: 0px;
@@ -10,7 +12,7 @@ section {
 	background-color: rgb(15, 15, 15);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 	border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 
 nav {
@@ -84,16 +86,16 @@ nav ul li a:hover {
 	font-weight: bold;
 }
 
-.aboutme {
-	margin-top: 50px;
+#aboutme {
 	text-align: center;
 	font-family: sans-serif;
 	font-weight: bold;
 	color: white;
 	font-size: 15px;
 	flex-wrap: wrap;
-	margin-right: 25px;
-	margin-left: 25px;
+	background: linear-gradient(to bottom, #1e1e1e, #23112a);
+	padding: 10px;
+	margin: 20px;
 }
 
 a {
@@ -105,9 +107,157 @@ a:hover {
 	transition: all .5s ease 0s;
 }
 
+.nav-skills {
+	display: flex;
+	text-align: center;
+	justify-content: left;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin: 20px;
+	margin-top: 100px;
+	background: linear-gradient(to bottom, #0073e6, #00b5ff);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.nama-nav {
+	margin: 10px;
+}
+
+.card-myskills {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card {
+	--background: #fff;
+	--cardShadow: rgba(32, 33, 37, .1);
+	--cardShadowHover: rgba(0, 0, 0, 0.2);
+	--cardShadowActive: rgba(32, 33, 37, .55);
+	--cardBorder: #dbdce0;
+	--cardBorderActive: #1a73e8;
+	--textColor: #202125;
+	--linkColor: #1967d2;
+	--ratingColor: #faab00;
+}
+
+.card {
+	font-family: sans-serif;
+	width: 200px;
+	height: 300px;
+	aspect-ratio: 2/3;
+	background: var(--background);
+	color: var(--textColor);
+	border: 1px solid var(--cardBorder);
+	padding: 25px;
+	box-shadow: 8px 8px 0 var(--cardShadow);
+	transition: box-shadow .5s, transform .5s;
+	display: inline-block;
+	margin: 20px;
+	border: 1px solid #23112a;
+}
+
+.card:hover {
+	transform: translate(-2px, -4px);
+	box-shadow: 16px 16px 0 var(--cardShadowHover);
+}
+
+.card:active {
+	transform: translate(-2px, -4px);
+	border: 2px solid var(--cardBorderActive);
+	box-shadow: 4px 4px 0 var(--cardShadowActive);
+}
+
+.link {
+	color: #0073e6;
+}
+
+.description {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.logo-skill {
+	width: 50px;
+	height: 50px;
+}
+
+.card>.icon,
+.card>.title,
+.card>.description {
+	margin-bottom: 0.7em;
+	cursor: default;
+	user-select: none;
+}
+
+.card>.title {
+	margin-top: 1.5em;
+	font-weight: bold;
+}
+
+.card>.description {
+	line-height: 1.5em;
+	min-height: 6em;
+}
+
+.card>.icon {
+	font-size: 3em;
+	margin-bottom: .2em;
+}
+
+.card>.rating {
+	font-size: 1.5em;
+	margin-bottom: 0.8em;
+	color: var(--ratingColor);
+	font-weight: bold;
+	position: relative;
+	width: max-content;
+}
+
+.card>.rating:before {
+	content: "☆☆☆☆☆";
+}
+
+.card>.rating:after {
+	content: "★★★★★";
+	position: absolute;
+	left: 0;
+	z-index: 0;
+	width: calc(var(--rating) * 1%);
+	overflow: hidden;
+}
+
+.card>.link {
+	margin-bottom: 1rem;
+	color: var(--linkColor);
+	font-size: .8em;
+	font-weight: 600;
+}
+
+/* Optional ~ Link the whole card */
+.card>.link::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.card>.link:after {
+	display: inline-block;
+	margin-left: .3em;
+	transition: transform .3s ease-in-out;
+}
+
+.card:hover>.link:after {
+	transform: translate(.2em, -.2em);
+}
+
 footer {
-    color: white;
-    text-align: center;
+	color: white;
+	text-align: center;
 	font-family: sans-serif;
 	background-color: rgb(15, 15, 15);
 	padding: 10px;
@@ -115,14 +265,14 @@ footer {
 }
 
 .isi-footer {
-    font-size: 11px;
-    font-weight: bold;
-    margin-bottom: 7px;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 7px;
 }
 
 .menu-footer {
-    padding: 20px;
-    font-weight: bold;
+	padding: 20px;
+	font-weight: bold;
 }
 
 .footer-share {
@@ -143,69 +293,125 @@ footer {
 }
 
 .pilihan-menu-footer {
-    display: inline;
+	display: inline;
 }
 
 .pilihan-menu-footer a {
-    font-size: 11px;
-    margin: 20px;
+	font-size: 11px;
+	margin: 20px;
 }
 
 .menu-sosial-media {
-    font-weight: bold;
-    margin-bottom: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 @media screen and (max-width: 375px) {
 	nav {
 		width: 10%;
 	}
+
 	#hamburger {
 		display: block;
 	}
+
 	h2 {
 		font-size: 20px;
 	}
+
+	.nav-skills {
+		font-size: 10px;
+	}
+
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
 }
 
 @media screen and (min-width: 667px) {
+	.nav-skills {
+		font-size: 10px;
+	}
+
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
 }
 
 @media screen and (min-width: 390px) {
+	.nav-skills {
+		font-size: 10px;
+	}
+
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
 }
 
 @media screen and (min-width: 384px) {
+	.nav-skills {
+		font-size: 10px;
+	}
+
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
 }
 
 @media screen and (min-width: 720px) {
+	.nav-skills {
+		display: flex;
+		text-align: center;
+		justify-content: left;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 13px;
+		color: white;
+		margin: 20px;
+		margin-top: 100px;
+		background: linear-gradient(to bottom, #0073e6, #00b5ff);
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	}
+
 	footer {
 		font-size: 11px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 11px;
+	}
+}
+
+@media screen and (width: 800px) {
+	.nav-skills {
+		font-size: 13px;
+	}
+}
+
+@media screen and (width: 810px) {
+	.nav-skills {
+		font-size: 13px;
+	}
+}
+
+@media screen and (width: 360px) {
+	.nav-skills {
+		font-size: 10px;
 	}
 }

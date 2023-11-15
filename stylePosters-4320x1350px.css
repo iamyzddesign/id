@@ -1,5 +1,7 @@
 @charset "utf-8";
-/* CSS Document*/body {
+
+/* CSS Document*/
+body {
 	background-color: #00283b;
 	margin: 0px;
 	padding: 0px;
@@ -10,7 +12,7 @@ section {
 	background-color: rgb(15, 15, 15);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 	border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 
 nav {
@@ -129,21 +131,21 @@ nav ul li a:hover {
 
 .myposters img:hover {
 	animation: borderAnimation 4s linear infinite;
-    border: 2px solid transparent;
+	border: 2px solid transparent;
 }
 
 .page {
-    display: flex;
-    margin: 30px;
-    justify-content: center;
-    margin-bottom: 7px;
+	display: flex;
+	margin: 30px;
+	justify-content: center;
+	margin-bottom: 7px;
 }
 
 .btn-page {
-    margin: 15px;
-    background-color: rgb(15, 15, 15);
-    padding: 7px;
-    border-radius: 15px;
+	margin: 15px;
+	background-color: rgb(15, 15, 15);
+	padding: 7px;
+	border-radius: 15px;
 }
 
 .btn-page a:hover {
@@ -152,9 +154,9 @@ nav ul li a:hover {
 }
 
 .btn-page a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 a {
@@ -167,8 +169,8 @@ a:hover {
 }
 
 footer {
-    color: white;
-    text-align: center;
+	color: white;
+	text-align: center;
 	font-family: sans-serif;
 	background-color: rgb(15, 15, 15);
 	padding: 10px;
@@ -176,14 +178,14 @@ footer {
 }
 
 .isi-footer {
-    font-size: 11px;
-    font-weight: bold;
-    margin-bottom: 7px;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 7px;
 }
 
 .menu-footer {
-    padding: 20px;
-    font-weight: bold;
+	padding: 20px;
+	font-weight: bold;
 }
 
 .footer-share {
@@ -204,39 +206,45 @@ footer {
 }
 
 .pilihan-menu-footer {
-    display: inline;
+	display: inline;
 }
 
 .pilihan-menu-footer a {
-    font-size: 11px;
-    margin: 20px;
+	font-size: 11px;
+	margin: 20px;
 }
 
 .menu-sosial-media {
-    font-weight: bold;
-    margin-bottom: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 @media screen and (max-width: 375px) {
 	nav {
 		width: 10%;
 	}
+
 	#hamburger {
 		display: block;
 	}
+
 	h1 {
 		font-size: 8px;
 	}
+
 	.myposters img {
 		width: 91%;
 		height: 71%;
 	}
+
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
+
 	.btn-page {
 		padding: 4px;
 	}
@@ -247,12 +255,15 @@ footer {
 		width: 91%;
 		height: 71%;
 	}
+
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
+
 	.btn-page {
 		padding: 5px;
 	}
@@ -263,12 +274,15 @@ footer {
 		width: 91%;
 		height: 71%;
 	}
+
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
+
 	.btn-page {
 		padding: 5px;
 	}
@@ -286,36 +300,43 @@ footer {
 		width: 91%;
 		height: 71%;
 	}
+
 	footer {
 		font-size: 11px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 11px;
 	}
+
 	.btn-page {
 		padding: 7px;
 	}
 }
 
 @keyframes borderAnimation {
-    0% {
-        border-image-source: linear-gradient(0deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    25% {
-        border-image-source: linear-gradient(90deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    50% {
-        border-image-source: linear-gradient(180deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    75% {
-        border-image-source: linear-gradient(270deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    100% {
-        border-image-source: linear-gradient(360deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
+	0% {
+		border-image-source: linear-gradient(0deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	25% {
+		border-image-source: linear-gradient(90deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	50% {
+		border-image-source: linear-gradient(180deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	75% {
+		border-image-source: linear-gradient(270deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	100% {
+		border-image-source: linear-gradient(360deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
 }

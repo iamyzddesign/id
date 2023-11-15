@@ -1,5 +1,7 @@
 @charset "utf-8";
-/* CSS Document*/body {
+
+/* CSS Document*/
+body {
 	background-color: #00283b;
 	margin: 0px;
 	padding: 0px;
@@ -10,7 +12,7 @@ section {
 	background-color: rgb(15, 15, 15);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 	border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 
 nav {
@@ -121,8 +123,8 @@ a:hover {
 }
 
 footer {
-    color: white;
-    text-align: center;
+	color: white;
+	text-align: center;
 	font-family: sans-serif;
 	margin-top: 30px;
 	background-color: rgb(15, 15, 15);
@@ -130,14 +132,14 @@ footer {
 }
 
 .isi-footer {
-    font-size: 11px;
-    font-weight: bold;
-    margin-bottom: 7px;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 7px;
 }
 
 .menu-footer {
-    padding: 20px;
-    font-weight: bold;
+	padding: 20px;
+	font-weight: bold;
 }
 
 .footer-share {
@@ -158,35 +160,40 @@ footer {
 }
 
 .pilihan-menu-footer {
-    display: inline;
+	display: inline;
 }
 
 .pilihan-menu-footer a {
-    font-size: 11px;
-    margin: 20px;
+	font-size: 11px;
+	margin: 20px;
 }
 
 .menu-sosial-media {
-    font-weight: bold;
-    margin-bottom: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 @media screen and (max-width: 375px) {
 	nav {
 		width: 10%;
 	}
+
 	#hamburger {
 		display: block;
 	}
+
 	h1 {
 		font-size: 8px;
 	}
+
 	h2 a {
 		font-size: 20px;
 	}
+
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
@@ -196,6 +203,7 @@ footer {
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
@@ -205,6 +213,7 @@ footer {
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
@@ -214,6 +223,7 @@ footer {
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
@@ -223,6 +233,7 @@ footer {
 	footer {
 		font-size: 11px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 11px;
 	}

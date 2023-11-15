@@ -1,5 +1,7 @@
 @charset "utf-8";
-/* CSS Document*/body {
+
+/* CSS Document*/
+body {
 	background-color: #00283b;
 	margin: 0px;
 	padding: 0px;
@@ -10,7 +12,7 @@ section {
 	background-color: rgb(15, 15, 15);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 	border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 
 nav {
@@ -120,8 +122,8 @@ a:hover {
 }
 
 footer {
-    color: white;
-    text-align: center;
+	color: white;
+	text-align: center;
 	font-family: sans-serif;
 	background-color: rgb(15, 15, 15);
 	padding: 10px;
@@ -129,14 +131,14 @@ footer {
 }
 
 .isi-footer {
-    font-size: 11px;
-    font-weight: bold;
-    margin-bottom: 7px;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 7px;
 }
 
 .menu-footer {
-    padding: 20px;
-    font-weight: bold;
+	padding: 20px;
+	font-weight: bold;
 }
 
 .footer-share {
@@ -157,38 +159,38 @@ footer {
 }
 
 .pilihan-menu-footer {
-    display: inline;
+	display: inline;
 }
 
 .pilihan-menu-footer a {
-    font-size: 11px;
-    margin: 20px;
+	font-size: 11px;
+	margin: 20px;
 }
 
 .menu-sosial-media {
-    font-weight: bold;
-    margin-bottom: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .slideshow-container {
-    position: relative;
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-	animation:  myAnim 3s ease 0s 1 normal forwards;
+	position: relative;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	animation: myAnim 3s ease 0s 1 normal forwards;
 }
 
 .slide {
-    display: none;
+	display: none;
 }
 
 .slide img {
-    width: 500px;
-    height: 600px;
+	width: 500px;
+	height: 600px;
 	animation: borderAnimation 4s linear infinite;
-    border: 2px solid transparent;
+	border: 2px solid transparent;
 }
 
 .nav-allposters {
@@ -217,9 +219,9 @@ footer {
 
 #container-allposters img {
 	width: 500px;
-    height: 600px;
+	height: 600px;
 	margin-top: 6px;
-	animation:  myAnim 3s ease 0s 1 normal forwards;
+	animation: myAnim 3s ease 0s 1 normal forwards;
 	border: 1px solid #23112a;
 }
 
@@ -265,6 +267,20 @@ footer {
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
+.nav-skills {
+	display: flex;
+	text-align: center;
+	justify-content: left;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin: 20px;
+	margin-top: 100px;
+	background: linear-gradient(to bottom, #0073e6, #00b5ff);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
 .nama-nav {
 	margin: 10px;
 }
@@ -279,7 +295,7 @@ h3 a {
 	align-items: center;
 	flex-wrap: wrap;
 	margin-top: 20px;
-	animation:  myAnim 3s ease 0s 1 normal forwards;
+	animation: myAnim 3s ease 0s 1 normal forwards;
 }
 
 .container-font {
@@ -288,7 +304,7 @@ h3 a {
 	align-items: center;
 	flex-wrap: wrap;
 	margin-top: 20px;
-	animation:  myAnim 3s ease 0s 1 normal forwards;
+	animation: myAnim 3s ease 0s 1 normal forwards;
 }
 
 .container-tshirt {
@@ -299,7 +315,7 @@ h3 a {
 	overflow: auto;
 	scroll-snap-type: x mandatory;
 	margin: 20px;
-	animation:  myAnim 3s ease 0s 1 normal forwards;
+	animation: myAnim 3s ease 0s 1 normal forwards;
 }
 
 #card-texture {
@@ -320,7 +336,7 @@ h3 a {
 
 #card-texture:hover {
 	animation: borderAnimation 4s linear infinite;
-    border: 2px solid transparent;
+	border: 2px solid transparent;
 }
 
 #card-texture img {
@@ -346,7 +362,7 @@ h3 a {
 
 #card-font:hover {
 	animation: borderAnimation 4s linear infinite;
-    border: 2px solid transparent;
+	border: 2px solid transparent;
 }
 
 #card-font img {
@@ -386,7 +402,7 @@ h3 a {
 	height: 400px;
 	object-fit: cover;
 	animation: borderAnimation 4s linear infinite;
-    border: 2px solid transparent;
+	border: 2px solid transparent;
 }
 
 .nama-produk {
@@ -419,13 +435,13 @@ h3 a {
 }
 
 .card-thelatestinstore {
-    width: 270px;
-    height: 275px;
-    position: relative;
+	width: 270px;
+	height: 275px;
+	position: relative;
 	background-color: white;
-    transition: box-shadow 0.3s, transform 0.3s;
+	transition: box-shadow 0.3s, transform 0.3s;
 	animation: borderAnimation 4s linear infinite;
-    border: 2px solid transparent;
+	border: 2px solid transparent;
 }
 
 .card-thelatestinstore img {
@@ -434,22 +450,22 @@ h3 a {
 }
 
 .card-thelatestinstore:hover {
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .content {
-    padding: 60px;
-    text-align: center;
-    transition: opacity 0.7s;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(to bottom, rgba(24, 24, 23, 0), rgba(97, 6, 255, 0.8));
-    color: #fff;
-    opacity: 0;
-    font-size: 14px;
-    font-family:  sans-serif;
+	padding: 60px;
+	text-align: center;
+	transition: opacity 0.7s;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: linear-gradient(to bottom, rgba(24, 24, 23, 0), rgba(97, 6, 255, 0.8));
+	color: #fff;
+	opacity: 0;
+	font-size: 14px;
+	font-family: sans-serif;
 }
 
 .content p {
@@ -458,7 +474,137 @@ h3 a {
 }
 
 .card-thelatestinstore:hover .content {
-    opacity: 1;
+	opacity: 1;
+}
+
+.card-myskills {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card {
+	--background: #fff;
+	--cardShadow: rgba(32, 33, 37, .1);
+	--cardShadowHover: rgba(0, 0, 0, 0.2);
+	--cardShadowActive: rgba(32, 33, 37, .55);
+	--cardBorder: #dbdce0;
+	--cardBorderActive: #1a73e8;
+	--textColor: #202125;
+	--linkColor: #1967d2;
+	--ratingColor: #faab00;
+}
+
+.card {
+	font-family: sans-serif;
+	width: 200px;
+	height: 300px;
+	aspect-ratio: 2/3;
+	background: var(--background);
+	color: var(--textColor);
+	border: 1px solid var(--cardBorder);
+	padding: 25px;
+	box-shadow: 8px 8px 0 var(--cardShadow);
+	transition: box-shadow .5s, transform .5s;
+	display: inline-block;
+	margin: 20px;
+	border: 1px solid #23112a;
+}
+
+.card:hover {
+	transform: translate(-2px, -4px);
+	box-shadow: 16px 16px 0 var(--cardShadowHover);
+}
+
+.card:active {
+	transform: translate(-2px, -4px);
+	border: 2px solid var(--cardBorderActive);
+	box-shadow: 4px 4px 0 var(--cardShadowActive);
+}
+
+.link {
+	color: #0073e6;
+}
+
+.description {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.logo-skill {
+	width: 50px;
+	height: 50px;
+}
+
+.card>.icon,
+.card>.title,
+.card>.description {
+	margin-bottom: 0.7em;
+	cursor: default;
+	user-select: none;
+}
+
+.card>.title {
+	margin-top: 1.5em;
+	font-weight: bold;
+}
+
+.card>.description {
+	line-height: 1.5em;
+	min-height: 6em;
+}
+
+.card>.icon {
+	font-size: 3em;
+	margin-bottom: .2em;
+}
+
+.card>.rating {
+	font-size: 1.5em;
+	margin-bottom: 0.8em;
+	color: var(--ratingColor);
+	font-weight: bold;
+	position: relative;
+	width: max-content;
+}
+
+.card>.rating:before {
+	content: "☆☆☆☆☆";
+}
+
+.card>.rating:after {
+	content: "★★★★★";
+	position: absolute;
+	left: 0;
+	z-index: 0;
+	width: calc(var(--rating) * 1%);
+	overflow: hidden;
+}
+
+.card>.link {
+	margin-bottom: 1rem;
+	color: var(--linkColor);
+	font-size: .8em;
+	font-weight: 600;
+}
+
+/* Optional ~ Link the whole card */
+.card>.link::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.card>.link:after {
+	display: inline-block;
+	margin-left: .3em;
+	transition: transform .3s ease-in-out;
+}
+
+.card:hover>.link:after {
+	transform: translate(.2em, -.2em);
 }
 
 button {
@@ -567,15 +713,19 @@ button:hover {
 	nav {
 		width: 10%;
 	}
+
 	#hamburger {
 		display: block;
 	}
+
 	h1 {
 		font-size: 8px;
 	}
+
 	h2 {
 		font-size: 20px;
 	}
+
 	.nav-download {
 		display: flex;
 		overflow: auto;
@@ -584,28 +734,34 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-texture {
 		width: 140px;
 		height: 160px;
 	}
+
 	#card-texture img {
 		width: 170px;
 		height: 120px;
 		object-fit: cover;
 	}
+
 	#card-font {
 		width: 140px;
 		height: 160px;
 	}
+
 	#card-font img {
 		width: 170px;
 		height: 120px;
 		object-fit: cover;
 	}
+
 	.nama-file {
 		font-size: 11px;
 		margin: 2px;
 	}
+
 	.nav-allposters {
 		display: flex;
 		overflow: auto;
@@ -614,6 +770,7 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
@@ -622,40 +779,54 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-thelatestinstore {
 		font-size: 10px;
 	}
+
+	.nav-skills {
+		font-size: 10px;
+	}
+
 	#card-saletshirt {
 		width: 300px;
 		height: 380px;
 	}
+
 	#card-saletshirt img {
 		width: 300px;
 		height: 300px;
 		object-fit: cover;
 	}
+
 	.nama-produk {
 		font-size: 11px;
 		margin: 3px;
 	}
+
 	button {
 		font-size: 10px;
 		margin: 2px;
 	}
+
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
+
 	.slide img {
 		width: 300px;
 		height: 400px;
 	}
+
 	#container-allposters img {
 		width: 300px;
 		height: 400px;
 	}
+
 	#downloadButton {
 		padding: 3px;
 	}
@@ -670,28 +841,34 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-texture {
 		width: 150px;
 		height: 170px;
 	}
+
 	#card-texture img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
+
 	#card-font {
 		width: 150px;
 		height: 170px;
 	}
+
 	#card-font img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
+
 	.nama-file {
 		font-size: 11px;
 		margin: 2px;
 	}
+
 	.nav-allposters {
 		display: flex;
 		overflow: auto;
@@ -700,6 +877,7 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
@@ -708,40 +886,54 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-thelatestinstore {
 		font-size: 10px;
 	}
+
+	.nav-skills {
+		font-size: 10px;
+	}
+
 	#card-saletshirt {
 		width: 310px;
 		height: 390px;
 	}
+
 	#card-saletshirt img {
 		width: 310px;
 		height: 310px;
 		object-fit: cover;
 	}
+
 	.nama-produk {
 		font-size: 11px;
 		margin: 3px;
 	}
+
 	button {
 		font-size: 10px;
 		margin: 2px;
 	}
+
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
+
 	.slide img {
 		width: 300px;
 		height: 400px;
 	}
+
 	#container-allposters img {
 		width: 300px;
 		height: 400px;
 	}
+
 	#downloadButton {
 		padding: 3px;
 	}
@@ -756,28 +948,34 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-texture {
 		width: 150px;
 		height: 170px;
 	}
+
 	#card-texture img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
+
 	#card-font {
 		width: 150px;
 		height: 170px;
 	}
+
 	#card-font img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
+
 	.nama-file {
 		font-size: 11px;
 		margin: 2px;
 	}
+
 	.nav-allposters {
 		display: flex;
 		overflow: auto;
@@ -786,6 +984,7 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
@@ -794,40 +993,54 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-thelatestinstore {
 		font-size: 10px;
 	}
+
+	.nav-skills {
+		font-size: 10px;
+	}
+
 	#card-saletshirt {
 		width: 310px;
 		height: 390px;
 	}
+
 	#card-saletshirt img {
 		width: 310px;
 		height: 310px;
 		object-fit: cover;
 	}
+
 	.nama-produk {
 		font-size: 11px;
 		margin: 3px;
 	}
+
 	button {
 		font-size: 10px;
 		margin: 2px;
 	}
+
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
+
 	.slide img {
 		width: 300px;
 		height: 400px;
 	}
+
 	#container-allposters img {
 		width: 300px;
 		height: 400px;
 	}
+
 	#downloadButton {
 		padding: 3px;
 	}
@@ -842,28 +1055,34 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-texture {
 		width: 150px;
 		height: 170px;
 	}
+
 	#card-texture img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
+
 	#card-font {
 		width: 150px;
 		height: 170px;
 	}
+
 	#card-font img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
+
 	.nama-file {
 		font-size: 11px;
 		margin: 2px;
 	}
+
 	.nav-allposters {
 		display: flex;
 		overflow: auto;
@@ -872,6 +1091,7 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
@@ -880,46 +1100,60 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-thelatestinstore {
 		font-size: 10px;
 	}
+
+	.nav-skills {
+		font-size: 10px;
+	}
+
 	#card-saletshirt {
 		width: 310px;
 		height: 390px;
 	}
+
 	#card-saletshirt img {
 		width: 310px;
 		height: 310px;
 		object-fit: cover;
 	}
+
 	.nama-produk {
 		font-size: 11px;
 		margin: 3px;
 	}
+
 	button {
 		font-size: 10px;
 		margin: 2px;
 	}
+
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
+
 	.slide img {
 		width: 300px;
 		height: 400px;
 	}
+
 	#container-allposters img {
 		width: 300px;
 		height: 400px;
 	}
+
 	#downloadButton {
 		padding: 3px;
 	}
 }
 
- @media screen and (min-width: 720px) {
+@media screen and (min-width: 720px) {
 	.nav-download {
 		display: flex;
 		text-align: center;
@@ -932,27 +1166,33 @@ button:hover {
 		background-color: rgb(39, 38, 38);
 		padding: 17px;
 	}
+
 	#card-texture {
 		width: 200px;
 		height: 220px;
 	}
+
 	#card-texture img {
 		width: 200px;
 		height: 150px;
 		object-fit: cover;
 	}
+
 	#card-font {
 		width: 200px;
 		height: 220px;
 	}
+
 	#card-font img {
 		width: 200px;
 		height: 150px;
 		object-fit: cover;
 	}
+
 	.nama-file {
 		font-size: 15px;
 	}
+
 	.nav-allposters {
 		display: flex;
 		text-align: center;
@@ -965,6 +1205,7 @@ button:hover {
 		background-color: rgb(39, 38, 38);
 		padding: 17px;
 	}
+
 	.nav-tshirtdesign {
 		display: flex;
 		text-align: center;
@@ -977,39 +1218,53 @@ button:hover {
 		background-color: rgb(39, 38, 38);
 		padding: 17px;
 	}
+
 	.nav-thelatestinstore {
 		font-size: 13px;
 	}
+
+	.nav-skills {
+		font-size: 13px;
+	}
+
 	#card-saletshirt {
 		width: 400px;
 		height: 480px;
 	}
+
 	#card-saletshirt img {
 		width: 400px;
 		height: 400px;
 		object-fit: cover;
 	}
+
 	.nama-produk {
 		font-size: 15px;
 	}
+
 	button {
 		font-size: 13px;
 		margin: 3px;
 	}
+
 	footer {
 		font-size: 11px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 11px;
 	}
+
 	.slide img {
 		width: 500px;
 		height: 600px;
 	}
+
 	#container-allposters img {
 		width: 500px;
 		height: 600px;
 	}
+
 	#downloadButton {
 		padding: 5px;
 	}
@@ -1024,6 +1279,7 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-allposters {
 		display: flex;
 		overflow: auto;
@@ -1032,6 +1288,7 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
@@ -1040,7 +1297,12 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-thelatestinstore {
+		font-size: 13px;
+	}
+
+	.nav-skills {
 		font-size: 13px;
 	}
 }
@@ -1054,6 +1316,7 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-allposters {
 		display: flex;
 		overflow: auto;
@@ -1062,6 +1325,7 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
@@ -1070,7 +1334,12 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-thelatestinstore {
+		font-size: 13px;
+	}
+
+	.nav-skills {
 		font-size: 13px;
 	}
 }
@@ -1084,24 +1353,29 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-texture {
 		width: 130px;
 		height: 150px;
 	}
+
 	#card-texture img {
 		width: 160px;
 		height: 110px;
 		object-fit: cover;
 	}
+
 	#card-font {
 		width: 130px;
 		height: 150px;
 	}
+
 	#card-font img {
 		width: 160px;
 		height: 110px;
 		object-fit: cover;
 	}
+
 	.nav-allposters {
 		display: flex;
 		overflow: auto;
@@ -1110,6 +1384,7 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
@@ -1118,18 +1393,26 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	.nav-thelatestinstore {
 		font-size: 10px;
 	}
+
+	.nav-skills {
+		font-size: 10px;
+	}
+
 	#card-saletshirt {
 		width: 290px;
 		height: 370px;
 	}
+
 	#card-saletshirt img {
 		width: 290px;
 		height: 290px;
 		object-fit: cover;
 	}
+
 	#downloadButton {
 		padding: 3px;
 	}
@@ -1140,6 +1423,7 @@ button:hover {
 		top: -100px;
 		opacity: 0;
 	}
+
 	100% {
 		top: 0;
 		opacity: 1;
@@ -1151,6 +1435,7 @@ button:hover {
 		opacity: 0;
 		transform: translateX(-250px);
 	}
+
 	100% {
 		opacity: 1;
 		transform: translateX(0);
@@ -1158,24 +1443,28 @@ button:hover {
 }
 
 @keyframes borderAnimation {
-    0% {
-        border-image-source: linear-gradient(0deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    25% {
-        border-image-source: linear-gradient(90deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    50% {
-        border-image-source: linear-gradient(180deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    75% {
-        border-image-source: linear-gradient(270deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    100% {
-        border-image-source: linear-gradient(360deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
+	0% {
+		border-image-source: linear-gradient(0deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	25% {
+		border-image-source: linear-gradient(90deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	50% {
+		border-image-source: linear-gradient(180deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	75% {
+		border-image-source: linear-gradient(270deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	100% {
+		border-image-source: linear-gradient(360deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
 }

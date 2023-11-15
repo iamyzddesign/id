@@ -1,5 +1,7 @@
 @charset "utf-8";
-/* CSS Document*/body {
+
+/* CSS Document*/
+body {
 	background-color: #00283b;
 	margin: 0px;
 	padding: 0px;
@@ -10,7 +12,7 @@ section {
 	background-color: rgb(15, 15, 15);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 	border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 
 nav {
@@ -89,8 +91,8 @@ a:hover {
 }
 
 footer {
-    color: white;
-    text-align: center;
+	color: white;
+	text-align: center;
 	font-family: sans-serif;
 	background-color: rgb(15, 15, 15);
 	padding: 10px;
@@ -98,14 +100,14 @@ footer {
 }
 
 .isi-footer {
-    font-size: 11px;
-    font-weight: bold;
-    margin-bottom: 7px;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 7px;
 }
 
 .menu-footer {
-    padding: 20px;
-    font-weight: bold;
+	padding: 20px;
+	font-weight: bold;
 }
 
 .footer-share {
@@ -126,17 +128,17 @@ footer {
 }
 
 .pilihan-menu-footer {
-    display: inline;
+	display: inline;
 }
 
 .pilihan-menu-footer a {
-    font-size: 11px;
-    margin: 20px;
+	font-size: 11px;
+	margin: 20px;
 }
 
 .menu-sosial-media {
-    font-weight: bold;
-    margin-bottom: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .nav-download {
@@ -167,7 +169,7 @@ h3 a {
 	align-items: center;
 	flex-wrap: wrap;
 	margin-top: 20px;
-	animation:  myAnim 3s ease 0s 1 normal forwards;
+	animation: myAnim 3s ease 0s 1 normal forwards;
 }
 
 .container-font {
@@ -176,7 +178,7 @@ h3 a {
 	align-items: center;
 	flex-wrap: wrap;
 	margin-top: 20px;
-	animation:  myAnim 3s ease 0s 1 normal forwards;
+	animation: myAnim 3s ease 0s 1 normal forwards;
 }
 
 #card-texture {
@@ -197,7 +199,7 @@ h3 a {
 
 #card-texture:hover {
 	animation: borderAnimation 4s linear infinite;
-    border: 2px solid transparent;
+	border: 2px solid transparent;
 }
 
 #card-texture img {
@@ -223,7 +225,7 @@ h3 a {
 
 #card-font:hover {
 	animation: borderAnimation 4s linear infinite;
-    border: 2px solid transparent;
+	border: 2px solid transparent;
 }
 
 #card-font img {
@@ -302,15 +304,19 @@ button:hover {
 	nav {
 		width: 10%;
 	}
+
 	#hamburger {
 		display: block;
 	}
+
 	h1 {
 		font-size: 8px;
 	}
+
 	h2 {
 		font-size: 20px;
 	}
+
 	.nav-download {
 		display: flex;
 		overflow: auto;
@@ -319,38 +325,47 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-texture {
 		width: 140px;
 		height: 160px;
 	}
+
 	#card-texture img {
 		width: 170px;
 		height: 120px;
 		object-fit: cover;
 	}
+
 	#card-font {
 		width: 140px;
 		height: 160px;
 	}
+
 	#card-font img {
 		width: 170px;
 		height: 120px;
 		object-fit: cover;
 	}
+
 	.nama-file {
 		font-size: 11px;
 		margin: 2px;
 	}
+
 	button {
 		font-size: 10px;
 		margin: 2px;
 	}
+
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
+
 	.btn-texturefont {
 		padding: 3px;
 	}
@@ -365,38 +380,47 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-texture {
 		width: 150px;
 		height: 170px;
 	}
+
 	#card-texture img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
+
 	#card-font {
 		width: 150px;
 		height: 170px;
 	}
+
 	#card-font img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
+
 	.nama-file {
 		font-size: 11px;
 		margin: 2px;
 	}
+
 	button {
 		font-size: 10px;
 		margin: 2px;
 	}
+
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
+
 	.btn-texturefont {
 		padding: 3px;
 	}
@@ -411,38 +435,47 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-texture {
 		width: 150px;
 		height: 170px;
 	}
+
 	#card-texture img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
+
 	#card-font {
 		width: 150px;
 		height: 170px;
 	}
+
 	#card-font img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
+
 	.nama-file {
 		font-size: 11px;
 		margin: 2px;
 	}
+
 	button {
 		font-size: 10px;
 		margin: 2px;
 	}
+
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
+
 	.btn-texturefont {
 		padding: 3px;
 	}
@@ -457,44 +490,53 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-texture {
 		width: 150px;
 		height: 170px;
 	}
+
 	#card-texture img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
+
 	#card-font {
 		width: 150px;
 		height: 170px;
 	}
+
 	#card-font img {
 		width: 180px;
 		height: 130px;
 		object-fit: cover;
 	}
+
 	.nama-file {
 		font-size: 11px;
 		margin: 2px;
 	}
+
 	button {
 		font-size: 10px;
 		margin: 2px;
 	}
+
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
+
 	.btn-texturefont {
 		padding: 3px;
 	}
 }
 
- @media screen and (min-width: 720px) {
+@media screen and (min-width: 720px) {
 	.nav-download {
 		display: flex;
 		text-align: center;
@@ -507,37 +549,46 @@ button:hover {
 		background-color: rgb(39, 38, 38);
 		padding: 17px;
 	}
+
 	#card-texture {
 		width: 200px;
 		height: 220px;
 	}
+
 	#card-texture img {
 		width: 200px;
 		height: 150px;
 		object-fit: cover;
 	}
+
 	#card-font {
 		width: 200px;
 		height: 220px;
 	}
+
 	#card-font img {
 		width: 200px;
 		height: 150px;
 		object-fit: cover;
 	}
+
 	.nama-file {
 		font-size: 15px;
 	}
+
 	button {
 		font-size: 13px;
 		margin: 3px;
 	}
+
 	footer {
 		font-size: 11px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 11px;
 	}
+
 	.btn-texturefont {
 		padding: 5px;
 	}
@@ -574,24 +625,29 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-texture {
 		width: 130px;
 		height: 150px;
 	}
+
 	#card-texture img {
 		width: 160px;
 		height: 110px;
 		object-fit: cover;
 	}
+
 	#card-font {
 		width: 130px;
 		height: 150px;
 	}
+
 	#card-font img {
 		width: 160px;
 		height: 110px;
 		object-fit: cover;
 	}
+
 	.btn-texturefont {
 		padding: 3px;
 	}
@@ -602,6 +658,7 @@ button:hover {
 		top: -100px;
 		opacity: 0;
 	}
+
 	100% {
 		top: 0;
 		opacity: 1;
@@ -613,6 +670,7 @@ button:hover {
 		opacity: 0;
 		transform: translateX(-250px);
 	}
+
 	100% {
 		opacity: 1;
 		transform: translateX(0);
@@ -620,24 +678,28 @@ button:hover {
 }
 
 @keyframes borderAnimation {
-    0% {
-        border-image-source: linear-gradient(0deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    25% {
-        border-image-source: linear-gradient(90deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    50% {
-        border-image-source: linear-gradient(180deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    75% {
-        border-image-source: linear-gradient(270deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    100% {
-        border-image-source: linear-gradient(360deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
+	0% {
+		border-image-source: linear-gradient(0deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	25% {
+		border-image-source: linear-gradient(90deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	50% {
+		border-image-source: linear-gradient(180deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	75% {
+		border-image-source: linear-gradient(270deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	100% {
+		border-image-source: linear-gradient(360deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
 }

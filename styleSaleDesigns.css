@@ -1,5 +1,7 @@
 @charset "utf-8";
-/* CSS Document*/body {
+
+/* CSS Document*/
+body {
 	background-color: #00283b;
 	margin: 0px;
 	padding: 0px;
@@ -10,7 +12,7 @@ section {
 	background-color: rgb(15, 15, 15);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 	border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 
 nav {
@@ -108,8 +110,8 @@ a:hover {
 }
 
 footer {
-    color: white;
-    text-align: center;
+	color: white;
+	text-align: center;
 	font-family: sans-serif;
 	background-color: rgb(15, 15, 15);
 	padding: 10px;
@@ -117,14 +119,14 @@ footer {
 }
 
 .isi-footer {
-    font-size: 11px;
-    font-weight: bold;
-    margin-bottom: 7px;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 7px;
 }
 
 .menu-footer {
-    padding: 20px;
-    font-weight: bold;
+	padding: 20px;
+	font-weight: bold;
 }
 
 .footer-share {
@@ -145,17 +147,17 @@ footer {
 }
 
 .pilihan-menu-footer {
-    display: inline;
+	display: inline;
 }
 
 .pilihan-menu-footer a {
-    font-size: 11px;
-    margin: 20px;
+	font-size: 11px;
+	margin: 20px;
 }
 
 .menu-sosial-media {
-    font-weight: bold;
-    margin-bottom: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .nav-tshirtdesign {
@@ -188,7 +190,7 @@ h3 a {
 	overflow: auto;
 	scroll-snap-type: x mandatory;
 	margin: 20px;
-	animation:  myAnim 3s ease 0s 1 normal forwards;
+	animation: myAnim 3s ease 0s 1 normal forwards;
 }
 
 #card-saletshirt {
@@ -214,7 +216,7 @@ h3 a {
 	height: 400px;
 	object-fit: cover;
 	animation: borderAnimation 4s linear infinite;
-    border: 2px solid transparent;
+	border: 2px solid transparent;
 }
 
 .nama-produk {
@@ -310,15 +312,19 @@ button:hover {
 	nav {
 		width: 10%;
 	}
+
 	#hamburger {
 		display: block;
 	}
+
 	h1 {
 		font-size: 8px;
 	}
+
 	h2 {
 		font-size: 20px;
 	}
+
 	.nav-tshirtdesign {
 		display: flex;
 		overflow: auto;
@@ -327,26 +333,32 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-saletshirt {
 		width: 300px;
 		height: 380px;
 	}
+
 	#card-saletshirt img {
 		width: 300px;
 		height: 300px;
 		object-fit: cover;
 	}
+
 	.nama-produk {
 		font-size: 11px;
 		margin: 3px;
 	}
+
 	button {
 		font-size: 10px;
 		margin: 2px;
 	}
+
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
@@ -361,26 +373,32 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-saletshirt {
 		width: 310px;
 		height: 390px;
 	}
+
 	#card-saletshirt img {
 		width: 310px;
 		height: 310px;
 		object-fit: cover;
 	}
+
 	.nama-produk {
 		font-size: 11px;
 		margin: 3px;
 	}
+
 	button {
 		font-size: 10px;
 		margin: 2px;
 	}
+
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
@@ -395,26 +413,32 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-saletshirt {
 		width: 310px;
 		height: 390px;
 	}
+
 	#card-saletshirt img {
 		width: 310px;
 		height: 310px;
 		object-fit: cover;
 	}
+
 	.nama-produk {
 		font-size: 11px;
 		margin: 3px;
 	}
+
 	button {
 		font-size: 10px;
 		margin: 2px;
 	}
+
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
@@ -429,32 +453,38 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-saletshirt {
 		width: 310px;
 		height: 390px;
 	}
+
 	#card-saletshirt img {
 		width: 310px;
 		height: 310px;
 		object-fit: cover;
 	}
+
 	.nama-produk {
 		font-size: 11px;
 		margin: 3px;
 	}
+
 	button {
 		font-size: 10px;
 		margin: 2px;
 	}
+
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
 }
 
- @media screen and (min-width: 720px) {
+@media screen and (min-width: 720px) {
 	.nav-tshirtdesign {
 		display: flex;
 		text-align: center;
@@ -467,25 +497,31 @@ button:hover {
 		background-color: rgb(39, 38, 38);
 		padding: 17px;
 	}
+
 	#card-saletshirt {
 		width: 400px;
 		height: 480px;
 	}
+
 	#card-saletshirt img {
 		width: 400px;
 		height: 400px;
 		object-fit: cover;
 	}
+
 	.nama-produk {
 		font-size: 15px;
 	}
+
 	button {
 		font-size: 13px;
 		margin: 3px;
 	}
+
 	footer {
 		font-size: 11px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 11px;
 	}
@@ -522,10 +558,12 @@ button:hover {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#card-saletshirt {
 		width: 290px;
 		height: 370px;
 	}
+
 	#card-saletshirt img {
 		width: 290px;
 		height: 290px;
@@ -538,6 +576,7 @@ button:hover {
 		top: -100px;
 		opacity: 0;
 	}
+
 	100% {
 		top: 0;
 		opacity: 1;
@@ -549,6 +588,7 @@ button:hover {
 		opacity: 0;
 		transform: translateX(-250px);
 	}
+
 	100% {
 		opacity: 1;
 		transform: translateX(0);
@@ -556,24 +596,28 @@ button:hover {
 }
 
 @keyframes borderAnimation {
-    0% {
-        border-image-source: linear-gradient(0deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    25% {
-        border-image-source: linear-gradient(90deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    50% {
-        border-image-source: linear-gradient(180deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    75% {
-        border-image-source: linear-gradient(270deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
-    100% {
-        border-image-source: linear-gradient(360deg, yellow, #0073e6, blue);
-        border-image-slice: 1;
-    }
+	0% {
+		border-image-source: linear-gradient(0deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	25% {
+		border-image-source: linear-gradient(90deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	50% {
+		border-image-source: linear-gradient(180deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	75% {
+		border-image-source: linear-gradient(270deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	100% {
+		border-image-source: linear-gradient(360deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
 }

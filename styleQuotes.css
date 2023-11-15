@@ -1,5 +1,7 @@
 @charset "utf-8";
-/* CSS Document*/body {
+
+/* CSS Document*/
+body {
 	background-color: #00283b;
 	margin: 0px;
 	padding: 0px;
@@ -10,7 +12,7 @@ section {
 	background-color: rgb(15, 15, 15);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 	border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 
 nav {
@@ -94,8 +96,8 @@ a:hover {
 }
 
 footer {
-    color: white;
-    text-align: center;
+	color: white;
+	text-align: center;
 	font-family: sans-serif;
 	background-color: rgb(15, 15, 15);
 	padding: 10px;
@@ -103,14 +105,14 @@ footer {
 }
 
 .isi-footer {
-    font-size: 11px;
-    font-weight: bold;
-    margin-bottom: 7px;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 7px;
 }
 
 .menu-footer {
-    padding: 20px;
-    font-weight: bold;
+	padding: 20px;
+	font-weight: bold;
 }
 
 .footer-share {
@@ -131,17 +133,17 @@ footer {
 }
 
 .pilihan-menu-footer {
-    display: inline;
+	display: inline;
 }
 
 .pilihan-menu-footer a {
-    font-size: 11px;
-    margin: 20px;
+	font-size: 11px;
+	margin: 20px;
 }
 
 .menu-sosial-media {
-    font-weight: bold;
-    margin-bottom: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .nav-englishquotes {
@@ -178,9 +180,9 @@ h3 a {
 
 #container-englishquotes img {
 	width: 400px;
-    height: 400px;
+	height: 400px;
 	margin-top: 6px;
-	animation:  myAnim 3s ease 0s 1 normal forwards;
+	animation: myAnim 3s ease 0s 1 normal forwards;
 	border: 1px solid #23112a;
 }
 
@@ -188,15 +190,19 @@ h3 a {
 	nav {
 		width: 10%;
 	}
+
 	#hamburger {
 		display: block;
 	}
+
 	h1 {
 		font-size: 8px;
 	}
+
 	h2 {
 		font-size: 20px;
 	}
+
 	.nav-englishquotes {
 		display: flex;
 		overflow: auto;
@@ -205,13 +211,16 @@ h3 a {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#container-englishquotes img {
 		width: 300px;
 		height: 300px;
 	}
+
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
@@ -226,13 +235,16 @@ h3 a {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#container-englishquotes img {
 		width: 310px;
 		height: 310px;
 	}
+
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
@@ -247,13 +259,16 @@ h3 a {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#container-englishquotes img {
 		width: 310px;
 		height: 310px;
 	}
+
 	footer {
 		font-size: 10px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
@@ -268,19 +283,22 @@ h3 a {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#container-englishquotes img {
 		width: 310px;
 		height: 310px;
 	}
+
 	footer {
 		font-size: 9px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 9px;
 	}
 }
 
- @media screen and (min-width: 720px) {
+@media screen and (min-width: 720px) {
 	.nav-englishquotes {
 		display: flex;
 		text-align: center;
@@ -293,13 +311,16 @@ h3 a {
 		background-color: rgb(39, 38, 38);
 		padding: 17px;
 	}
+
 	#container-englishquotes img {
 		width: 400px;
 		height: 400px;
 	}
+
 	footer {
 		font-size: 11px;
 	}
+
 	.pilihan-menu-footer a {
 		font-size: 11px;
 	}
@@ -336,6 +357,7 @@ h3 a {
 		justify-content: center;
 		align-items: center;
 	}
+
 	#container-englishquotes img {
 		width: 290px;
 		height: 290px;
@@ -347,6 +369,7 @@ h3 a {
 		opacity: 0;
 		transform: translateX(-250px);
 	}
+
 	100% {
 		opacity: 1;
 		transform: translateX(0);
