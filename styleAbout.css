@@ -286,6 +286,10 @@ footer {
 		display: block;
 	}
 
+	h1 {
+		font-size: 8px;
+	}
+
 	h2 {
 		font-size: 20px;
 	}
@@ -373,27 +377,11 @@ footer {
 	.nav-skills {
 		font-size: 13px;
 	}
-
-	footer {
-		font-size: 11px;
-	}
-
-	.pilihan-menu-footer a {
-		font-size: 11px;
-	}
 }
 
 @media screen and (width: 810px) {
 	.nav-skills {
 		font-size: 13px;
-	}
-
-	footer {
-		font-size: 11px;
-	}
-
-	.pilihan-menu-footer a {
-		font-size: 11px;
 	}
 }
 
