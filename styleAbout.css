@@ -93,9 +93,13 @@ nav ul li a:hover {
 	color: white;
 	font-size: 15px;
 	flex-wrap: wrap;
-	background: linear-gradient(to bottom, #1e1e1e, #23112a);
 	padding: 10px;
 	margin: 20px;
+}
+
+.say-hello {
+	width: 120px;
+	height: 100px;
 }
 
 a {

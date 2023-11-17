@@ -269,8 +269,9 @@ footer {
 
 .nav-end {
 	display: flex;
-	text-align: center;
-	justify-content: center;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
 	font-family: sans-serif;
 	font-weight: bold;
 	font-size: 13px;
@@ -443,8 +444,6 @@ h3 a {
 	position: relative;
 	background-color: white;
 	transition: box-shadow 0.3s, transform 0.3s;
-	animation: borderAnimation 4s linear infinite;
-	border: 2px solid transparent;
 }
 
 .card-thelatestinstore img {
@@ -504,7 +503,6 @@ h3 a {
 	background: linear-gradient(to bottom, #0073e6, #00b5ff);
 	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-	border-top: 1px solid rgba(255, 255, 255, 0.1);
 	border-radius: 30px;
 	width: 300px;
 	height: 70px;
@@ -536,7 +534,14 @@ h3 a {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 80px;
+	margin-top: 50px;
+}
+
+#card-adultposters {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
 }
 
 .photo-posters {
@@ -549,11 +554,16 @@ h3 a {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 80px;
+	margin-top: 50px;
+}
+
+.logo-skill {
+	width: 50px;
+	height: 50px;
 }
 
 .card {
-	--background: #fff;
+	--background: white;
 	--cardShadow: rgba(32, 33, 37, .1);
 	--cardShadowHover: rgba(0, 0, 0, 0.2);
 	--cardShadowActive: rgba(32, 33, 37, .55);
@@ -581,8 +591,8 @@ h3 a {
 }
 
 .card:hover {
-	transform: translate(-2px, -4px);
-	box-shadow: 16px 16px 0 var(--cardShadowHover);
+	transform: translate(-1px, -3px);
+	box-shadow: 10px 10px 0 var(--cardShadowHover);
 	border: 2px solid #0073e6;
 }
 
@@ -599,11 +609,6 @@ h3 a {
 .description {
 	font-size: 11px;
 	font-weight: bold;
-}
-
-.logo-skill {
-	width: 50px;
-	height: 50px;
 }
 
 .card>.icon,

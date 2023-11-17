@@ -298,29 +298,21 @@ button:hover {
 	-webkit-transform: rotate(40deg);
 	transform: rotate(40deg);
 }
-
 .page {
 	display: flex;
-	margin: 30px;
+	margin: 20px;
 	justify-content: center;
 	margin-bottom: 7px;
-}
-
-.btn-page {
-	margin: 15px;
-	background-color: rgb(15, 15, 15);
-	padding: 7px;
-	border-radius: 15px;
-}
-
-.btn-page a:hover {
-	color: rgb(168, 247, 21);
-	transition: all .5s ease 0s;
-}
-
-.btn-page a {
-	color: white;
+	font-family: sans-serif;
 	font-weight: bold;
+	gap: 20px;
+	background: linear-gradient(to bottom, #1e1e1e, #23112a);
+	padding: 15px;
+	text-decoration: none;
+}
+
+a {
+	color: white;
 	text-decoration: none;
 }
 
