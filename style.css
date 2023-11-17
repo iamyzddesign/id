@@ -114,6 +114,7 @@ nav ul li a:hover {
 
 a {
 	color: white;
+	text-decoration: none;
 }
 
 a:hover {
@@ -287,6 +288,16 @@ footer {
 
 .nama-nav-end {
 	margin-left: 20px;
+}
+
+.name-catagory {
+	margin-left: 20px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	flex-wrap: wrap;
+	margin-top: 50px;
 }
 
 h3 a {
@@ -527,26 +538,54 @@ h3 a {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 20px;
 }
 
 #card-englishposters {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 50px;
 }
 
 #card-adultposters {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 50px;
+}
+
+#card-romanceposters {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .photo-posters {
 	width: 70px;
 	height: 95px;
+}
+
+.category {
+	flex-wrap: wrap;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.more-posters {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	font-size: 11px;
+}
+
+.btn-moreposters {
+	background-color: rgb(219, 183, 183);
+	padding: 8px;
+	border: 3px solid #23112a;
+	border-radius: 5px;
+}
+
+.btn-moreposters a {
+	color: #23112a;
 }
 
 /* Card Skills */
