@@ -128,6 +128,12 @@ h3 a {
 
 a {
 	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
 }
 
 footer {
