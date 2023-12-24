@@ -237,6 +237,16 @@ h3 a {
 	text-align: center;
 	color: orange;
 	margin: 5px;
+	text-decoration: line-through;
+}
+
+#price-normal {
+	text-decoration: none;
+}
+
+#flashsale {
+	color: skyblue;
+	text-decoration: underline;
 }
 
 button {
