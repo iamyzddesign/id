@@ -60,21 +60,6 @@ nav ul li a:hover {
 	transition: all .5s ease 0s;
 }
 
-.logo {
-	font-family: sans-serif;
-	color: white;
-	font-size: 22px;
-	font-weight: bold;
-	background: linear-gradient(to right, #fb5b0c 10%, #e6de5f 50%, #fb5b0c 90%);
-	background-size: 200% auto;
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	animation: animate 2s linear infinite;
-	text-decoration: none;
-	margin: 5px;
-}
-
 .Logo-YZD {
 	margin: 5px;
 	width: 60px;
