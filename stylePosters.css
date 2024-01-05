@@ -94,6 +94,20 @@ a:hover {
 	transition: all .5s ease 0s;
 }
 
+.nav-gifposters {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin: 20px;
+	background: linear-gradient(to bottom, #0073e6, #00b5ff);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	padding: 17px;
+}
+
 .nav-allposters {
 	display: flex;
 	text-align: center;
@@ -132,6 +146,24 @@ a:hover {
 }
 
 #container-allposters img {
+	width: 500px;
+	height: 600px;
+	margin-top: 6px;
+	animation: myAnim 3s ease 0s 1 normal forwards;
+	border: 1px solid #23112a;
+}
+
+#container-gifposters1080x1350px {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 10px;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	margin: 20px;
+}
+
+#container-gifposters1080x1350px img {
 	width: 500px;
 	height: 600px;
 	margin-top: 6px;
@@ -233,10 +265,13 @@ h2 a:hover {
 		font-size: 9px;
 	}
 
+	.nav-gifposters {
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.nav-allposters {
-		display: flex;
-		overflow: auto;
-		scroll-snap-type: x mandatory;
 		font-size: 10px;
 		justify-content: center;
 		align-items: center;
@@ -247,6 +282,11 @@ h2 a:hover {
 	}
 
 	#container-allposters img {
+		width: 300px;
+		height: 400px;
+	}
+
+	#container-gifposters1080x1350px img {
 		width: 300px;
 		height: 400px;
 	}
@@ -261,16 +301,24 @@ h2 a:hover {
 		font-size: 9px;
 	}
 
+	.nav-gifposters {
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.nav-allposters {
-		display: flex;
-		overflow: auto;
-		scroll-snap-type: x mandatory;
 		font-size: 10px;
 		justify-content: center;
 		align-items: center;
 	}
 
 	#container-allposters img {
+		width: 300px;
+		height: 400px;
+	}
+	
+	#container-gifposters1080x1350px img {
 		width: 300px;
 		height: 400px;
 	}
@@ -285,16 +333,24 @@ h2 a:hover {
 		font-size: 9px;
 	}
 
+	.nav-gifposters {
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.nav-allposters {
-		display: flex;
-		overflow: auto;
-		scroll-snap-type: x mandatory;
 		font-size: 10px;
 		justify-content: center;
 		align-items: center;
 	}
 
 	#container-allposters img {
+		width: 300px;
+		height: 400px;
+	}
+
+	#container-gifposters1080x1350px img {
 		width: 300px;
 		height: 400px;
 	}
@@ -309,16 +365,24 @@ h2 a:hover {
 		font-size: 9px;
 	}
 
+	.nav-gifposters {
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.nav-allposters {
-		display: flex;
-		overflow: auto;
-		scroll-snap-type: x mandatory;
 		font-size: 10px;
 		justify-content: center;
 		align-items: center;
 	}
 
 	#container-allposters img {
+		width: 300px;
+		height: 400px;
+	}
+
+	#container-gifposters1080x1350px img {
 		width: 300px;
 		height: 400px;
 	}
@@ -331,6 +395,19 @@ h2 a:hover {
 
 	.pilihan-menu-footer a {
 		font-size: 11px;
+	}
+
+	.nav-gifposters {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 13px;
+		color: white;
+		margin: 20px;
+		background-color: rgb(39, 38, 38);
+		padding: 17px;
 	}
 
 	.nav-allposters {
@@ -350,9 +427,23 @@ h2 a:hover {
 		width: 500px;
 		height: 600px;
 	}
+
+	#container-gifposters1080x1350px img {
+		width: 500px;
+		height: 600px;
+	}
 }
 
 @media screen and (width: 800px) {
+	.nav-gifposters {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 13px;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.nav-allposters {
 		display: flex;
 		overflow: auto;
@@ -364,6 +455,15 @@ h2 a:hover {
 }
 
 @media screen and (width: 810px) {
+	.nav-gifposters {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 13px;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.nav-allposters {
 		display: flex;
 		overflow: auto;
@@ -375,6 +475,15 @@ h2 a:hover {
 }
 
 @media screen and (width: 360px) {
+	.nav-gifposters {
+		display: flex;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.nav-allposters {
 		display: flex;
 		overflow: auto;
