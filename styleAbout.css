@@ -135,8 +135,8 @@ a:hover {
 
 .card {
 	font-family: sans-serif;
-	width: 200px;
-	height: 300px;
+	width: 227px;
+	height: 327px;
 	aspect-ratio: 2/3;
 	background: var(--background);
 	color: var(--textColor);
