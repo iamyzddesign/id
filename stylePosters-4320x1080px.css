@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+/* CSS Document*/
+body {
+	background-color: #00283b;
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
+section {
+	background-color: rgb(15, 15, 15);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+nav {
+	display: none;
+	clear: both;
+	width: 10%;
+}
+
+nav ul {
+	margin: 0;
+	padding: 10px;
+}
+
+nav ul li {
+	list-style-type: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	margin: 5px;
+	padding: 14px 20px;
+	color: white;
+}
+
+nav ul li a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+#hamburger {
+	float: right;
+	padding: 7px 10px;
+	margin: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+#hamburger:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+#hamburger-size {
+	float: right;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	padding: 7px 10px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+#hamburger-size:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+#menu-size {
+	flex-wrap: wrap;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 40px;
+}
+
+.jenis-resolusi {
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+.jenis-resolusi:hover {
+	transition: all .5s ease 0s;
+}
+
+.Logo-YZD {
+	margin: 5px;
+	width: 60px;
+	height: 60px;
+}
+
+.active {
+	color: orange;
+	font-weight: bold;
+}
+
+.myposters {
+	flex-wrap: wrap;
+	text-align: center;
+	cursor: pointer;
+	margin: 50px;
+}
+
+.myposters img {
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	border: 1px solid #23112a;
+}
+
+.myposters img:hover {
+	animation: borderAnimation 4s linear infinite;
+	border: 2px solid transparent;
+}
+
+.page {
+	display: flex;
+	margin: 20px;
+	justify-content: center;
+	margin-bottom: 7px;
+	font-family: sans-serif;
+	font-weight: bold;
+	gap: 20px;
+	background: linear-gradient(to bottom, #1e1e1e, #23112a);
+	padding: 15px;
+	text-decoration: none;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	background-color: rgb(15, 15, 15);
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.isi-footer {
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+
+.menu-footer {
+	padding: 20px;
+	font-weight: bold;
+}
+
+.footer-share {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.share-buttons {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	gap: 5px;
+}
+
+.share-buttons img {
+	width: 40px;
+	height: 40px;
+}
+
+.pilihan-menu-footer {
+	display: inline;
+}
+
+.pilihan-menu-footer a {
+	font-size: 11px;
+	margin: 20px;
+}
+
+.menu-sosial-media {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 375px) {
+	nav {
+		width: 10%;
+	}
+
+	#hamburger {
+		display: block;
+	}
+
+	h1 {
+		font-size: 8px;
+	}
+
+	.myposters img {
+		width: 91%;
+		height: 91%;
+	}
+
+	footer {
+		font-size: 9px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 667px) {
+	.myposters img {
+		width: 91%;
+		height: 91%;
+	}
+
+	footer {
+		font-size: 10px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 390px) {
+	.myposters img {
+		width: 91%;
+		height: 91%;
+	}
+
+	footer {
+		font-size: 10px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (max-width: 854px) {
+	.myposters img {
+		width: 91%;
+		height: 91%;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.myposters img {
+		width: 91%;
+		height: 91%;
+	}
+
+	footer {
+		font-size: 11px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 11px;
+	}
+}
+
+@keyframes borderAnimation {
+	0% {
+		border-image-source: linear-gradient(0deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	25% {
+		border-image-source: linear-gradient(90deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	50% {
+		border-image-source: linear-gradient(180deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	75% {
+		border-image-source: linear-gradient(270deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+
+	100% {
+		border-image-source: linear-gradient(360deg, yellow, #0073e6, blue);
+		border-image-slice: 1;
+	}
+}

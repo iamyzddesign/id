@@ -209,6 +209,11 @@ h3 a {
 	height: 95px;
 }
 
+.photo-posters-2 {
+	width: 70px;
+	height: 70px;
+}
+
 .category {
 	flex-wrap: wrap;
 	font-size: 9px;
