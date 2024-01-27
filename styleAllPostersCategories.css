@@ -171,6 +171,11 @@ footer {
 	margin-top: 50px;
 }
 
+.active-nama-nav-end {
+	text-decoration: underline;
+	color: rgb(15, 15, 15);
+}
+
 h3 a {
 	text-decoration: none;
 }
@@ -207,6 +212,7 @@ h3 a {
 .photo-posters {
 	width: 70px;
 	height: 95px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .category {

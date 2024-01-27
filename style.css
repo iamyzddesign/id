@@ -556,6 +556,7 @@ h3 a {
 .photo-posters {
 	width: 70px;
 	height: 95px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .category {
