@@ -185,33 +185,24 @@ h3 a {
 }
 
 /* Card Posters */
-#card-indoposters {
+#card-scrollposters {
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	margin: 20px;
 }
 
-#card-englishposters {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-#card-adultposters {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-#card-romanceposters {
+#card-allposters {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
 .photo-posters {
-	width: 70px;
-	height: 95px;
+	width: 75px;
+	height: 100px;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
@@ -236,8 +227,8 @@ h3 a {
 
 .card {
 	font-family: sans-serif;
-	width: 227px;
-	height: 327px;
+	width: 240px;
+	height: 340px;
 	aspect-ratio: 2/3;
 	background: var(--background);
 	color: var(--textColor);
@@ -246,7 +237,7 @@ h3 a {
 	box-shadow: 8px 8px 0 var(--cardShadow);
 	transition: box-shadow .5s, transform .5s;
 	display: inline-block;
-	margin: 20px;
+	margin: 15px;
 	border: 1px solid #23112a;
 }
 
