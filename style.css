@@ -583,10 +583,9 @@ h3 a {
 .card {
 	--background: white;
 	--cardShadow: rgba(32, 33, 37, .1);
-	--cardShadowHover: rgba(0, 0, 0, 0.2);
-	--cardShadowActive: rgba(32, 33, 37, .55);
+	--cardShadowHover: rgba(22, 21, 22, 0.53);
+	--cardShadowActive: rgb(22, 21, 21);
 	--cardBorder: #dbdce0;
-	--cardBorderActive: #1a73e8;
 	--textColor: #202125;
 	--linkColor: #1967d2;
 	--ratingColor: #faab00;
@@ -610,13 +609,11 @@ h3 a {
 
 .card:hover {
 	transform: translate(-1px, -3px);
-	box-shadow: 10px 10px 0 var(--cardShadowHover);
-	border: 2px solid #0073e6;
+	box-shadow: 7px 7px 0 var(--cardShadowHover);
 }
 
 .card:active {
 	transform: translate(-2px, -4px);
-	border: 2px solid var(--cardBorderActive);
 	box-shadow: 4px 4px 0 var(--cardShadowActive);
 }
 

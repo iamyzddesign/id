@@ -124,10 +124,9 @@ a:hover {
 .card {
 	--background: #fff;
 	--cardShadow: rgba(32, 33, 37, .1);
-	--cardShadowHover: rgba(0, 0, 0, 0.2);
-	--cardShadowActive: rgba(32, 33, 37, .55);
+	--cardShadowHover: rgba(22, 21, 22, 0.53);
+	--cardShadowActive: rgb(22, 21, 21);
 	--cardBorder: #dbdce0;
-	--cardBorderActive: #1a73e8;
 	--textColor: #202125;
 	--linkColor: #1967d2;
 	--ratingColor: #faab00;
@@ -135,8 +134,8 @@ a:hover {
 
 .card {
 	font-family: sans-serif;
-	width: 227px;
-	height: 327px;
+	width: 240px;
+	height: 340px;
 	aspect-ratio: 2/3;
 	background: var(--background);
 	color: var(--textColor);
@@ -145,19 +144,17 @@ a:hover {
 	box-shadow: 8px 8px 0 var(--cardShadow);
 	transition: box-shadow .5s, transform .5s;
 	display: inline-block;
-	margin: 20px;
+	margin: 15px;
 	border: 1px solid #23112a;
 }
 
 .card:hover {
-	transform: translate(-2px, -4px);
-	box-shadow: 16px 16px 0 var(--cardShadowHover);
-	border: 2px solid #0073e6;
+	transform: translate(-1px, -3px);
+	box-shadow: 7px 7px 0 var(--cardShadowHover);
 }
 
 .card:active {
 	transform: translate(-2px, -4px);
-	border: 2px solid var(--cardBorderActive);
 	box-shadow: 4px 4px 0 var(--cardShadowActive);
 }
 

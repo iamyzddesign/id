@@ -185,14 +185,10 @@ h3 a {
 }
 
 /* Card Posters */
-#card-scrollposters {
+#card-allposters {
 	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-	overflow: auto;
-	scroll-snap-type: x mandatory;
-	margin: 20px;
-	gap: 10px;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .photo-posters {
@@ -211,6 +207,8 @@ h3 a {
 .card {
 	--background: white;
 	--cardShadow: rgba(32, 33, 37, .1);
+	--cardShadowHover: rgba(22, 21, 22, 0.53);
+	--cardShadowActive: rgb(22, 21, 21);
 	--cardBorder: #dbdce0;
 	--textColor: #202125;
 	--linkColor: #1967d2;
@@ -229,15 +227,18 @@ h3 a {
 	box-shadow: 8px 8px 0 var(--cardShadow);
 	transition: box-shadow .5s, transform .5s;
 	display: inline-block;
+	margin: 15px;
 	border: 1px solid #23112a;
 }
 
 .card:hover {
 	transform: translate(-1px, -3px);
+	box-shadow: 7px 7px 0 var(--cardShadowHover);
 }
 
 .card:active {
 	transform: translate(-2px, -4px);
+	box-shadow: 4px 4px 0 var(--cardShadowActive);
 }
 
 .description {
