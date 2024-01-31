@@ -121,6 +121,10 @@ a:hover {
 	margin-left: 10px;
 }
 
+.nama-nav {
+	margin: 10px;
+}
+
 #container-allposters {
 	display: flex;
 	justify-content: flex-start;
