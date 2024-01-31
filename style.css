@@ -220,6 +220,7 @@ footer {
 	font-size: 13px;
 	color: white;
 	margin: 20px;
+	gap: 10px;
 	background: linear-gradient(to bottom, #0073e6, #00b5ff);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 	padding: 17px;
@@ -257,22 +258,24 @@ footer {
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
-	flex-wrap: wrap;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	gap: 10px;
 	font-family: sans-serif;
 	font-weight: bold;
-	font-size: 13px;
 	color: white;
-	margin-top: 200px;
+	margin-top: 100px;
 	background: linear-gradient(to bottom, #0073e6, #00b5ff);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
-.nama-nav {
-	margin: 10px;
+.nama-nav-end {
+	margin: 15px;
+	font-size: 13px;
 }
 
-.nama-nav-end {
-	margin-left: 20px;
+.nama-nav {
+	margin-left: 10px;
 }
 
 .name-category {
@@ -283,10 +286,6 @@ footer {
 	color: white;
 	flex-wrap: wrap;
 	margin-top: 50px;
-}
-
-h3 a {
-	text-decoration: none;
 }
 
 .container-textures {
@@ -536,8 +535,8 @@ h3 a {
 }
 
 .photo-posters {
-	width: 75px;
-	height: 100px;
+	width: 90px;
+	height: 115px;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
@@ -869,7 +868,7 @@ button {
 		font-size: 10px;
 	}
 
-	.nav-end {
+	.nama-nav-end {
 		font-size: 10px;
 	}
 
@@ -976,7 +975,7 @@ button {
 		font-size: 10px;
 	}
 
-	.nav-end {
+	.nama-nav-end {
 		font-size: 10px;
 	}
 
@@ -1083,7 +1082,7 @@ button {
 		font-size: 10px;
 	}
 
-	.nav-end {
+	.nama-nav-end {
 		font-size: 10px;
 	}
 
@@ -1190,7 +1189,7 @@ button {
 		font-size: 10px;
 	}
 
-	.nav-end {
+	.nama-nav-end {
 		font-size: 10px;
 	}
 
@@ -1308,7 +1307,7 @@ button {
 		font-size: 13px;
 	}
 
-	.nav-end {
+	.nama-nav-end {
 		font-size: 13px;
 	}
 
@@ -1387,14 +1386,6 @@ button {
 		justify-content: center;
 		align-items: center;
 	}
-
-	.nav-thelatestinstore {
-		font-size: 13px;
-	}
-
-	.nav-end {
-		font-size: 13px;
-	}
 }
 
 @media screen and (width: 810px) {
@@ -1423,14 +1414,6 @@ button {
 		font-size: 13px;
 		justify-content: center;
 		align-items: center;
-	}
-
-	.nav-thelatestinstore {
-		font-size: 13px;
-	}
-
-	.nav-end {
-		font-size: 13px;
 	}
 }
 
@@ -1488,7 +1471,7 @@ button {
 		font-size: 10px;
 	}
 
-	.nav-end {
+	.nama-nav-end {
 		font-size: 10px;
 	}
 
