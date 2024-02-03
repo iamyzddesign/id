@@ -102,6 +102,26 @@ nav ul li a:hover {
 	font-weight: bold;
 }
 
+.nav-end {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	gap: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	margin-top: 50px;
+	background: linear-gradient(to bottom, #0073e6, #00b5ff);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.nama-nav-end {
+	margin: 15px;
+	font-size: 13px;
+}
+
 .myposters {
 	flex-wrap: wrap;
 	text-align: center;
@@ -206,6 +226,10 @@ footer {
 		font-size: 8px;
 	}
 
+	.nama-nav-end {
+		font-size: 10px;
+	}
+
 	.myposters img {
 		width: 91%;
 		height: 71%;
@@ -221,6 +245,10 @@ footer {
 }
 
 @media screen and (min-width: 667px) {
+	.nama-nav-end {
+		font-size: 10px;
+	}
+
 	.myposters img {
 		width: 91%;
 		height: 71%;
@@ -236,6 +264,10 @@ footer {
 }
 
 @media screen and (min-width: 390px) {
+	.nama-nav-end {
+		font-size: 10px;
+	}
+
 	.myposters img {
 		width: 91%;
 		height: 71%;
@@ -258,6 +290,10 @@ footer {
 }
 
 @media screen and (min-width: 720px) {
+	.nama-nav-end {
+		font-size: 13px;
+	}
+	
 	.myposters img {
 		width: 91%;
 		height: 71%;
@@ -269,6 +305,12 @@ footer {
 
 	.pilihan-menu-footer a {
 		font-size: 11px;
+	}
+}
+
+@media screen and (width: 360px) {
+	.nama-nav-end {
+		font-size: 10px;
 	}
 }
 
