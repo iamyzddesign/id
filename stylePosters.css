@@ -108,12 +108,25 @@ a:hover {
 	padding: 17px;
 }
 
+/*
 .nav-category-posters {
 	font-family: sans-serif;
 	font-size: 13px;
 	margin: 20px;
 	background: linear-gradient(to bottom, #1e1e1e, #23112a);
 	border: 1px solid #23112a;
+	margin-bottom: 70px;
+} */
+
+.nav-category-posters {
+	height: 170px;
+	overflow: auto;
+	scroll-snap-type: y mandatory;
+	margin: 20px;
+	background: linear-gradient(to bottom, #1e1e1e, #23112a);
+	border: 1px solid #23112a;
+	font-family: sans-serif;
+	font-size: 13px;
 	margin-bottom: 70px;
 }
 
