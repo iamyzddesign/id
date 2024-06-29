@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleStore.css">
+	<title>Store</title>
+</head>
+<body>
+    <section>
+        <a href="home.html#home"><img src="YZD LOGO 2.png" class="Logo-YZD"></a>
+	    <b id="hamburger" onclick="showMenu();">Menu</b>
+	    <nav id="menu_vertikal">
+		    <ul>
+			    <li><a href="home.html#home">Home</a></li>
+			    <li><a href="about.html">About</a></li>
+			    <li><a href="posters.html">Posters</a></li>
+			    <li><a href="store-page1.html#(sale)-tshirt-designs" class="active">Store</a></li>
+			    <li><a href="mailto:yzddesign1@gmail.com">Contact</a></li>
+			    <li><a href="other.html">Other</a></li>
+		    </ul>
+	    </nav>
+    </section>
+
+	<div class="second-navbar">
+        <li class="dropdown">
+            <a href="#store" class="nama-second-navbar">Store</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="store-page1.html#(sale)-tshirt-designs">T-Shirt Designs</a>
+                <a href="sale-designs-page1.html#sale-designs">Sale Designs</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#new" class="nama-second-navbar">New</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="home.html#newtshirtdesigns">New T-Shirt Designs</a>
+                <a href="all-poster-categories.html#new-releases">New Releases</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#categories" class="nama-second-navbar">Categories</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="arabic-posters-page1.html#new-releases">Arabic Posters</a>
+                <a href="indonesian-posters-page1.html#new-releases">Indonesian Posters</a>
+                <a href="english-posters-page1.html#new-releases">English Posters</a>
+                <a href="adult-posters-page1.html#new-releases">Adult Posters</a>
+                <a href="comedy-posters-page1.html#new-releases">Comedy Posters</a>
+                <a href="death-posters-page1.html#new-releases">Death Posters</a>
+                <a href="movie-posters-page1.html#new-releases">Movie Posters</a>
+                <a href="politics-posters-page1.html#new-releases">Politics Posters</a>
+                <a href="product-posters-page1.html#new-releases">Product Posters</a>
+                <a href="romance-posters-page1.html#new-releases">Romance Posters</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#photoshop" class="nama-second-navbar">Photoshop</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="texture-shape-brush-font-photoshop.html#card-texture">Texture Photoshop</a>
+                <a href="texture-shape-brush-font-photoshop.html#card-shape">Shape Photoshop</a>
+                <a href="texture-shape-brush-font-photoshop.html#card-brush">Brush Photoshop</a>
+                <a href="texture-shape-brush-font-photoshop.html#card-font">Font Photoshop</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#posters" class="nama-second-navbar">Posters</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="posters-page1-1080x1350px.html">1080x1350 px</a>
+                <a href="posters-page1-4320x1350px.html">4320x1350 px</a>
+                <a href="all-posters-page1.html">All Posters</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#wallpapers" class="nama-second-navbar">Wallpapers</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="free-to-download-wallpapers.html#free-to-download-wallpapers">Free to Download</a>
+                <a href="sale-wallpapers.html#sale-wallpapers">Sale</a>
+            </div>
+        </li>
+        <div class="box-input">
+            <input type="text" id="searchInput" placeholder="search page..." onkeyup="checkEnter(event)">
+            <button onclick="search()" id="btn-search"><img src="LOGO SEARCH.png" alt="" class="logo-search"></button>
+        </div>
+    </div>
+
+	<div class="aboutme" id="(sale)-tshirt-designs">
+		<h2>Welcome to YZD Store!</h2>
+		<p>I only sell designs for t-shirts, if there is interest, please click "buy".</p>
+	</div>
+
+    <div class="nav-categories">
+        <h3 class="nama-nav">[SALE] T-SHIRT DESIGNS</h3>
+    </div>
+
+    <div class="container-tshirts">
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/MUTA'ASSIB (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/MUTA'ASSIB (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">متعصب</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('متعصب')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/ANA SAYYID AN NAJAH (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/ANA SAYYID AN NAJAH (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">أنا سيد النجاح</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('أنا سيد النجاح')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/IBTISAMAH MAZYAFAH (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/IBTISAMAH MAZYAFAH (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">ابتسامة مزيفة</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('ابتسامة مزيفة')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/ISTIRAKHA' (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/ISTIRAKHA' (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">استرخاء</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('استرخاء')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/'ALAM AS SIYASAH (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/'ALAM AS SIYASAH (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">عالم السياسة</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('عالم السياسة')">BUY💸</button>
+        </div>
+		
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/MA'A AL MAWT (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/MA'A AL MAWT (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">مع الموت</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('مع الموت')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/AL MUS'AWILUN AT TAMA'UN (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/AL MUS'AWILUN AT TAMA'UN (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">المسؤولون الطماعون</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('المسؤولون الطماعون')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/SILALAT SIYASIYAH (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/SILALAT SIYASIYAH (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">سلالة سياسية</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('سلالة سياسية')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/INHIYAR AL DIMUQRATIYAH (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/INHIYAR AL DIMUQRATIYAH (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">انهيار الديمقراطية</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('انهيار الديمقراطية')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/AL FASADEEN YASEETIRUN (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/AL FASADEEN YASEETIRUN (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">الفاسدين يسيطرون</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('الفاسدين يسيطرون')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/SAKEENAT AL RUH (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/SAKEENAT AL RUH (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">سكينة الروح</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('سكينة الروح')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/MAHZUMUN (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/MAHZUMUN (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">مهزومون</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('مهزومون')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/QISSAH HOBB LIKHASSIR (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/QISSAH HOBB LIKHASSIR (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">قصة حب الجاسر</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('قصة حب الجاسر')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/KHASIR (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/KHASIR (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">خاسر</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('خاسر')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/MALAIK AN NA'IM (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/MALAIK AN NA'IM (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">ملاك النائم</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('ملاك النائم')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/DARB AL FASHILIN (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/DARB AL FASHILIN (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">درب الفاشلين</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('درب الفاشلين')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/RIHILI ILA AL ABAD (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/RIHILI ILA AL ABAD (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">رحيلي إلى الأبد</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('رحيلي إلى الأبد')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/QUWAT AL AMAL (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/QUWAT AL AMAL (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">قوة الأمل</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('قوة الأمل')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/MUQAWAMAH AL YA'S (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/MUQAWAMAH AL YA'S (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">مقاومة اليأس</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('مقاومة اليأس')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/ASWAT AL SALAM (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/ASWAT AL SALAM (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">أصوات السلام</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('أصوات السلام')">BUY💸</button>
+        </div>
+
+		<div id="card-1">
+			<div class="container-img">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/'ARSH AL FASAD (SALE T-SHIRT DESIGN) (1).jpg" alt="">
+				<img src="https://iamyzddesign.github.io/asset-tshirt/'ARSH AL FASAD (SALE T-SHIRT DESIGN) (2).jpg" alt="">
+			</div>
+            <p class="nama-produk">عرش الفساد</p>
+            <h1 class="price">IDR. 60.000</h1>
+            <button id="buyButton1" onclick="sendMessage('عرش الفساد')">BUY💸</button>
+        </div>
+    </div>
+
+	<div class="page">
+		<a href="#" class="active">1</a>
+		<a href="store-page2.html#(sale)-tshirt-designs">2</a>
+    </div>
+
+	<!-- Add here -->
+	<link
+		rel="Shortcut Icon"
+		type="image/png"
+		href="YZD LOGO.png"
+	>
+
+	<footer>
+		<h1 class="footer-share">Share</h1>
+        <div class="share-buttons">
+            <a class="share-button facebook" href="https://www.facebook.com/sharer.php?u=https://iamyzddesign.github.io/id/" target="_blank"><img src="LOGO-FB.png" alt=""></a>
+            <a class="share-button whatsapp" href="whatsapp://send?text=https://iamyzddesign.github.io/id/" data-action="share/whatsapp/share"><img src="LOGO-WA.png" alt=""></a>
+            <a class="share-button twitter" href="https://twitter.com/intent/tweet?url=https://iamyzddesign.github.io/id/" target="_blank"><img src="LOGO-TW.png" alt=""></a>
+        </div>
+		<p class="isi-footer">Copyright &copy; 2024 YZD Design</p>
+        <div class="menu-footer">
+            <p class="pilihan-menu-footer"><a href="home.html#home">HOME</a></p>
+            <p class="pilihan-menu-footer"><a href="about.html">ABOUT ME</a></p>
+            <p class="pilihan-menu-footer"><a href="mailto:yzddesign1@gmail.com">FEEDBACK</a></p>
+        </div>
+        <div class="menu-footer2">
+            <p class="pilihan-menu-footer"><a href="services.html">SERVICES</a></p>
+            <p class="pilihan-menu-footer"><a href="mailto:yzddesign1@gmail.com">CONTACT</a></p>
+        </div>
+		<div class="payment">
+			<p>Payments 100% secured</p>
+			<div class="dana">
+				<img src="DANA-LOGO.png" alt="" class="dana-logo">
+			</div>
+			<div class="paypal">
+				<img src="PAYPAL-LOGO.png" alt="" class="paypal-logo">
+			</div>
+		</div>
+	</footer>
+
+	<script>
+        function search() {
+          var input, filter, elements, i, txtValue;
+          input = document.getElementById('searchInput');
+          filter = input.value.toUpperCase();
+          elements = document.querySelectorAll('*'); // Mengambil semua elemen dalam dokumen
+          matchFound = false;
+      
+          elements.forEach(function(element) {
+            txtValue = element.textContent || element.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              var pageURL = window.location.href; // Mendapatkan URL halaman saat ini
+              var baseURL = pageURL.substring(0, pageURL.lastIndexOf("/") + 1); // Mendapatkan baseURL
+      
+              // Jika ditemukan elemen yang cocok, langsung arahkan pengguna ke halaman yang sesuai
+              if (element.tagName === 'A' && txtValue.toUpperCase() === filter) {
+                var link = element.getAttribute("href");
+                window.location.href = baseURL + link; // Redirect ke halaman yang sesuai
+                matchFound = true;
+              }
+            }
+          });
+
+            if (!matchFound) {
+                alert("Page not found!");
+            }
+        }
+
+        function clearSearchInput() {
+            var input = document.getElementById('searchInput');
+            if (input) {
+                input.value = '';
+            }
+        }
+
+        window.onload = clearSearchInput;
+      
+        // Fungsi untuk mengecek jika tombol enter ditekan
+        function checkEnter(event) {
+          if (event.keyCode === 13) { // 13 adalah kode tombol enter
+            search(); // Panggil fungsi pencarian jika tombol enter ditekan
+          }
+        }
+    </script>
+
+	<script src="payment-store.js"></script>
+    <script src="downloadfile.js"></script>
+	<script src="hamburger.js"></script>
+</body>
+</html>
