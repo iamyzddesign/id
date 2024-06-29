@@ -1,0 +1,323 @@
+@charset "utf-8";
+
+/* CSS Document*/
+body {
+	background-color: #1b2838;
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
+section {
+	background-color: rgb(15, 15, 15);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+nav {
+	display: none;
+	clear: both;
+	width: 10%;
+}
+
+nav ul {
+	margin: 0;
+	padding: 10px;
+}
+
+nav ul li {
+	list-style-type: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	margin: 5px;
+	padding: 14px 20px;
+	color: white;
+}
+
+nav ul li a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+#hamburger {
+	float: right;
+	padding: 7px 10px;
+	margin: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+#hamburger:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+.Logo-YZD {
+	margin: 5px;
+	width: 60px;
+	height: 60px;
+}
+
+.active {
+	color: orange;
+	font-weight: bold;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+.nav-allposters {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin: 20px;
+	background: linear-gradient(to bottom, #1b2838, rgba(35, 17, 42, 0.824));
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	padding: 5px;
+}
+
+.nama-nav {
+	margin: 10px;
+}
+
+#container-allposters {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 10px;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	margin: 20px;
+}
+
+#container-allposters img {
+	width: 500px;
+	height: 600px;
+	margin-top: 6px;
+}
+
+h3 a {
+	text-decoration: none;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 30px;
+	background-color: rgb(15, 15, 15);
+	padding: 10px;
+}
+
+.isi-footer {
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+
+.menu-footer {
+	padding: 20px;
+	font-weight: bold;
+}
+
+.footer-share {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.share-buttons {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	gap: 5px;
+}
+
+.share-buttons img {
+	width: 40px;
+	height: 40px;
+}
+
+.pilihan-menu-footer {
+	display: inline;
+}
+
+.pilihan-menu-footer a {
+	font-size: 11px;
+	margin: 20px;
+}
+
+.menu-footer2 {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+h2 a {
+	color: white;
+	text-decoration: none;
+	background: linear-gradient(to bottom, #0073e6, #00b5ff);
+	border-radius: 5px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	padding: 10px;
+}
+
+h2 a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+@media screen and (max-width: 375px) {
+	nav {
+		width: 10%;
+	}
+
+	#hamburger {
+		display: block;
+	}
+
+	h1 {
+		font-size: 8px;
+	}
+
+	h2 a {
+		font-size: 20px;
+	}
+
+	footer {
+		font-size: 9px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+
+	.nav-allposters {
+		font-size: 10px;
+	}
+
+	#container-allposters img {
+		width: 300px;
+		height: 400px;
+	}
+}
+
+@media screen and (min-width: 667px) {
+	footer {
+		font-size: 10px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+
+	.nav-allposters {
+		font-size: 10px;
+	}
+
+	#container-allposters img {
+		width: 300px;
+		height: 400px;
+	}
+}
+
+@media screen and (min-width: 390px) {
+	footer {
+		font-size: 10px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+
+	.nav-allposters {
+		font-size: 10px;
+	}
+
+	#container-allposters img {
+		width: 300px;
+		height: 400px;
+	}
+}
+
+@media screen and (min-width: 384px) {
+	footer {
+		font-size: 9px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+
+	.nav-allposters {
+		font-size: 10px;
+	}
+
+	#container-allposters img {
+		width: 300px;
+		height: 400px;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	footer {
+		font-size: 11px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 11px;
+	}
+
+	.nav-allposters {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 13px;
+		color: white;
+		margin: 20px;
+		background: linear-gradient(to bottom, #1b2838, rgba(35, 17, 42, 0.824));
+		padding: 5px;
+	}
+
+	#container-allposters img {
+		width: 500px;
+		height: 600px;
+	}
+}
+
+@media screen and (width: 800px) {
+	.nav-allposters {
+		font-size: 13px;
+	}
+}
+
+@media screen and (width: 810px) {
+	.nav-allposters {
+		font-size: 13px;
+	}
+}
+
+@media screen and (width: 360px) {
+	.nav-allposters {
+		font-size: 10px;
+	}
+}

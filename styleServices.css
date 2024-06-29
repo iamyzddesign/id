@@ -1,0 +1,396 @@
+@charset "utf-8";
+
+/* CSS Document*/
+body {
+	background-color: #1b2838;
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
+section {
+	background-color: rgb(15, 15, 15);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+nav {
+	display: none;
+	clear: both;
+	width: 10%;
+}
+
+nav ul {
+	margin: 0;
+	padding: 10px;
+}
+
+nav ul li {
+	list-style-type: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	margin: 5px;
+	padding: 14px 20px;
+	color: white;
+}
+
+nav ul li a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+#hamburger {
+	float: right;
+	padding: 7px 10px;
+	margin: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+#hamburger:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+.Logo-YZD {
+	margin: 5px;
+	width: 60px;
+	height: 60px;
+}
+
+.active {
+	color: orange;
+	font-weight: bold;
+}
+
+.aboutme {
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin: 20px;
+}
+
+.say-hello {
+	width: 120px;
+	height: 100px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+.nav-services {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	margin: 20px;
+	margin-top: 100px;
+	margin-bottom: -1px;
+	background: linear-gradient(to bottom, #1b2838, rgba(35, 17, 42, 0.824));
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.nama-nav {
+	margin: 10px;
+}
+
+.card-services {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card {
+	--background: linear-gradient(to bottom, #1b2838, rgba(35, 17, 42, 0.824));
+	--cardShadowHover: #171a21;
+	--cardShadowActive: #171a21;
+	--textColor: white;
+	--linkColor: #66c0f4;
+	--ratingColor: #faab00;
+}
+
+.card {
+	font-family: sans-serif;
+	width: 235px;
+	height: 335px;
+	aspect-ratio: 3/4;
+	background: var(--background);
+	color: var(--textColor);
+	padding: 25px;
+	transition: box-shadow .5s, transform .5s;
+	display: inline-block;
+	margin: 15px;
+}
+
+.card:hover {
+	background-color: #66c0f4;
+	transform: translate(-1px, -3px);
+	box-shadow: 7px 7px 0 var(--cardShadowHover);
+}
+
+.card:active {
+	background-color: #66c0f4;
+	transform: translate(-2px, -4px);
+	box-shadow: 4px 4px 0 var(--cardShadowActive);
+}
+
+.description {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.logo-skill {
+	width: 100px;
+	height: 100px;
+}
+
+.card>.icon,
+.card>.title,
+.card>.description {
+	margin-bottom: 0.7em;
+	cursor: default;
+	user-select: none;
+}
+
+.card>.title {
+	margin-top: 1.5em;
+	font-weight: bold;
+}
+
+.card>.description {
+	line-height: 1.5em;
+	min-height: 6em;
+}
+
+.format-file {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.card>.icon {
+	font-size: 3em;
+	margin-bottom: .2em;
+}
+
+.btn-services {
+	font-size: 11px;
+	cursor: pointer;
+	background: linear-gradient(to bottom, #2a475e, rgb(27, 40, 56));
+	padding: 3px;
+	width: max-content;
+	color: yellow;
+	margin: 0;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	background-color: rgb(15, 15, 15);
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.isi-footer {
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+
+.menu-footer {
+	padding: 20px;
+	font-weight: bold;
+}
+
+.footer-share {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.share-buttons {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	gap: 5px;
+}
+
+.share-buttons img {
+	width: 40px;
+	height: 40px;
+}
+
+.pilihan-menu-footer {
+	display: inline;
+}
+
+.pilihan-menu-footer a {
+	font-size: 11px;
+	margin: 20px;
+}
+
+.menu-footer2 {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.dana-logo {
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+}
+
+.paypal-logo {
+	width: 50px;
+	height: 50px;
+	padding: 7px;
+}
+
+@media screen and (max-width: 375px) {
+	nav {
+		width: 10%;
+	}
+
+	#hamburger {
+		display: block;
+	}
+
+	h1 {
+		font-size: 8px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.nav-services {
+		font-size: 10px;
+	}
+
+	footer {
+		font-size: 9px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 667px) {
+	.nav-services {
+		font-size: 10px;
+	}
+
+	footer {
+		font-size: 10px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 390px) {
+	.nav-services {
+		font-size: 10px;
+	}
+
+	footer {
+		font-size: 10px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 384px) {
+	.nav-services {
+		font-size: 10px;
+	}
+
+	footer {
+		font-size: 9px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.description {
+		font-size: 11px;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.nav-services {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 13px;
+		color: white;
+		margin: 20px;
+		margin-top: 100px;
+		margin-bottom: -1px;
+	}
+
+	footer {
+		font-size: 11px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 11px;
+	}
+}
+
+@media screen and (width: 800px) {
+	.nav-services {
+		font-size: 13px;
+	}
+}
+
+@media screen and (width: 810px) {
+	.nav-services {
+		font-size: 13px;
+	}
+}
+
+@media screen and (width: 360px) {
+	.nav-services {
+		font-size: 10px;
+	}
+
+	footer {
+		font-size: 9px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}

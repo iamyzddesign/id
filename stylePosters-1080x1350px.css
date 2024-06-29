@@ -1,0 +1,331 @@
+@charset "utf-8";
+
+/* CSS Document*/
+body {
+	background-color: #171a21;
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
+section {
+	background-color: rgb(15, 15, 15);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+nav {
+	display: none;
+	clear: both;
+	width: 10%;
+}
+
+nav ul {
+	margin: 0;
+	padding: 10px;
+}
+
+nav ul li {
+	list-style-type: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	margin: 5px;
+	padding: 14px 20px;
+	color: white;
+}
+
+nav ul li a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+#hamburger {
+	float: right;
+	padding: 7px 10px;
+	margin: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+#hamburger:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+#hamburger-size {
+	float: right;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	padding: 7px 10px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+#hamburger-size:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+#menu-size {
+	flex-wrap: wrap;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 40px;
+}
+
+.jenis-resolusi {
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+.jenis-resolusi:hover {
+	transition: all .5s ease 0s;
+}
+
+.Logo-YZD {
+	margin: 5px;
+	width: 60px;
+	height: 60px;
+}
+
+.active {
+	color: orange;
+	font-weight: bold;
+}
+
+.nav-end {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	gap: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	margin-top: 50px;
+	background: linear-gradient(to bottom, rgb(36, 39, 44), rgb(35, 38, 40));
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.nama-nav-end {
+	margin: 15px;
+	font-size: 13px;
+	flex-shrink: 0;
+}
+
+.nama-nav-end a {
+	color: white;
+}
+
+.nama-nav-end a:hover {
+	color: white;
+	background: linear-gradient(to bottom, #2a475e, rgb(27, 40, 56));
+	padding: 15px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.myposters {
+	flex-wrap: wrap;
+	text-align: center;
+	cursor: pointer;
+	margin: 50px;
+}
+
+.myposters img {
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.page {
+	display: flex;
+	margin: 20px;
+	justify-content: center;
+	margin-bottom: 7px;
+	font-family: sans-serif;
+	font-weight: bold;
+	gap: 20px;
+	padding: 15px;
+	text-decoration: none;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	background-color: rgb(15, 15, 15);
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.isi-footer {
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+
+.menu-footer {
+	padding: 20px;
+	font-weight: bold;
+}
+
+.footer-share {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.share-buttons {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	gap: 5px;
+}
+
+.share-buttons img {
+	width: 40px;
+	height: 40px;
+}
+
+.pilihan-menu-footer {
+	display: inline;
+}
+
+.pilihan-menu-footer a {
+	font-size: 11px;
+	margin: 20px;
+}
+
+.menu-footer2 {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 375px) {
+	nav {
+		width: 10%;
+	}
+
+	#hamburger {
+		display: block;
+	}
+
+	h1 {
+		font-size: 8px;
+	}
+
+	.nama-nav-end {
+		font-size: 10px;
+	}
+
+	.myposters img {
+		width: 45%;
+		height: 65%;
+	}
+
+	footer {
+		font-size: 9px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 667px) {
+	.nama-nav-end {
+		font-size: 10px;
+	}
+
+	.myposters img {
+		width: 45%;
+		height: 65%;
+	}
+
+	footer {
+		font-size: 10px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 390px) {
+	.nama-nav-end {
+		font-size: 10px;
+	}
+
+	.myposters img {
+		width: 45%;
+		height: 65%;
+	}
+
+	footer {
+		font-size: 10px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 9px;
+	}
+}
+
+@media screen and (max-width: 854px) {
+	.myposters img {
+		width: 45%;
+		height: 65%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+    .nav-end {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 720px) {
+	.nama-nav-end {
+		font-size: 13px;
+	}
+
+	.myposters img {
+		width: 30%;
+		height: 50%;
+	}
+
+	footer {
+		font-size: 11px;
+	}
+
+	.pilihan-menu-footer a {
+		font-size: 11px;
+	}
+}
+
+@media screen and (width: 360px) {
+	.nama-nav-end {
+		font-size: 10px;
+	}
+}
