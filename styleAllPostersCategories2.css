@@ -327,7 +327,13 @@ footer {
 }
 
 .category {
-	flex-wrap: wrap;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	height: 20px;
+	/* flex-wrap: wrap; */
 	font-size: 9px;
 	font-weight: bold;
 	color: #66c0f4;
@@ -344,8 +350,8 @@ footer {
 
 .card {
 	font-family: sans-serif;
-	width: 275px;
-	height: 375px;
+	width: 295px;
+	height: 395px;
 	aspect-ratio: 3/4;
 	background: var(--background);
 	color: var(--textColor);
@@ -420,49 +426,49 @@ footer {
 
 /* Card New Releases */
 #card-1 {
-	background-image: url(https://iamyzddesign.github.io/asset-1/STILL\ ALIVE\ 4\ -\ ALIZA\ ROSE\ 1.13.jpg);
+	background-image: url(https://iamyzddesign.github.io/asset-2/UNKNOWN\ CORP\ -\ SILENT\ PANDEMIC\ 1.24.jpg);
 	background-position: center;
 	background-size: cover;
 }
 
 #card-2 {
-	background-image: url(https://iamyzddesign.github.io/asset-1/STILL\ ALIVE\ 4\ -\ ALIZA\ ROSE\ 1.12.jpg);
+	background-image: url(https://iamyzddesign.github.io/asset-2/UNKNOWN\ CORP\ -\ SILENT\ PANDEMIC\ 1.23.jpg);
 	background-position: center;
 	background-size: cover;
 }
 
 #card-3 {
-	background-image: url(https://iamyzddesign.github.io/asset-1/STILL\ ALIVE\ 4\ -\ ALIZA\ ROSE\ 1.11.jpg);
+	background-image: url(https://iamyzddesign.github.io/asset-2/UNKNOWN\ CORP\ -\ SILENT\ PANDEMIC\ 1.22.jpg);
 	background-position: center;
 	background-size: cover;
 }
 
 #card-4 {
-	background-image: url(https://iamyzddesign.github.io/asset-1/STILL\ ALIVE\ 4\ -\ ALIZA\ ROSE\ 1.10.jpg);
+	background-image: url(https://iamyzddesign.github.io/asset-2/UNKNOWN\ CORP\ -\ SILENT\ PANDEMIC\ 1.21.jpg);
 	background-position: center;
 	background-size: cover;
 }
 
 #card-5 {
-	background-image: url(https://iamyzddesign.github.io/asset-1/STILL\ ALIVE\ 4\ -\ ALIZA\ ROSE\ 1.9.jpg);
+	background-image: url(https://iamyzddesign.github.io/asset-2/UNKNOWN\ CORP\ -\ SILENT\ PANDEMIC\ 1.20.jpg);
 	background-position: center;
 	background-size: cover;
 }
 
 #card-6 {
-	background-image: url(https://iamyzddesign.github.io/asset-1/STILL\ ALIVE\ 4\ -\ ALIZA\ ROSE\ 1.8.jpg);
+	background-image: url(https://iamyzddesign.github.io/asset-2/UNKNOWN\ CORP\ -\ SILENT\ PANDEMIC\ 1.19.jpg);
 	background-position: center;
 	background-size: cover;
 }
 
 #card-7 {
-	background-image: url(https://iamyzddesign.github.io/asset-1/STILL\ ALIVE\ 4\ -\ ALIZA\ ROSE\ 1.7.jpg);
+	background-image: url(https://iamyzddesign.github.io/asset-2/UNKNOWN\ CORP\ -\ SILENT\ PANDEMIC\ 1.18.jpg);
 	background-position: center;
 	background-size: cover;
 }
 
 #card-8 {
-	background-image: url(https://iamyzddesign.github.io/asset-1/STILL\ ALIVE\ 4\ -\ ALIZA\ ROSE\ 1.6.jpg);
+	background-image: url(https://iamyzddesign.github.io/asset-2/UNKNOWN\ CORP\ -\ SILENT\ PANDEMIC\ 1.17.jpg);
 	background-position: center;
 	background-size: cover;
 }
