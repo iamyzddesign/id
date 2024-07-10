@@ -341,7 +341,13 @@ footer {
 }
 
 .category {
-	flex-wrap: wrap;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	height: 20px;
+	/* flex-wrap: wrap; */
 	font-size: 9px;
 	font-weight: bold;
 	color: #66c0f4;
@@ -358,8 +364,8 @@ footer {
 
 .card {
 	font-family: sans-serif;
-	width: 275px;
-	height: 375px;
+	width: 295px;
+	height: 395px;
 	aspect-ratio: 3/4;
 	background: var(--background);
 	color: var(--textColor);
