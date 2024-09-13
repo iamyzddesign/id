@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleAbout.css">
+	<title>About</title>
+</head>
+<body>
+    <section>
+        <nav class="mobile-menu">
+            <div class="container-logoweb">
+                <a href="home.html#new-releases"><img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-website"></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+            </div>
+            <div class="menu-content" id="menu-content">
+                <ul>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">New & Noteworthy</a>
+                        <ul class="submenu">
+                            <li><a href="short-story-categories.html#new-releases">Top Short Stories</a></li>
+                            <li><a href="poster-categories.html#new-releases">New Poster Releases</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Store</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#new-releases">Home</a></li>
+                            <li><a href="sale-designs-page1.html#sale-designs">Sale Designs</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Community</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#new-releases">Home</a></li>
+                            <li><a href="poster-categories.html#new-releases">Posters</a></li>
+                            <li><a href="short-story-categories.html#new-releases">Short Stories</a></li>
+                            <li><a href="collaboration.html">Collaboration</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <!-- Add more main menu items as needed -->
+                </ul>
+                <div class="footer">
+                    <p>Copyright &copy; 2024 YZD Design. All rights reserved. <a href="mailto:yzddesign1@gmail.com">Feedback</a> | <a href="mailto:yzddesign1@gmail.com">Contact</a></p>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <div class="all-container">
+        <div class="yzddesign-container">
+            <img src="YZD-Design-Logo-(NEW).png" alt="" class="yzddesign-logo">
+            <h1>YZD Design</h1>
+            <p class="yzddesign-description">Welcome to YZD Design. This website is managed by Yazid Ramadhan Ismail. I live in Jakarta, Indonesia. My hobby
+                is designing poster using Adobe Photoshop.</p>
+            <p>Thank you for visiting my website.</p>
+            <div class="app-button-container">
+                <button class="app-button" onclick="toggleDropdown()">Get the app for mobile</button>
+                <div id="dropdown-menu" class="dropdown-menu">
+                    <a href="#">Download for Android (Coming Soon)</a>
+                    <a href="#">Download for iOS (Coming Soon)</a>
+                </div>
+            </div>
+            <p class="yzddesign-support">The <a href="#">Steam mobile apps</a> support your PC gaming experience on the go</p>
+        </div>
+
+        <div class="access-shortstories-section">
+            <div class="shortstories-thumbnails">
+                <img src="https://iamyzddesign.github.io/thumbnail-1/UNKNOWN (THUMBNAIL).jpg" alt="">
+                <img src="https://iamyzddesign.github.io/thumbnail-1/DARKBANE HUNTERS (THUMBNAIL).jpg" alt="">
+            </div>
+            <div class="access-text">
+                <h2>Access Short Stories Instantly</h2>
+                <p>With nearly 30,000 games from AAA to indie and everything in-between. Enjoy exclusive deals, automatic
+                    game updates, and other great perks.</p>
+                <a href="short-story-categories.html#new-releases" class="browse-link">Browse the Short Stories &#x2192;</a>
+            </div>
+        </div>
+    </div>
+
+	<!-- Add here -->
+	<link
+		rel="Shortcut Icon"
+		type="image/png"
+		href="YZD LOGO.png"
+	>
+
+    <script>
+        function toggleDropdown() {
+            const dropdownMenu = document.getElementById('dropdown-menu');
+            if (dropdownMenu.style.display === 'block') {
+                dropdownMenu.style.display = 'none';
+            } else {
+                dropdownMenu.style.display = 'block';
+            }
+        }
+    </script>
+
+	<script src="hamburger.js"></script>
+</body>
+</html>
