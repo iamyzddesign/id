@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+/* CSS Document*/
+body {
+	background-color: #1b2838;
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
+/* LOGO WEBSITE */
+.container-logoweb {
+	display: flex;
+	justify-content: center;
+}
+
+.logo-website {
+	width: 100px;
+	height: 35px;
+	margin: -23px;
+}
+
+/* LOGO WEBSITE */
+
+/* HAMBURGER NAVBAR */
+.mobile-menu {
+	background-color: #171a21;
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+	padding: 10px;
+	font-family: sans-serif;
+}
+
+.menu-toggle {
+	display: flex;
+	flex-direction: column;
+	width: 30px;
+	cursor: pointer;
+	padding: 5px;
+	margin-top: -17px;
+}
+
+.menu-icon {
+	background-color: #c7d5e0;
+	height: 3px;
+	margin: 4px 0;
+	border-radius: 2px;
+}
+
+.menu-content {
+	display: none;
+}
+
+.menu-content ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.menu-content ul li {
+	padding: 10px;
+	border-bottom: 1px solid #2a475e;
+}
+
+.menu-content ul li a {
+	color: #c7d5e0;
+	text-decoration: none;
+}
+
+.menu-content ul li.has-submenu>a {
+	position: relative;
+}
+
+.menu-content ul li.has-submenu>a::after {
+	content: "";
+	position: absolute;
+	right: 10px;
+}
+
+.submenu {
+	display: none;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.submenu li {
+	padding-left: 20px;
+}
+
+/* HAMBURGER NAVBAR */
+
+/* FOOTER */
+.footer {
+	margin-top: 100px;
+	font-family: sans-serif;
+	color: #eaeaea;
+	font-size: 9px;
+	width: 220px;
+}
+
+/* FOOTER */
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(168, 247, 21);
+	transition: all .5s ease 0s;
+}
+
+/* ABOUT */
+.all-container {
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	color: #c7d5e0;
+	margin-top: 40px;
+	padding-bottom: 50px;
+}
+
+.yzddesign-container {
+	text-align: center;
+	padding: 20px;
+	background-color: #171a21;
+	border-radius: 10px;
+	width: 70%;
+	max-width: 500px;
+}
+
+.yzddesign-logo {
+	width: 100px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 24px;
+	color: white;
+}
+
+.yzddesign-description {
+	font-size: 16px;
+	margin: 10px 0 20px 0;
+}
+
+.app-button-container {
+	position: relative;
+}
+
+.app-button {
+	background-color: #2a475e;
+	color: #c7d5e0;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.app-button:hover {
+	background-color: #4a6580;
+}
+
+.dropdown-menu {
+	display: none;
+	position: absolute;
+	background-color: #2a475e;
+	margin-top: 5px;
+	border-radius: 5px;
+	width: 100%;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+	z-index: 1;
+}
+
+.dropdown-menu a {
+	color: #c7d5e0;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+	background-color: #4a6580;
+}
+
+.yzddesign-support {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.yzddesign-support a {
+	color: #66c0f4;
+	text-decoration: none;
+}
+
+.yzddesign-support a:hover {
+	text-decoration: underline;
+}
+
+/* ABOUT */
+
+/* ACCESS SHORT STORIE SECTION */
+.access-shortstories-section {
+	margin: 20px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.shortstories-thumbnails {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.shortstories-thumbnails img {
+	width: 140px;
+	margin: 5px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transition: transform 0.3s ease;
+}
+
+.shortstories-thumbnails img:hover {
+	transform: scale(1.05);
+}
+
+.access-text {
+	color: white;
+}
+
+.access-text h2 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.access-text p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.browse-link {
+	font-size: 18px;
+	color: #66c0f4;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+.browse-link:hover {
+	color: #549dc7;
+}
+
+/* ACCESS SHORT STORIE SECTION */
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (min-width: 667px) {}
+
+@media screen and (min-width: 390px) {}
+
+@media screen and (min-width: 384px) {}
+
+@media screen and (min-width: 1280px) {}
+
+@media screen and (min-width: 720px) {}
+
+@media screen and (width: 800px) {}
+
+@media screen and (width: 810px) {}
+
+@media screen and (width: 360px) {}

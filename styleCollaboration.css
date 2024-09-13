@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/* CSS Document*/
+body {
+    background-color: #1b2838;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+/* LOGO WEBSITE */
+.container-logoweb {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-website {
+    width: 100px;
+    height: 35px;
+    margin: -23px;
+}
+
+/* LOGO WEBSITE */
+
+/* HAMBURGER NAVBAR */
+.mobile-menu {
+    background-color: #171a21;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: -17px;
+}
+
+.menu-icon {
+    background-color: #c7d5e0;
+    height: 3px;
+    margin: 4px 0;
+    border-radius: 2px;
+}
+
+.menu-content {
+    display: none;
+}
+
+.menu-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu-content ul li {
+    padding: 10px;
+    border-bottom: 1px solid #2a475e;
+}
+
+.menu-content ul li a {
+    color: #c7d5e0;
+    text-decoration: none;
+}
+
+.menu-content ul li.has-submenu>a {
+    position: relative;
+}
+
+.menu-content ul li.has-submenu>a::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+}
+
+.submenu {
+    display: none;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.submenu li {
+    padding-left: 20px;
+}
+
+/* HAMBURGER NAVBAR */
+
+/* FOOTER */
+.footer {
+    margin-top: 100px;
+    font-family: sans-serif;
+    color: #eaeaea;
+    font-size: 9px;
+    width: 220px;
+}
+
+/* FOOTER */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(168, 247, 21);
+    transition: all .5s ease 0s;
+}
+
+/* COLLABORATION WRAPPER */
+.collaboration-wrapper {
+    color: #d1d1d1;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container {
+    background-color: #2b2b2b;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+h1 {
+    color: #6ab7ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.p-collaboration {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+strong {
+    color: #f0f0f0;
+}
+
+/* COLLABORATION WRAPPER */
