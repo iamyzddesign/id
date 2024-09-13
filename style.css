@@ -8,6 +8,12 @@ body {
 	scroll-behavior: smooth;
 }
 
+.background-0 {
+	background: linear-gradient(to bottom, rgb(42, 71, 94), rgba(44, 66, 94, 0.765));
+	padding-bottom: 20px;
+	border-bottom: 2px solid #243644;
+}
+
 /* LOGO WEBSITE */
 .container-logoweb {
 	display: flex;
@@ -98,11 +104,6 @@ body {
 
 /* FOOTER */
 
-.backgroud {
-	background: linear-gradient(to bottom, #2a475e, rgba(44, 66, 94, 0.765));
-	padding-bottom: 20px;
-}
-
 a {
 	color: white;
 	text-decoration: none;
@@ -123,6 +124,7 @@ a:hover {
 	border: 1px solid rgb(128, 128, 128);
 	margin-top: 3px;
 	color: #666464;
+	font-style: italic;
 }
 
 #searchInput2 {
@@ -256,7 +258,7 @@ h5:hover {
 }
 
 .card-newreleases {
-	background: linear-gradient(to bottom, #1B2838, #1b2838be);
+	background: linear-gradient(to top, rgb(21, 38, 54), rgba(14, 26, 38, 0.564));
 	border-radius: 3px;
 	overflow: hidden;
 	width: 280px;
@@ -285,7 +287,7 @@ h5:hover {
 	text-align: center;
 	justify-content: left;
 	font-family: sans-serif;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 13px;
 	color: white;
 	margin: 10px;
@@ -298,7 +300,7 @@ h5:hover {
 	text-align: center;
 	justify-content: left;
 	font-family: sans-serif;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 13px;
 	color: white;
 	margin-top: 60px;
@@ -356,7 +358,7 @@ h5:hover {
 	float: right;
 	margin-right: 20px;
 	font-size: 11px;
-	font-weight: bold;
+	font-weight: normal;
 	font-family: sans-serif;
 	flex-wrap: wrap;
 	margin-bottom: -65px;
@@ -397,8 +399,8 @@ h5:hover {
 
 .card-saledesign {
 	background: linear-gradient(to bottom, #2a5f88, #58a7c9);
-	width: 190px;
-	height: 315px;
+	width: 255px;
+	height: 380px;
 	box-shadow: 3px 3px 3px #171a21;
 	transition: transform 0.3s ease;
 	font-family: sans-serif;
@@ -407,8 +409,8 @@ h5:hover {
 }
 
 .card-image {
-	height: 190px;
-	width: 190px;
+	height: 255px;
+	width: 255px;
 	display: block;
 }
 
@@ -916,7 +918,7 @@ h5:hover {
 		text-align: center;
 		justify-content: left;
 		font-family: sans-serif;
-		font-weight: bold;
+		font-weight: normal;
 		font-size: 13px;
 		color: white;
 		margin: 10px;
@@ -929,7 +931,7 @@ h5:hover {
 		text-align: center;
 		justify-content: left;
 		font-family: sans-serif;
-		font-weight: bold;
+		font-weight: normal;
 		font-size: 13px;
 		color: white;
 		margin: 10px;
@@ -1062,6 +1064,7 @@ h5:hover {
 
 	.nama-nav {
 		font-size: 0.8rem;
+		font-weight: normal;
 	}
 
 	.page {
@@ -1079,6 +1082,10 @@ h5:hover {
 
 /* TABLET */
 @media (min-width: 481px) and (max-width: 768px) {
+	.nama-nav {
+		font-weight: normal;
+	}
+	
 	.grid {
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -1086,6 +1093,10 @@ h5:hover {
 
 /* LAPTOP */
 @media (min-width: 769px) and (max-width: 1024px) {
+	.nama-nav {
+		font-weight: normal;
+	}
+
 	.grid {
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -1093,6 +1104,10 @@ h5:hover {
 
 /* DESKTOP */
 @media (min-width: 1025px) {
+	.nama-nav {
+		font-weight: normal;
+	}
+
 	.grid {
 		grid-template-columns: repeat(4, 1fr);
 	}
@@ -1100,6 +1115,10 @@ h5:hover {
 
 /* DESKTOP 1920px */
 @media (min-width: 1920px) {
+	.nama-nav {
+		font-weight: normal;
+	}
+
 	.grid-container {
 		max-width: 2000px;
 		width: 100%;

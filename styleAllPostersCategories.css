@@ -118,6 +118,7 @@ a:hover {
 	border: 1px solid rgb(128, 128, 128);
 	margin-top: 3px;
 	color: #666464;
+	font-style: italic;
 }
 
 #btn-search {
@@ -227,19 +228,19 @@ h5:hover {
 }
 
 .nama-nav-end {
-	font-size: 13px;
+	font-size: 15px;
 	flex-shrink: 0;
 	background: linear-gradient(135deg, rgb(246, 17, 17), rgb(131, 3, 3));
-	padding: 10px;
+	padding: 13px;
 	border-radius: 6px;
 	border-top: 2px solid #2A475E;
 }
 
 .nama-nav-end-disable {
-	font-size: 13px;
+	font-size: 15px;
 	flex-shrink: 0;
 	background: linear-gradient(135deg, rgb(246, 17, 17), rgb(131, 3, 3));
-	padding: 10px;
+	padding: 13px;
 	border-radius: 6px;
 	border-top: 2px solid #2A475E;
 }
@@ -429,45 +430,13 @@ h5:hover {
 
 /* BACKGROUND CONTAINER POSTERS */
 
-@media screen and (max-width: 375px) {
-	.nama-nav-end {
-		font-size: 10px;
-	}
+@media screen and (max-width: 375px) {}
 
-	.nama-nav-end-disable {
-		font-size: 10px;
-	}
-}
+@media screen and (min-width: 667px) {}
 
-@media screen and (min-width: 667px) {
-	.nama-nav-end {
-		font-size: 10px;
-	}
+@media screen and (min-width: 390px) {}
 
-	.nama-nav-end-disable {
-		font-size: 10px;
-	}
-}
-
-@media screen and (min-width: 390px) {
-	.nama-nav-end {
-		font-size: 10px;
-	}
-
-	.nama-nav-end-disable {
-		font-size: 10px;
-	}
-}
-
-@media screen and (min-width: 384px) {
-	.nama-nav-end {
-		font-size: 10px;
-	}
-
-	.nama-nav-end-disable {
-		font-size: 10px;
-	}
-}
+@media screen and (min-width: 384px) {}
 
 @media screen and (min-width: 1280px) {
 	.second-navbar {
@@ -582,7 +551,7 @@ h5:hover {
 	.container::-webkit-scrollbar {
 		height: 8px;
 	}
-	
+
 	.container::-webkit-scrollbar-thumb {
 		background-color: #830303;
 		border-radius: 3px;
@@ -635,14 +604,6 @@ h5:hover {
 	.nama-nav-newreleases a {
 		font-size: 0.8rem;
 	}
-
-	.nama-nav-end {
-		font-size: 10px;
-	}
-
-	.nama-nav-end-disable {
-		font-size: 10px;
-	}
 }
 
 
@@ -651,6 +612,14 @@ h5:hover {
 @media (max-width: 480px) {
 	.nama-nav-newreleases a {
 		font-size: 0.9rem;
+	}
+
+	.nama-nav-end {
+		font-size: 0.7rem;
+	}
+
+	.nama-nav-end-disable {
+		font-size: 0.7rem;
 	}
 
 	.card-title {
