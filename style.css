@@ -65,6 +65,7 @@ body {
 	background-color: #2d2f3d;
 	box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
 	transition: left 0.3s ease;
+	transition: right 0.3s ease;
 	/* Efek transisi untuk animasi */
 	display: none;
 	/* Mulai dalam keadaan tersembunyi */
@@ -898,7 +899,7 @@ h5:hover {
 	}
 
 	.grid-container {
-		max-width: 1700px;
+		max-width: 1500px;
 		width: 100%;
 		padding-bottom: 15px;
 	}
