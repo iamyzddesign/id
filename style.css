@@ -65,7 +65,6 @@ body {
 	background-color: #2d2f3d;
 	box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
 	transition: left 0.3s ease;
-	transition: right 0.3s ease;
 	/* Efek transisi untuk animasi */
 	display: none;
 	/* Mulai dalam keadaan tersembunyi */
@@ -109,10 +108,6 @@ body {
 	display: none;
 	font-size: 15px;
 	margin-top: 5px;
-}
-
-.submenu li:hover {
-	background-color: #297aa9;
 }
 
 .submenu li {
@@ -771,6 +766,38 @@ h5:hover {
 	}
 
 	/* CARD SALE DESIGN (NEW) */
+
+	/* GRID CARD */
+	.grid-wrapper {
+		font-family: sans-serif;
+		color: #c7d5e0;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		margin: 20px;
+	}
+
+	.grid-container {
+		max-width: 1500px;
+		width: 100%;
+		padding-bottom: 15px;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 7px;
+		font-size: 15px;
+	}
+
+	.grid-item {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+
+	/* GRID CARD */
 
 	/* CARD POPULAR SHORT STORIES */
 	.card-popularshortstories {
