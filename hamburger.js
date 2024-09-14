@@ -15,8 +15,8 @@ function openMenu() {
 	menuContent.style.display = 'block';
 	menuContent.style.left = '0'; // Menu muncul dari kiri
 	overlay.style.display = 'block'; // Tampilkan overlay
-	//document.body.style.overflow = ''; // Mencegah scrolling saat menu terbuka
-	
+	document.body.style.overflow = 'hidden'; // Mencegah scrolling saat menu terbuka
+
 	// Tambahkan event listener untuk klik di luar menu
 	document.addEventListener('click', outsideClickListener);
 }
@@ -29,10 +29,10 @@ function closeMenu() {
 		menuContent.style.display = 'none';
 		overlay.style.display = 'none'; // Sembunyikan overlay
 	}, 300); // Menghilangkan menu setelah animasi selesai
-	//document.body.style.overflow = ''; // Izinkan scrolling lagi
+	document.body.style.overflow = ''; // Izinkan scrolling lagi
 
 	// Hapus event listener setelah menu ditutup
-	document.removeEventListener('click', outsideClickListener);
+	//document.removeEventListener('click', outsideClickListener);
 }
 
 // Fungsi untuk menutup menu saat klik di luar area menu

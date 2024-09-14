@@ -1008,13 +1008,43 @@ h5:hover {
 
 
 /* MOBILE DEVICES */
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 375px) {
 	.card-title-newreleases {
 		font-size: 0.7rem;
 	}
 
 	.grid {
 		grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+	}
+
+	.nama-nav {
+		font-size: 0.8rem;
+		font-weight: normal;
+		margin-bottom: 20px;
+	}
+
+	.nama-nav-end {
+		font-size: 0.7rem;
+	}
+
+	.card-title {
+		font-size: 0.8rem;
+	}
+
+	button {
+		font-size: 10px;
+		margin: 2px;
+	}
+}
+
+/* MOBILE DEVICES */
+@media (min-width: 376px) and (max-width: 480px) {
+	.card-title-newreleases {
+		font-size: 0.7rem;
+	}
+
+	.grid {
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 	}
 
 	.nama-nav {
