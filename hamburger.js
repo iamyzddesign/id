@@ -1,11 +1,52 @@
 // Menu Hamburger //
 document.getElementById('menu-toggle').addEventListener('click', function () {
 	var menuContent = document.getElementById('menu-content');
-	menuContent.style.display = menuContent.style.display === 'block' ? 'none' : 'block';
+	var overlay = document.getElementById('overlay');
+	if (menuContent.style.display === 'block') {
+		closeMenu();
+	} else {
+		openMenu();
+	}
 });
 
-var submenuToggles = document.querySelectorAll('.submenu-toggle');
+function openMenu() {
+	var menuContent = document.getElementById('menu-content');
+	var overlay = document.getElementById('overlay');
+	menuContent.style.display = 'block';
+	menuContent.style.left = '0'; // Menu muncul dari kiri
+	overlay.style.display = 'block'; // Tampilkan overlay
+	//document.body.style.overflow = ''; // Mencegah scrolling saat menu terbuka
+	
+	// Tambahkan event listener untuk klik di luar menu
+	document.addEventListener('click', outsideClickListener);
+}
 
+function closeMenu() {
+	var menuContent = document.getElementById('menu-content');
+	var overlay = document.getElementById('overlay');
+	menuContent.style.left = '-250px'; // Menu keluar ke kiri
+	setTimeout(function () {
+		menuContent.style.display = 'none';
+		overlay.style.display = 'none'; // Sembunyikan overlay
+	}, 300); // Menghilangkan menu setelah animasi selesai
+	//document.body.style.overflow = ''; // Izinkan scrolling lagi
+
+	// Hapus event listener setelah menu ditutup
+	document.removeEventListener('click', outsideClickListener);
+}
+
+// Fungsi untuk menutup menu saat klik di luar area menu
+function outsideClickListener(event) {
+	var menuContent = document.getElementById('menu-content');
+	var menuToggle = document.getElementById('menu-toggle');
+
+	if (!menuContent.contains(event.target) && !menuToggle.contains(event.target)) {
+		closeMenu();
+	}
+}
+
+// Submenu Toggle
+var submenuToggles = document.querySelectorAll('.submenu-toggle');
 submenuToggles.forEach(function (toggle) {
 	toggle.addEventListener('click', function (e) {
 		e.preventDefault();
@@ -25,34 +66,6 @@ submenuToggles.forEach(function (toggle) {
 		submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
 	});
 });
-
-function showMenuCategory() {
-	var x = document.getElementById('hamburger-size').innerHTML;
-	console.log(x);
-	if (x == "☰") {
-		console.log("close");
-		document.getElementById('hamburger-size').innerHTML = "Categories";
-		document.getElementById('menu-size').style.display = "none";
-	} else {
-		console.log("hamburger-size");
-		document.getElementById('hamburger-size').innerHTML = "☰";
-		document.getElementById('menu-size').style.display = "block";
-	}
-}
-
-function showMenuResolution() {
-	var x = document.getElementById('hamburger-size').innerHTML;
-	console.log(x);
-	if (x == "☰") {
-		console.log("close");
-		document.getElementById('hamburger-size').innerHTML = "Resolution";
-		document.getElementById('menu-size').style.display = "none";
-	} else {
-		console.log("hamburger-size");
-		document.getElementById('hamburger-size').innerHTML = "☰";
-		document.getElementById('menu-size').style.display = "block";
-	}
-}
 
 
 

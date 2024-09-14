@@ -24,6 +24,7 @@ body {
 	width: 100px;
 	height: 35px;
 	margin: -23px;
+	padding-bottom: 9px;
 }
 
 /* LOGO WEBSITE */
@@ -32,28 +33,51 @@ body {
 .mobile-menu {
 	background-color: #171a21;
 	box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
-	padding: 10px;
+	padding: 15px;
 	font-family: sans-serif;
+	font-size: 20px;
 }
 
 .menu-toggle {
 	display: flex;
 	flex-direction: column;
-	width: 30px;
+	width: 26px;
 	cursor: pointer;
 	padding: 5px;
-	margin-top: -17px;
+	margin-top: -34px;
+	margin-left: -7px;
 }
 
 .menu-icon {
 	background-color: #c7d5e0;
-	height: 3px;
-	margin: 4px 0;
+	height: 4px;
+	margin: 3px 0;
 	border-radius: 2px;
 }
 
 .menu-content {
+	position: fixed;
+	left: -250px;
+	/* Awalnya berada di luar layar (kiri) */
+	top: 0;
+	width: 250px;
+	height: 100%;
+	background-color: #2d2f3d;
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+	transition: left 0.3s ease;
+	/* Efek transisi untuk animasi */
 	display: none;
+	/* Mulai dalam keadaan tersembunyi */
+	z-index: 999;
+	/* Di atas overlay dan konten lainnya */
+}
+
+.has-submenu {
+	border-bottom: 0.3px solid #626365;
+}
+
+.has-submenu:hover {
+	background-color: #2a475e;
 }
 
 .menu-content ul {
@@ -63,7 +87,6 @@ body {
 
 .menu-content ul li {
 	padding: 10px;
-	border-bottom: 1px solid #2a475e;
 }
 
 .menu-content ul li a {
@@ -83,12 +106,30 @@ body {
 
 .submenu {
 	display: none;
-	font-size: 12px;
+	font-size: 15px;
 	margin-top: 5px;
+}
+
+.submenu li:hover {
+	background-color: #297aa9;
 }
 
 .submenu li {
 	padding-left: 20px;
+}
+
+/* Overlay untuk menutupi konten di bawah menu */
+#overlay {
+	display: none;
+	/* Awalnya tidak terlihat */
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* Warna semi-transparan */
+	z-index: 998;
+	/* Di bawah menu tapi di atas konten lainnya */
 }
 
 /* HAMBURGER NAVBAR */
@@ -100,6 +141,10 @@ body {
 	color: #eaeaea;
 	font-size: 9px;
 	width: 220px;
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 20px;
+	margin-left: 10px;
 }
 
 /* FOOTER */
@@ -227,14 +272,14 @@ h5:hover {
 	font-weight: bold;
 	font-size: 13px;
 	color: white;
-	margin: 10px;
+	margin: auto;
 	margin-top: 50px;
 	margin-bottom: -25px;
 }
 
 .newreleases-wrapper {
 	font-family: sans-serif;
-	margin: 20px;
+	margin: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -290,7 +335,7 @@ h5:hover {
 	font-weight: normal;
 	font-size: 13px;
 	color: white;
-	margin: 10px;
+	margin: auto;
 	margin-bottom: -25px;
 	margin-top: 50px;
 }
@@ -303,8 +348,7 @@ h5:hover {
 	font-weight: normal;
 	font-size: 13px;
 	color: white;
-	margin-top: 60px;
-	margin: 10px;
+	margin-top: 50px;
 	margin-bottom: -25px;
 }
 
@@ -343,31 +387,6 @@ h5:hover {
 	margin: 10px;
 }
 
-.name-category {
-	margin-left: 20px;
-	font-size: 11px;
-	font-weight: bold;
-	font-family: sans-serif;
-	color: white;
-	flex-wrap: wrap;
-	margin-top: 10px;
-	margin-bottom: -13px;
-}
-
-.page {
-	float: right;
-	margin-right: 20px;
-	font-size: 11px;
-	font-weight: normal;
-	font-family: sans-serif;
-	flex-wrap: wrap;
-	margin-bottom: -65px;
-}
-
-.page a {
-	color: #66c0f4;
-}
-
 /* CONTENT HIDE */
 .card-content {
 	display: none;
@@ -383,7 +402,7 @@ h5:hover {
 	gap: 10px;
 	overflow: auto;
 	scroll-snap-type: x mandatory;
-	margin: 20px;
+	margin: 10px;
 	padding-bottom: 15px;
 	padding-right: 15px;
 }
@@ -459,7 +478,7 @@ h5:hover {
 	gap: 10px;
 	overflow: auto;
 	scroll-snap-type: x mandatory;
-	margin: 20px;
+	margin: 10px;
 	padding-bottom: 15px;
 	padding-right: 15px;
 }
@@ -504,7 +523,7 @@ h5:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 20px;
+	margin: 10px;
 }
 
 .grid-container {
@@ -551,7 +570,7 @@ h5:hover {
 	padding: 20px;
 	text-align: center;
 	border-radius: 2px;
-	margin: 20px;
+	margin: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 	font-family: sans-serif;
 	color: #ffffff;
@@ -579,7 +598,7 @@ h5:hover {
 	gap: 10px;
 	overflow: auto;
 	scroll-snap-type: x mandatory;
-	margin: 20px;
+	margin: 10px;
 	padding-bottom: 15px;
 	padding-right: 15px;
 }
@@ -608,15 +627,6 @@ h5:hover {
 }
 
 /* BANNER */
-
-.btn a {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-	text-decoration: none;
-}
 
 .background-1 {
 	background: linear-gradient(to bottom, #2a475e, #1b2838);
@@ -668,53 +678,7 @@ h5:hover {
 
 /* CARD POSTERS */
 
-@media screen and (max-width: 375px) {
-	.nav-popularshortstories {
-		margin-top: 60px;
-	}
 
-	.grid {
-		font-size: 0.7em;
-	}
-
-	button {
-		font-size: 10px;
-		margin: 2px;
-	}
-}
-
-@media screen and (min-width: 667px) {
-	.nav-popularshortstories {
-		margin-top: 60px;
-	}
-
-	button {
-		font-size: 10px;
-		margin: 2px;
-	}
-}
-
-@media screen and (min-width: 390px) {
-	.nav-popularshortstories {
-		margin-top: 60px;
-	}
-
-	button {
-		font-size: 10px;
-		margin: 2px;
-	}
-}
-
-@media screen and (min-width: 384px) {
-	.nav-popularshortstories {
-		margin-top: 60px;
-	}
-
-	button {
-		font-size: 10px;
-		margin: 2px;
-	}
-}
 
 @media screen and (min-width: 1280px) {
 	.second-navbar {
@@ -819,38 +783,6 @@ h5:hover {
 
 	/* CARD POPULAR SHORT STORIES */
 
-	/* GRID CARD */
-	.grid-wrapper {
-		font-family: sans-serif;
-		color: #c7d5e0;
-		display: flex;
-		justify-content: center;
-		align-items: flex-start;
-		overflow: auto;
-		scroll-snap-type: x mandatory;
-		margin: 20px;
-	}
-
-	.grid-container {
-		max-width: 1500px;
-		width: 100%;
-		padding-bottom: 15px;
-	}
-
-	.grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		gap: 7px;
-		font-size: 15px;
-	}
-
-	.grid-item {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	}
-
-	/* GRID CARD */
-
 	/* BANNER */
 	.card-topnewreleases {
 		width: 250px;
@@ -872,7 +804,7 @@ h5:hover {
 		padding: 2px;
 		background: linear-gradient(to right, #66c0f4, rgba(34, 23, 68, 0.815));
 		box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-		margin: 20px;
+		margin: 10px;
 		list-style: none;
 		font-family: sans-serif;
 		font-size: 13px;
@@ -921,7 +853,7 @@ h5:hover {
 		font-weight: normal;
 		font-size: 13px;
 		color: white;
-		margin: 10px;
+		margin: auto;
 		margin-top: 50px;
 		margin-bottom: -25px;
 	}
@@ -934,7 +866,7 @@ h5:hover {
 		font-weight: normal;
 		font-size: 13px;
 		color: white;
-		margin: 10px;
+		margin: auto;
 		margin-bottom: -25px;
 		margin-top: 50px;
 	}
@@ -962,11 +894,11 @@ h5:hover {
 		align-items: flex-start;
 		overflow: auto;
 		scroll-snap-type: x mandatory;
-		margin: 20px;
+		margin: 10px;
 	}
 
 	.grid-container {
-		max-width: 1500px;
+		max-width: 1700px;
 		width: 100%;
 		padding-bottom: 15px;
 	}
@@ -1022,10 +954,6 @@ h5:hover {
 }
 
 @media screen and (width: 360px) {
-	.nav-popularshortstories {
-		margin-top: 60px;
-	}
-
 	.card-title {
 		font-size: 0.7rem;
 		width: 240px;
@@ -1033,7 +961,6 @@ h5:hover {
 		overflow: hidden;
 		text-overflow: ellipsis;
 	}
-
 }
 
 @media screen and (width: 320px) {
@@ -1065,10 +992,7 @@ h5:hover {
 	.nama-nav {
 		font-size: 0.8rem;
 		font-weight: normal;
-	}
-
-	.page {
-		font-size: 0.7rem;
+		margin-bottom: 20px;
 	}
 
 	.nama-nav-end {
@@ -1078,14 +1002,20 @@ h5:hover {
 	.card-title {
 		font-size: 0.8rem;
 	}
+
+	button {
+		font-size: 10px;
+		margin: 2px;
+	}
 }
 
 /* TABLET */
 @media (min-width: 481px) and (max-width: 768px) {
 	.nama-nav {
 		font-weight: normal;
+		margin-bottom: 20px;
 	}
-	
+
 	.grid {
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -1095,6 +1025,7 @@ h5:hover {
 @media (min-width: 769px) and (max-width: 1024px) {
 	.nama-nav {
 		font-weight: normal;
+		margin-bottom: 20px;
 	}
 
 	.grid {
@@ -1106,6 +1037,7 @@ h5:hover {
 @media (min-width: 1025px) {
 	.nama-nav {
 		font-weight: normal;
+		margin-bottom: 20px;
 	}
 
 	.grid {
@@ -1117,6 +1049,7 @@ h5:hover {
 @media (min-width: 1920px) {
 	.nama-nav {
 		font-weight: normal;
+		margin-bottom: 20px;
 	}
 
 	.grid-container {
