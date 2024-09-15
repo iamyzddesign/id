@@ -66,39 +66,6 @@ body {
 	/* Di atas overlay dan konten lainnya */
 }
 
-.arrow1 {
-	border: solid #c7d5e0;
-	border-width: 0 2px 2px 0;
-	display: inline-block;
-	padding: 4px;
-	margin-bottom: 5px;
-	margin-left: 60px;
-	transform: rotate(45deg);
-	position: relative;
-}
-
-.arrow2 {
-	border: solid #c7d5e0;
-	border-width: 0 2px 2px 0;
-	display: inline-block;
-	padding: 4px;
-	margin-bottom: 5px;
-	margin-left: 188px;
-	transform: rotate(45deg);
-	position: relative;
-}
-
-.arrow3 {
-	border: solid #c7d5e0;
-	border-width: 0 2px 2px 0;
-	display: inline-block;
-	padding: 4px;
-	margin-bottom: 5px;
-	margin-left: 130px;
-	transform: rotate(45deg);
-	position: relative;
-}
-
 .has-submenu {
 	border-bottom: 0.3px solid #444;
 }
@@ -113,7 +80,7 @@ body {
 }
 
 .menu-content ul li {
-	padding: 10px;
+	padding: 15px;
 }
 
 .menu-content ul li a {
@@ -531,55 +498,6 @@ h5:hover {
 }
 
 @media screen and (min-width: 720px) {
-
-	/* HAMBURGER NAVBAR */
-	.mobile-menu {
-		font-size: 17px;
-	}
-
-	.menu-toggle {
-		margin-top: -32px;
-	}
-
-	.submenu {
-		font-size: 15px;
-	}
-
-	.arrow1 {
-		border: solid #c7d5e0;
-		border-width: 0 2px 2px 0;
-		display: inline-block;
-		padding: 4px;
-		margin-bottom: 5px;
-		margin-left: 103px;
-		transform: rotate(45deg);
-		position: relative;
-	}
-
-	.arrow2 {
-		border: solid #c7d5e0;
-		border-width: 0 2px 2px 0;
-		display: inline-block;
-		padding: 4px;
-		margin-bottom: 5px;
-		margin-left: 203px;
-		transform: rotate(45deg);
-		position: relative;
-	}
-
-	.arrow3 {
-		border: solid #c7d5e0;
-		border-width: 0 2px 2px 0;
-		display: inline-block;
-		padding: 4px;
-		margin-bottom: 5px;
-		margin-left: 157px;
-		transform: rotate(45deg);
-		position: relative;
-	}
-
-	/* HAMBURGER NAVBAR */
-
 	.second-navbar {
 		display: flex;
 		justify-content: center;
