@@ -25,138 +25,140 @@ body {
 
 /* HAMBURGER NAVBAR */
 .mobile-menu {
-    background-color: #171a21;
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
-    padding: 15px;
-    font-family: sans-serif;
-    font-size: 22px;
+	background-color: #171a21;
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+	padding: 15px;
+	font-family: sans-serif;
+	font-size: 22px;
 }
 
 .menu-toggle {
-    display: flex;
-    flex-direction: column;
-    width: 26px;
-    cursor: pointer;
-    padding: 5px;
-    margin-top: -35px;
-    margin-left: -7px;
+	display: flex;
+	flex-direction: column;
+	width: 26px;
+	cursor: pointer;
+	padding: 5px;
+	margin-top: -37px;
+	margin-left: -7px;
+	outline: none;
 }
 
 .menu-icon {
-    background-color: #c7d5e0;
-    height: 4px;
-    margin: 3px 0;
-    border-radius: 2px;
+	background-color: #c7d5e0;
+	height: 4px;
+	margin: 3px 0;
+	border-radius: 2px;
 }
 
 .menu-content {
-    height: 100vh;
-    overflow-y: scroll;
-    position: fixed;
-    left: -250px;
-    top: 0;
-    width: 280px;
-    height: 100%;
-    background-color: #1b1b1b;
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
-    transition: left 0.3s ease;
-    display: none;
-    z-index: 999;
+	height: 100vh;
+	overflow-y: scroll;
+	position: fixed;
+	left: -250px;
+	top: 0;
+	width: 280px;
+	height: 100%;
+	background-color: #1b1b1b;
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+	transition: left 0.3s ease;
+	display: none;
+	z-index: 999;
+	outline: none;
 }
 
 .menu-content::-webkit-scrollbar {
-    height: 8px;
+	height: 8px;
 }
 
 .menu-content::-webkit-scrollbar-thumb {
-    background-color: #1b2838;
-    border-radius: 3px;
+	background-color: #1b2838;
+	border-radius: 3px;
 }
 
 .has-submenu {
-    border-bottom: 0.3px solid #444;
+	border-bottom: 0.3px solid #444;
 }
 
 .has-submenu:hover {
-    background-color: #1b2838;
+	background-color: #1b2838;
 }
 
 .menu-content ul {
-    list-style: none;
-    padding-left: 0;
+	list-style: none;
+	padding-left: 0;
 }
 
 .menu-content ul li {
-    padding: 12px;
+	padding: 12px;
 }
 
 .menu-content ul li a {
-    color: #c7d5e0;
-    text-decoration: none;
+	color: #c7d5e0;
+	text-decoration: none;
 }
 
 .menu-content ul li.has-submenu>a {
-    position: relative;
+	position: relative;
 }
 
 .menu-content ul li.has-submenu>a::after {
-    content: "";
-    position: absolute;
-    right: 10px;
+	content: "";
+	position: absolute;
+	right: 10px;
 }
 
 .submenu-toggle {
-    display: block;
+	display: block;
 }
 
 .submenu-toggle-disable {
-    display: block;
+	display: block;
 }
 
 .submenu {
-    display: none;
-    font-size: 17px;
-    margin-top: 5px;
+	display: none;
+	font-size: 17px;
+	margin-top: 7px;
 }
 
 .submenu-block {
-    display: block;
+	display: block;
 }
 
 .submenu li:hover {
-    background: #297aa9;
+	background: #297aa9;
 }
 
 /* Overlay untuk menutupi konten di bawah menu */
 #overlay {
-    display: none;
-    /* Awalnya tidak terlihat */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* Warna semi-transparan */
-    z-index: 998;
-    /* Di bawah menu tapi di atas konten lainnya */
+	display: none;
+	/* Awalnya tidak terlihat */
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* Warna semi-transparan */
+	z-index: 998;
+	/* Di bawah menu tapi di atas konten lainnya */
 }
 
 /* HAMBURGER NAVBAR */
 
 /* FOOTER */
 .logo-footer {
-    width: 90px;
-    height: auto;
-    margin-left: -5px;
+	width: 90px;
+	height: auto;
+	margin-left: -5px;
 }
 
 .footer {
-    margin: 20px;
-    font-family: sans-serif;
-    color: #eaeaea;
-    font-size: 9px;
-    width: 220px;
-    margin-left: 10px;
+	margin: 20px;
+	font-family: sans-serif;
+	color: #eaeaea;
+	font-size: 9px;
+	width: 220px;
+	margin-left: 10px;
 }
 
 /* FOOTER */
