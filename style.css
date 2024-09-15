@@ -35,7 +35,7 @@ body {
 	box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
 	padding: 15px;
 	font-family: sans-serif;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 .menu-toggle {
@@ -44,7 +44,7 @@ body {
 	width: 26px;
 	cursor: pointer;
 	padding: 5px;
-	margin-top: -34px;
+	margin-top: -35px;
 	margin-left: -7px;
 }
 
@@ -60,7 +60,7 @@ body {
 	left: -250px;
 	/* Awalnya berada di luar layar (kiri) */
 	top: 0;
-	width: 250px;
+	width: 280px;
 	height: 100%;
 	background-color: #2d2f3d;
 	box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
@@ -72,8 +72,41 @@ body {
 	/* Di atas overlay dan konten lainnya */
 }
 
+.arrow1 {
+	border: solid #c7d5e0;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 4px;
+	margin-bottom: 5px;
+	margin-left: 60px;
+	transform: rotate(45deg);
+	position: relative;
+}
+
+.arrow2 {
+	border: solid #c7d5e0;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 4px;
+	margin-bottom: 5px;
+	margin-left: 188px;
+	transform: rotate(45deg);
+	position: relative;
+}
+
+.arrow3 {
+	border: solid #c7d5e0;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 4px;
+	margin-bottom: 5px;
+	margin-left: 130px;
+	transform: rotate(45deg);
+	position: relative;
+}
+
 .has-submenu {
-	border-bottom: 0.3px solid #626365;
+	border-bottom: 0.3px solid #444;
 }
 
 .has-submenu:hover {
@@ -106,7 +139,7 @@ body {
 
 .submenu {
 	display: none;
-	font-size: 15px;
+	font-size: 17px;
 	margin-top: 5px;
 }
 
@@ -131,6 +164,12 @@ body {
 /* HAMBURGER NAVBAR */
 
 /* FOOTER */
+.logo-footer {
+	width: 90px;
+	height: auto;
+	position: relative;
+}
+
 .footer {
 	margin-top: 100px;
 	font-family: sans-serif;
@@ -825,6 +864,55 @@ h5:hover {
 }
 
 @media screen and (min-width: 720px) {
+
+	/* HAMBURGER NAVBAR */
+	.mobile-menu {
+		font-size: 17px;
+	}
+
+	.menu-toggle {
+		margin-top: -32px;
+	}
+
+	.submenu {
+		font-size: 15px;
+	}
+
+	.arrow1 {
+		border: solid #c7d5e0;
+		border-width: 0 2px 2px 0;
+		display: inline-block;
+		padding: 4px;
+		margin-bottom: 5px;
+		margin-left: 103px;
+		transform: rotate(45deg);
+		position: relative;
+	}
+
+	.arrow2 {
+		border: solid #c7d5e0;
+		border-width: 0 2px 2px 0;
+		display: inline-block;
+		padding: 4px;
+		margin-bottom: 5px;
+		margin-left: 203px;
+		transform: rotate(45deg);
+		position: relative;
+	}
+
+	.arrow3 {
+		border: solid #c7d5e0;
+		border-width: 0 2px 2px 0;
+		display: inline-block;
+		padding: 4px;
+		margin-bottom: 5px;
+		margin-left: 157px;
+		transform: rotate(45deg);
+		position: relative;
+	}
+
+	/* HAMBURGER NAVBAR */
+
 	.second-navbar {
 		display: flex;
 		justify-content: center;
@@ -958,10 +1046,6 @@ h5:hover {
 		font-size: 13px;
 	}
 
-	.second-navbar {
-		font-size: 13px;
-	}
-
 	.nav-tshirtdesign {
 		font-size: 13px;
 	}
@@ -969,10 +1053,6 @@ h5:hover {
 
 @media screen and (max-width: 810px) {
 	.nav-newreleases {
-		font-size: 13px;
-	}
-
-	.second-navbar {
 		font-size: 13px;
 	}
 
@@ -1118,5 +1198,37 @@ h5:hover {
 
 	.grid {
 		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+}
+
+@media only screen and (max-width: 926px) and (orientation: landscape) {
+	.menu-toggle {
+		margin-top: -32px;
+	}
+
+	.menu-content {
+		height: 100vh;
+		/* Pastikan menu mengambil tinggi layar penuh */
+		overflow-y: scroll;
+		/* Tambahkan scrolling vertikal */
+	}
+
+	.mobile-menu {
+		overflow-y: hidden;
+		/* Untuk memastikan hanya menu-content yang dapat digulir */
+	}
+
+	/* Pastikan elemen menu lain menyesuaikan */
+	.menu-toggle {
+		position: relative;
+		top: 0;
+	}
+
+	.footer {
+		display: none;
+	}
+
+	.logo-footer {
+		display: none;
 	}
 }
