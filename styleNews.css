@@ -50,20 +50,27 @@ body {
 }
 
 .menu-content {
+	height: 100vh;
+	overflow-y: scroll;
 	position: fixed;
 	left: -250px;
-	/* Awalnya berada di luar layar (kiri) */
 	top: 0;
 	width: 280px;
 	height: 100%;
-	background-color: #2d2f3d;
+	background-color: #1b1b1b;
 	box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
 	transition: left 0.3s ease;
-	/* Efek transisi untuk animasi */
 	display: none;
-	/* Mulai dalam keadaan tersembunyi */
 	z-index: 999;
-	/* Di atas overlay dan konten lainnya */
+}
+
+.menu-content::-webkit-scrollbar {
+	height: 8px;
+}
+
+.menu-content::-webkit-scrollbar-thumb {
+	background-color: #1b2838;
+	border-radius: 3px;
 }
 
 .has-submenu {
@@ -71,7 +78,7 @@ body {
 }
 
 .has-submenu:hover {
-	background-color: #2a475e;
+	background-color: #1b2838;
 }
 
 .menu-content ul {
@@ -80,7 +87,7 @@ body {
 }
 
 .menu-content ul li {
-	padding: 15px;
+	padding: 12px;
 }
 
 .menu-content ul li a {
@@ -98,14 +105,26 @@ body {
 	right: 10px;
 }
 
+.submenu-toggle {
+	display: block;
+}
+
+.submenu-toggle-disable {
+	display: block;
+}
+
 .submenu {
 	display: none;
 	font-size: 17px;
 	margin-top: 5px;
 }
 
-.submenu li {
-	padding-left: 20px;
+.submenu-block {
+	display: block;
+}
+
+.submenu li:hover {
+	background: #297aa9;
 }
 
 /* Overlay untuk menutupi konten di bawah menu */
@@ -128,18 +147,15 @@ body {
 .logo-footer {
 	width: 90px;
 	height: auto;
-	position: relative;
+	margin-left: -5px;
 }
 
 .footer {
-	margin-top: 100px;
+	margin: 20px;
 	font-family: sans-serif;
 	color: #eaeaea;
 	font-size: 9px;
 	width: 220px;
-	position: absolute;
-	bottom: 0;
-	padding-bottom: 20px;
 	margin-left: 10px;
 }
 
@@ -226,34 +242,65 @@ h3 {
 
 
 
-@media only screen and (max-width: 926px) and (orientation: landscape) {
-	.menu-toggle {
-		margin-top: -32px;
+/* DESKTOP */
+@media (min-width: 1025px) {
+
+	/* HAMBURGER NAVBAR */
+	.mobile-menu {
+		font-size: 17px;
 	}
 
+	.menu-toggle {
+		display: flex;
+		flex-direction: column;
+		width: 26px;
+		cursor: pointer;
+		padding: 5px;
+		margin-top: -31px;
+		margin-left: -7px;
+	}
+
+	.menu-content ul li {
+		padding: 9px;
+	}
+
+	.submenu {
+		font-size: 14px;
+	}
+
+	/* HAMBURGER NAVBAR */
+
+	/* FOOTER */
+	.logo-footer {
+		width: 70px;
+		height: auto;
+	}
+
+	.footer {
+		font-size: 8px;
+	}
+
+	/* FOOTER */
+}
+
+@media only screen and (max-width: 926px) and (orientation: landscape) {
 	.menu-content {
 		height: 100vh;
-		/* Pastikan menu mengambil tinggi layar penuh */
 		overflow-y: scroll;
-		/* Tambahkan scrolling vertikal */
 	}
 
 	.mobile-menu {
 		overflow-y: hidden;
-		/* Untuk memastikan hanya menu-content yang dapat digulir */
 	}
 
-	/* Pastikan elemen menu lain menyesuaikan */
 	.menu-toggle {
 		position: relative;
 		top: 0;
+		margin-top: -37px;
+		margin-left: -7px;
 	}
 
 	.footer {
-		display: none;
-	}
-
-	.logo-footer {
-		display: none;
+		margin-top: 30px;
 	}
 }
