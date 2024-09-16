@@ -123,6 +123,15 @@ body {
 .menu-link {
 	display: block;
 	-webkit-tap-highlight-color: transparent;
+	touch-action: manipulation;
+	user-select: none;
+}
+
+.menu-link:focus, .menu-link:active {
+	outline: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 /* Overlay untuk menutupi konten di bawah menu */
@@ -180,6 +189,17 @@ a:hover {
 	margin-top: 3px;
 	color: #666464;
 	font-style: italic;
+}
+
+#searchInput2 {
+	width: 200px;
+	background-color: #2a475e;
+	border-radius: 3px;
+	box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
+	padding: 5px;
+	border: 1px solid rgb(128, 128, 128);
+	margin-top: 8.5px;
+	color: #666464;
 }
 
 #btn-search {
@@ -240,11 +260,33 @@ a:hover {
 .nama-second-navbar {
 	gap: 20px;
 	line-height: 35px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+	touch-action: manipulation;
+	user-select: none;
 }
 
 .nama-second-navbar-disable {
 	gap: 20px;
 	line-height: 35px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+	touch-action: manipulation;
+	user-select: none;
+}
+
+.nama-second-navbar:focus, .nama-second-navbar:active {
+	outline: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.nama-second-navbar-disable:focus, .nama-second-navbar-disable:active {
+	outline: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 h5 {

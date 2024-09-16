@@ -123,6 +123,15 @@ body {
 .menu-link {
 	display: block;
 	-webkit-tap-highlight-color: transparent;
+	touch-action: manipulation;
+	user-select: none;
+}
+
+.menu-link:focus, .menu-link:active {
+	outline: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 /* Overlay untuk menutupi konten di bawah menu */

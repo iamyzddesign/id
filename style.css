@@ -129,6 +129,15 @@ body {
 .menu-link {
 	display: block;
 	-webkit-tap-highlight-color: transparent;
+	touch-action: manipulation;
+	user-select: none;
+}
+
+.menu-link:focus, .menu-link:active {
+	outline: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 /* Overlay untuk menutupi konten di bawah menu */
@@ -257,11 +266,33 @@ a:hover {
 .nama-second-navbar {
 	gap: 20px;
 	line-height: 35px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+	touch-action: manipulation;
+	user-select: none;
 }
 
 .nama-second-navbar-disable {
 	gap: 20px;
 	line-height: 35px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+	touch-action: manipulation;
+	user-select: none;
+}
+
+.nama-second-navbar:focus, .nama-second-navbar:active {
+	outline: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.nama-second-navbar-disable:focus, .nama-second-navbar-disable:active {
+	outline: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 h5 {
