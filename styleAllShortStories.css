@@ -113,7 +113,8 @@ body {
 	user-select: none;
 }
 
-.submenu-toggle:focus, .submenu-toggle:active {
+.submenu-toggle:focus,
+.submenu-toggle:active {
 	outline: none;
 	background-color: transparent;
 	-webkit-box-shadow: none;
@@ -138,7 +139,8 @@ body {
 	user-select: none;
 }
 
-.menu-link:focus, .menu-link:active {
+.menu-link:focus,
+.menu-link:active {
 	outline: none;
 	background-color: transparent;
 	-webkit-box-shadow: none;
@@ -286,14 +288,16 @@ a:hover {
 	user-select: none;
 }
 
-.nama-second-navbar:focus, .nama-second-navbar:active {
+.nama-second-navbar:focus,
+.nama-second-navbar:active {
 	outline: none;
 	background-color: transparent;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
 
-.nama-second-navbar-disable:focus, .nama-second-navbar-disable:active {
+.nama-second-navbar-disable:focus,
+.nama-second-navbar-disable:active {
 	outline: none;
 	background-color: transparent;
 	-webkit-box-shadow: none;
@@ -565,42 +569,6 @@ h5:hover {
 }
 
 @media screen and (min-width: 720px) {
-	.second-navbar {
-		display: flex;
-		justify-content: center;
-		gap: 30px;
-		padding: 2px;
-		background: linear-gradient(to right, #66c0f4, rgba(34, 23, 68, 0.815));
-		box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-		margin: 10px;
-		list-style: none;
-		font-family: sans-serif;
-		font-size: 13px;
-		font-weight: bolder;
-	}
-
-	.dropdown {
-		position: relative;
-	}
-
-	.dropdown-content {
-		display: none;
-	}
-
-	.dropdown-content a {
-		gap: 5px;
-		text-align: center;
-		display: flex;
-		margin: 10px;
-		margin-left: -10px;
-		font-size: 13px;
-		font-weight: 500;
-		position: relative;
-	}
-
-	.dropdown-content a:hover {
-		text-decoration: underline;
-	}
 
 	/* SEARCH ENGINE */
 	#searchInput {
@@ -685,6 +653,14 @@ h5:hover {
 
 /* MOBILE DEVICES */
 @media (max-width: 480px) {
+
+	/* SEARCH ENGINE */
+	#searchInput {
+		width: 90%;
+	}
+
+	/* SEARCH ENGINE */
+	
 	.nama-nav-newreleases a {
 		font-size: 0.9rem;
 	}
@@ -709,6 +685,14 @@ h5:hover {
 
 /* TABLET */
 @media (min-width: 481px) and (max-width: 1025px) {
+
+	/* SEARCH ENGINE */
+	#searchInput {
+		width: 95%;
+	}
+
+	/* SEARCH ENGINE */
+
 	.name-category {
 		font-size: 0.8rem;
 	}
