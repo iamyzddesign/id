@@ -116,32 +116,19 @@ body {
 	display: block;
 }
 
-.submenu-toggle-disable {
-	display: block;
-}
-
 .submenu {
 	display: none;
 	font-size: 17px;
 	margin-top: 7px;
 }
 
-.submenu-block {
-	display: block;
-}
-
-.submenu-block:focus, .submenu-block:active {
-	outline: none;
-	box-shadow: none;
-}
-
-.submenu-toggle-disable:focus, .submenu-toggle-disable:active {
-	outline: none;
-	box-shadow: none;
-}
-
 .submenu li:hover {
 	background: #297aa9;
+}
+
+.menu-link {
+	display: block;
+	-webkit-tap-highlight-color: transparent;
 }
 
 /* Overlay untuk menutupi konten di bawah menu */
