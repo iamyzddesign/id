@@ -134,6 +134,7 @@ body {
 
 .submenu li:hover {
 	background: #297aa9;
+	width: 100vw;
 }
 
 .menu-link {
