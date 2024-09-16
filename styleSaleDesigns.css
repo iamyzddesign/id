@@ -108,6 +108,16 @@ body {
 
 .submenu-toggle {
 	display: block;
+	-webkit-tap-highlight-color: transparent;
+	touch-action: manipulation;
+	user-select: none;
+}
+
+.submenu-toggle:focus, .submenu-toggle:active {
+	outline: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 .submenu {
