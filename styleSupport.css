@@ -242,6 +242,10 @@ h1 {
     background-color: #549dc7;
 }
 
+.sign-in-button a:hover {
+    color: white;
+}
+
 .help-button {
     background-color: #3a3f47;
     color: white;

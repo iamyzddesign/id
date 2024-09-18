@@ -462,7 +462,6 @@ h5:hover {
 
 .card {
 	background: linear-gradient(135deg, rgb(246, 17, 17), rgb(131, 3, 3));
-	border-radius: 3px;
 	overflow: hidden;
 	width: 280px;
 	color: white;

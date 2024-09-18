@@ -325,6 +325,14 @@ h5:hover {
 
 /* DROPDOWN MENU */
 
+/* COMING SOON */
+.coming-soon img {
+	width: 100%;
+	height: auto;
+}
+
+/* COMING SOON */
+
 /* NEW RELEASES */
 .nav-newreleases {
 	display: flex;
@@ -335,7 +343,7 @@ h5:hover {
 	font-size: 13px;
 	color: white;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: -25px;
 }
 
@@ -366,9 +374,9 @@ h5:hover {
 
 .card-newreleases {
 	background: linear-gradient(to top, rgb(21, 38, 54), rgba(14, 26, 38, 0.564));
-	border-radius: 3px;
 	overflow: hidden;
-	width: 280px;
+	width: 320px;
+	height: 237px;
 	color: white;
 	flex: 0 0 auto;
 	box-shadow: 3px 3px 3px #171a21;
@@ -382,9 +390,15 @@ h5:hover {
 .card-title-newreleases {
 	margin: 10px;
 	margin-bottom: 20px;
+	margin-top: -10px;
 	padding: -5px;
 	text-align: left;
 	font-size: 10px;
+}
+
+.card-title-newreleases p {
+	font-size: 10px;
+	margin-top: -7px;
 }
 
 /* NEW RELEASES */
@@ -1043,6 +1057,10 @@ h5:hover {
 		font-size: 0.7rem;
 	}
 
+	.card-title-newreleases p {
+		font-size: 0.7rem;
+	}
+
 	.grid {
 		grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
 	}
@@ -1078,6 +1096,10 @@ h5:hover {
 	/* SEARCH ENGINE */
 
 	.card-title-newreleases {
+		font-size: 0.7rem;
+	}
+
+	.card-title-newreleases p {
 		font-size: 0.7rem;
 	}
 

@@ -434,9 +434,9 @@ h5:hover {
 
 .card {
 	background: linear-gradient(to bottom, rgb(236, 179, 165), rgba(255, 192, 176, 0.204));
-	border-radius: 3px;
 	overflow: hidden;
-	width: 350px;
+	width: 320px;
+	height: 237px;
 	color: white;
 	flex: 0 0 auto;
 	box-shadow: 3px 3px 3px #171a21;
@@ -450,9 +450,15 @@ h5:hover {
 .card-title {
 	margin: 10px;
 	margin-bottom: 20px;
+	margin-top: -10px;
 	padding: -5px;
 	text-align: left;
 	font-size: 10px;
+}
+
+.card-title p {
+	font-size: 10px;
+	margin-top: -7px;
 }
 
 /* NEW RELEASES */
@@ -652,6 +658,17 @@ h5:hover {
 
 
 /* MOBILE DEVICES */
+@media (min-width: 320px) and (max-width: 375px) {
+	.card-title {
+		font-size: 0.7rem;
+	}
+
+	.card-title p {
+		font-size: 0.7rem;
+	}
+}
+
+/* MOBILE DEVICES */
 @media (max-width: 480px) {
 
 	/* SEARCH ENGINE */
@@ -660,7 +677,7 @@ h5:hover {
 	}
 
 	/* SEARCH ENGINE */
-	
+
 	.nama-nav-newreleases a {
 		font-size: 0.9rem;
 	}
@@ -671,6 +688,10 @@ h5:hover {
 	}
 
 	.card-title {
+		font-size: 0.7rem;
+	}
+
+	.card-title p {
 		font-size: 0.7rem;
 	}
 
