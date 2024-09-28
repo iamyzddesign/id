@@ -6,6 +6,7 @@ body {
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
+    font-family: 'Roboto', Verdana, Arial, sans-serif;
 }
 
 /* LOGO WEBSITE */
@@ -331,12 +332,12 @@ h5:hover {
 }
 
 .container-screenshot::-webkit-scrollbar {
-	height: 8px;
+    height: 8px;
 }
 
 .container-screenshot::-webkit-scrollbar-thumb {
-	background-color: #2A475E;
-	border-radius: 3px;
+    background-color: #2A475E;
+    border-radius: 3px;
 }
 
 .container-screenshot img {
@@ -564,7 +565,7 @@ h5:hover {
 }
 
 /* DESKTOP */
-@media (min-width: 1025px) and (max-width: 1279px) {
+@media (min-width: 1025px) {
 
     /* HAMBURGER NAVBAR */
     .mobile-menu {
@@ -602,6 +603,10 @@ h5:hover {
     }
 
     /* FOOTER */
+}
+
+/* DESKTOP */
+@media (min-width: 1025px) and (max-width: 1279px) {
 
     /* SHORT STORY */
     .shortstory-card {

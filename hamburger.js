@@ -84,3 +84,23 @@ function scrollToElement() {
 
 // Panggil fungsi scrollToElement saat halaman dimuat
 window.onload = scrollToElement;
+
+
+
+// FEATURED & RECOMMENDED //
+// Menangani setiap container yang memiliki .featured dan .thumbnails
+document.querySelectorAll('.container-newreleases-desktop').forEach(container => {
+	const bannerImage = container.querySelector('.featured img'); // Ambil gambar dari .featured dalam container tersebut
+	const defaultBannerSrc = bannerImage.src; // Simpan src gambar default
+
+	// Tambahkan event listener pada setiap img di dalam .thumbnails dalam container tersebut
+	container.querySelectorAll('.thumbnails img').forEach(img => {
+		img.addEventListener('mouseover', function () {
+			bannerImage.src = this.src; // Ganti gambar banner dengan thumbnail yang di-hover
+		});
+
+		img.addEventListener('mouseout', function () {
+			bannerImage.src = defaultBannerSrc; // Kembalikan gambar banner ke default
+		});
+	});
+});
