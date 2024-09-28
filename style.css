@@ -1259,9 +1259,9 @@ h5:hover {
 
 /* LAPTOP */
 @media (min-width: 769px) and (max-width: 1024px) {
-	.featured-and-recommended-desktop {
+	/*.featured-and-recommended-desktop {
 		display: none;
-	}
+	} */
 
 	.nama-nav {
 		font-weight: normal;
@@ -1275,9 +1275,9 @@ h5:hover {
 
 /* DESKTOP */
 @media (min-width: 1024px) {
-	.featured-and-recommended-mobile {
+	/* .featured-and-recommended-mobile {
 		display: none;
-	}
+	} */
 
 	/*FEATURED & RECOMMENDED DESKTOP *
 	.wrapper-newreleases-desktop {
