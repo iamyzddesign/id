@@ -482,6 +482,7 @@ h5:hover {
 	margin: 10px;
 	padding-bottom: 15px;
 	padding-right: 15px;
+	padding-top: 5px;
 }
 
 .container-tshirt::-webkit-scrollbar {
@@ -558,6 +559,7 @@ h5:hover {
 	margin: 10px;
 	padding-bottom: 15px;
 	padding-right: 15px;
+	padding-top: 5px;
 }
 
 .all-card-popularshortstories::-webkit-scrollbar {
@@ -601,6 +603,7 @@ h5:hover {
 	justify-content: center;
 	align-items: center;
 	margin: 10px;
+	padding-top: 5px;
 }
 
 .grid-container {
@@ -793,6 +796,10 @@ h5:hover {
 
 	.dropdown-content a:hover {
 		text-decoration: underline;
+	}
+
+	.featured-and-recommended-mobile {
+		display: none;
 	}
 
 	/* CARD SALE DESIGN (NEW) */
@@ -1386,6 +1393,10 @@ h5:hover {
 @media (min-width: 769px) and (max-width: 1024px) {
 	.featured-and-recommended-desktop {
 		display: block;
+	}
+
+	.featured-and-recommended-mobile {
+		display: none;
 	}
 
 	.nama-nav {
