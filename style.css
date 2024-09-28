@@ -472,8 +472,8 @@ h5:hover {
 
 /* CONTENT HIDE */
 
-/* CARD SALE DESIGN (NEW) */
-.container-tshirt {
+/* SPECIAL OFFERS */
+.container-specialoffers {
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
@@ -486,68 +486,64 @@ h5:hover {
 	padding-top: 5px;
 }
 
-.container-tshirt::-webkit-scrollbar {
+.container-specialoffers::-webkit-scrollbar {
 	height: 8px;
 }
 
-.container-tshirt::-webkit-scrollbar-thumb {
+.container-specialoffers::-webkit-scrollbar-thumb {
 	background-color: #2A475E;
 	border-radius: 3px;
 }
 
-.card-saledesign {
+.double-card {
+	display: grid;
+	grid-gap: 10px;
+}
+
+.card-specialoffers {
 	background: linear-gradient(to bottom, #2a5f88, #58a7c9);
-	width: 255px;
-	height: 380px;
+	width: 235px;
+	height: 170px;
 	box-shadow: 3px 3px 3px #171a21;
 	transition: transform 0.3s ease;
 	font-family: sans-serif;
 	cursor: pointer;
-	scroll-snap-align: center;
+	overflow: hidden;
 }
 
 .card-image {
-	height: 255px;
-	width: 255px;
+	height: auto;
+	width: 235px;
 	display: block;
 }
 
-.card-content-saledesigns {
+.card-content-specialoffers {
 	padding: 15px;
 	text-align: left;
 }
 
-.card-title-saledesigns {
+.button-freetoread {
+	width: max-content;
+	padding: 5px;
+	font-size: 15px;
+	color: white;
 	font-weight: bold;
-	font-size: 13px;
-	margin: 0;
-	margin-bottom: 5px;
-	color: #fff;
+	margin-top: -10px;
+	margin-left: -10px;
 }
 
-.card-deal-saledesigns {
-	font-size: 12px;
-	margin: 5px 0;
-	color: #b0b0b0;
-}
-
-.card-offer-saledesigns {
-	font-size: 11px;
-	color: #ebebeb;
-	margin: 5px 0;
-}
-
-.card-discount {
+.button-comingsoon {
 	background: linear-gradient(to bottom, #627a05, #819c13);
 	width: max-content;
-	padding: 2px;
-	font-size: 17px;
+	padding: 5px;
+	font-size: 15px;
 	color: yellow;
 	font-weight: 500;
-	margin-top: 10px;
+	margin-top: -10px;
+	margin-left: -10px;
 }
 
-/* CARD SALE DESIGN (NEW) */
+/* SPECIAL OFFERS */
 
 /* CARD POPULAR SHORT STORIES */
 .all-card-popularshortstories {
@@ -803,58 +799,78 @@ h5:hover {
 		display: none;
 	}
 
-	/* CARD SALE DESIGN (NEW) */
-	.card-saledesign {
+	/* SPECIAL OFFERS */
+	.container-specialoffers {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 10px;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		margin: 10px;
+		padding-bottom: 15px;
+		padding-right: 15px;
+		padding-top: 5px;
+	}
+
+	.container-specialoffers::-webkit-scrollbar {
+		height: 8px;
+	}
+
+	.container-specialoffers::-webkit-scrollbar-thumb {
+		background-color: #2A475E;
+		border-radius: 3px;
+	}
+
+	.double-card {
+		display: grid;
+		grid-gap: 10px;
+	}
+
+	.card-specialoffers {
 		background: linear-gradient(to bottom, #2a5f88, #58a7c9);
-		width: 260px;
-		height: 400px;
+		width: 320px;
+		height: 220px;
 		box-shadow: 3px 3px 3px #171a21;
 		transition: transform 0.3s ease;
 		font-family: sans-serif;
+		cursor: pointer;
+		overflow: hidden;
 	}
 
 	.card-image {
-		height: 260px;
-		width: 260px;
+		height: auto;
+		width: 320px;
 		display: block;
 	}
 
-	.card-content-saledesigns {
+	.card-content-specialoffers {
 		padding: 15px;
 		text-align: left;
 	}
 
-	.card-title-saledesigns {
+	.button-freetoread {
+		width: max-content;
+		padding: 6px;
+		font-size: 16px;
+		color: white;
 		font-weight: bold;
-		font-size: 13px;
-		margin: 0;
-		margin-bottom: 5px;
-		color: #fff;
+		margin-top: -10px;
+		margin-left: -10px;
 	}
 
-	.card-deal-saledesigns {
-		font-size: 12px;
-		margin: 5px 0;
-		color: #b0b0b0;
-	}
-
-	.card-offer-saledesigns {
-		font-size: 11px;
-		color: #ebebeb;
-		margin: 5px 0;
-	}
-
-	.card-discount {
+	.button-comingsoon {
 		background: linear-gradient(to bottom, #627a05, #819c13);
 		width: max-content;
-		padding: 2px;
-		font-size: 20px;
+		padding: 6px;
+		font-size: 16px;
 		color: yellow;
 		font-weight: 500;
-		margin-top: 10px;
+		margin-top: -10px;
+		margin-left: -10px;
 	}
 
-	/* CARD SALE DESIGN (NEW) */
+	/* SPECIAL OFFERS */
 
 	/* GRID CARD */
 	.grid-wrapper {
