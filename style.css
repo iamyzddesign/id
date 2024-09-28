@@ -918,6 +918,10 @@ h5:hover {
 
 	/* SEARCH ENGINE */
 
+	.featured-and-recommended-desktop {
+		display: block;
+	}
+
 	.featured-and-recommended-mobile {
 		display: none;
 	}
