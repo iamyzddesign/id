@@ -923,7 +923,7 @@ h5:hover {
 	}
 
 	.featured-and-recommended-mobile {
-		display: none;
+		display: block;
 	}
 
 	/*FEATURED & RECOMMENDED DESKTOP */
@@ -1291,6 +1291,10 @@ h5:hover {
 
 /* DESKTOP */
 @media (min-width: 1024px) {
+	.featured-and-recommended-desktop {
+		display: block;
+	}
+
 	.featured-and-recommended-mobile {
 		display: none;
 	}
