@@ -515,12 +515,10 @@ h5:hover {
 
 .card-specialoffers:hover .hover-card-top {
 	display: block;
-	max-height: 320px;
 }
 
 .card-specialoffers:hover .hover-card-bottom {
 	display: block;
-	max-height: 320px;
 }
 
 .card-image {
@@ -559,6 +557,7 @@ h5:hover {
 .hover-card-top {
 	display: none;
 	position: absolute;
+	overflow: visible;
 	top: 0;
 	left: 0;
 	/* Appear next to the card */
@@ -599,6 +598,7 @@ h5:hover {
 .hover-card-bottom {
 	display: none;
 	position: absolute;
+	overflow: visible;
 	top: auto;
 	bottom: 0;
 	left: 0;
@@ -957,12 +957,10 @@ h5:hover {
 
 	.card-specialoffers:hover .hover-card-top {
 		display: block;
-		max-height: 320px;
 	}
 
 	.card-specialoffers:hover .hover-card-bottom {
 		display: block;
-		max-height: 320px;
 	}
 
 	.card-image {
@@ -1001,6 +999,7 @@ h5:hover {
 	.hover-card-top {
 		display: none;
 		position: absolute;
+		overflow: visible;
 		top: 0;
 		left: 0;
 		/* Appear next to the card */
@@ -1041,6 +1040,7 @@ h5:hover {
 	.hover-card-bottom {
 		display: none;
 		position: absolute;
+		overflow: visible;
 		top: auto;
 		bottom: 0;
 		left: 0;
@@ -1672,12 +1672,10 @@ h5:hover {
 
 	.card-specialoffers:hover .hover-card-top {
 		display: block;
-		max-height: 320px;
 	}
 
 	.card-specialoffers:hover .hover-card-bottom {
 		display: block;
-		max-height: 320px;
 	}
 
 	.card-image {
@@ -1716,6 +1714,7 @@ h5:hover {
 	.hover-card-top {
 		display: none;
 		position: absolute;
+		overflow: visible;
 		top: 0;
 		left: 0;
 		/* Appear next to the card */
@@ -1756,6 +1755,7 @@ h5:hover {
 	.hover-card-bottom {
 		display: none;
 		position: absolute;
+		overflow: visible;
 		top: auto;
 		bottom: 0;
 		left: 0;
@@ -2085,12 +2085,10 @@ h5:hover {
 
 	.card-specialoffers:hover .hover-card-top {
 		display: block;
-		max-height: 320px;
 	}
 
 	.card-specialoffers:hover .hover-card-bottom {
 		display: block;
-		max-height: 320px;
 	}
 
 	.card-image {
@@ -2129,6 +2127,7 @@ h5:hover {
 	.hover-card-top {
 		display: none;
 		position: absolute;
+		overflow: visible;
 		top: 0;
 		left: 0;
 		/* Appear next to the card */
@@ -2169,6 +2168,7 @@ h5:hover {
 	.hover-card-bottom {
 		display: none;
 		position: absolute;
+		overflow: visible;
 		top: auto;
 		bottom: 0;
 		left: 0;
