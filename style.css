@@ -479,7 +479,6 @@ h5:hover {
 	align-items: flex-start;
 	gap: 10px;
 	overflow: auto;
-	overflow-y: hidden;
 	scroll-snap-type: x mandatory;
 	margin: 10px;
 	padding-bottom: 15px;
@@ -561,7 +560,7 @@ h5:hover {
 	top: 0;
 	left: 0;
 	/* Appear next to the card */
-	width: 235px;
+	width: 170px;
 	/* Larger width */
 	background-color: white;
 	padding: 10px;
@@ -579,18 +578,18 @@ h5:hover {
 
 .hover-card-top h1 {
 	margin-top: -3px;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 700;
 }
 
 .hover-card-top h2 {
 	margin-top: -10px;
-	font-size: 11px;
+	font-size: 9px;
 	font-weight: normal;
 }
 
 .hover-card-top h3 {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 500;
 }
 
@@ -602,7 +601,7 @@ h5:hover {
 	bottom: 0;
 	left: 0;
 	/* Appear next to the card */
-	width: 235px;
+	width: 170px;
 	/* Larger width */
 	background-color: white;
 	padding: 10px;
@@ -620,18 +619,18 @@ h5:hover {
 
 .hover-card-bottom h1 {
 	margin-top: -3px;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 700;
 }
 
 .hover-card-bottom h2 {
 	margin-top: -10px;
-	font-size: 11px;
+	font-size: 9px;
 	font-weight: normal;
 }
 
 .hover-card-bottom h3 {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 500;
 }
 
@@ -642,7 +641,7 @@ h5:hover {
 	padding: 3px 7px;
 	border-radius: 2px;
 	gap: 5px;
-	font-size: 10px;
+	font-size: 8px;
 }
 
 /* Setiap slide */
@@ -917,7 +916,6 @@ h5:hover {
 		align-items: flex-start;
 		gap: 10px;
 		overflow: auto;
-		overflow-y: hidden;
 		scroll-snap-type: x mandatory;
 		margin: 10px;
 		padding-bottom: 15px;
@@ -999,7 +997,7 @@ h5:hover {
 		top: 0;
 		left: 0;
 		/* Appear next to the card */
-		width: 320px;
+		width: 250px;
 		/* Larger width */
 		background-color: white;
 		padding: 10px;
@@ -1040,7 +1038,7 @@ h5:hover {
 		bottom: 0;
 		left: 0;
 		/* Appear next to the card */
-		width: 320px;
+		width: 250px;
 		/* Larger width */
 		background-color: white;
 		padding: 10px;
@@ -1631,7 +1629,6 @@ h5:hover {
 		align-items: flex-start;
 		gap: 10px;
 		overflow: auto;
-		overflow-y: hidden;
 		scroll-snap-type: x mandatory;
 		margin: 10px;
 		padding-bottom: 15px;
@@ -1713,7 +1710,7 @@ h5:hover {
 		top: 0;
 		left: 0;
 		/* Appear next to the card */
-		width: 320px;
+		width: 250px;
 		/* Larger width */
 		background-color: white;
 		padding: 10px;
@@ -1754,7 +1751,7 @@ h5:hover {
 		bottom: 0;
 		left: 0;
 		/* Appear next to the card */
-		width: 320px;
+		width: 250px;
 		/* Larger width */
 		background-color: white;
 		padding: 10px;
@@ -2043,7 +2040,6 @@ h5:hover {
 		align-items: flex-start;
 		gap: 10px;
 		overflow: auto;
-		overflow-y: hidden;
 		scroll-snap-type: x mandatory;
 		margin: 10px;
 		padding-bottom: 15px;
@@ -2125,7 +2121,7 @@ h5:hover {
 		top: 0;
 		left: 0;
 		/* Appear next to the card */
-		width: 320px;
+		width: 250px;
 		/* Larger width */
 		background-color: white;
 		padding: 10px;
@@ -2166,7 +2162,7 @@ h5:hover {
 		bottom: 0;
 		left: 0;
 		/* Appear next to the card */
-		width: 320px;
+		width: 250px;
 		/* Larger width */
 		background-color: white;
 		padding: 10px;
