@@ -513,6 +513,14 @@ h5:hover {
 	position: relative;
 }
 
+.card-specialoffers:hover .hover-card-top {
+	display: block;
+}
+
+.card-specialoffers:hover .hover-card-bottom {
+	display: block;
+}
+
 .card-image {
 	height: auto;
 	width: 235px;
@@ -568,10 +576,6 @@ h5:hover {
 	margin-top: 5px;
 }
 
-.card:hover .hover-card-top {
-	display: block;
-}
-
 .hover-card-top h1 {
 	margin-top: -3px;
 	font-size: 16px;
@@ -611,10 +615,6 @@ h5:hover {
 	width: 100%;
 	height: auto;
 	margin-top: 5px;
-}
-
-.card:hover .hover-card-bottom {
-	display: block;
 }
 
 .hover-card-bottom h1 {
@@ -953,7 +953,11 @@ h5:hover {
 		position: relative;
 	}
 
-	.card-specialoffers:hover .hover-card {
+	.card-specialoffers:hover .hover-card-top {
+		display: block;
+	}
+
+	.card-specialoffers:hover .hover-card-bottom {
 		display: block;
 	}
 
@@ -1012,10 +1016,6 @@ h5:hover {
 		margin-top: 5px;
 	}
 
-	.card:hover .hover-card-top {
-		display: block;
-	}
-
 	.hover-card-top h1 {
 		margin-top: -3px;
 		font-size: 16px;
@@ -1055,10 +1055,6 @@ h5:hover {
 		width: 100%;
 		height: auto;
 		margin-top: 5px;
-	}
-
-	.card:hover .hover-card-bottom {
-		display: block;
 	}
 
 	.hover-card-bottom h1 {
@@ -1670,7 +1666,11 @@ h5:hover {
 		position: relative;
 	}
 
-	.card-specialoffers:hover .hover-card {
+	.card-specialoffers:hover .hover-card-top {
+		display: block;
+	}
+
+	.card-specialoffers:hover .hover-card-bottom {
 		display: block;
 	}
 
@@ -1729,10 +1729,6 @@ h5:hover {
 		margin-top: 5px;
 	}
 
-	.card:hover .hover-card-top {
-		display: block;
-	}
-
 	.hover-card-top h1 {
 		margin-top: -3px;
 		font-size: 16px;
@@ -1772,10 +1768,6 @@ h5:hover {
 		width: 100%;
 		height: auto;
 		margin-top: 5px;
-	}
-
-	.card:hover .hover-card-bottom {
-		display: block;
 	}
 
 	.hover-card-bottom h1 {
@@ -2085,7 +2077,11 @@ h5:hover {
 		position: relative;
 	}
 
-	.card-specialoffers:hover .hover-card {
+	.card-specialoffers:hover .hover-card-top {
+		display: block;
+	}
+
+	.card-specialoffers:hover .hover-card-bottom {
 		display: block;
 	}
 
@@ -2144,10 +2140,6 @@ h5:hover {
 		margin-top: 5px;
 	}
 
-	.card:hover .hover-card-top {
-		display: block;
-	}
-
 	.hover-card-top h1 {
 		margin-top: -3px;
 		font-size: 16px;
@@ -2187,10 +2179,6 @@ h5:hover {
 		width: 100%;
 		height: auto;
 		margin-top: 5px;
-	}
-
-	.card:hover .hover-card-bottom {
-		display: block;
 	}
 
 	.hover-card-bottom h1 {
