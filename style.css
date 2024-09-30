@@ -515,10 +515,12 @@ h5:hover {
 
 .card-specialoffers:hover .hover-card-top {
 	display: block;
+	max-height: auto;
 }
 
 .card-specialoffers:hover .hover-card-bottom {
 	display: block;
+	max-height: auto;
 }
 
 .card-image {
@@ -955,10 +957,12 @@ h5:hover {
 
 	.card-specialoffers:hover .hover-card-top {
 		display: block;
+		max-height: auto;
 	}
 
 	.card-specialoffers:hover .hover-card-bottom {
 		display: block;
+		max-height: auto;
 	}
 
 	.card-image {
@@ -1668,10 +1672,12 @@ h5:hover {
 
 	.card-specialoffers:hover .hover-card-top {
 		display: block;
+		max-height: auto;
 	}
 
 	.card-specialoffers:hover .hover-card-bottom {
 		display: block;
+		max-height: auto;
 	}
 
 	.card-image {
@@ -2079,10 +2085,12 @@ h5:hover {
 
 	.card-specialoffers:hover .hover-card-top {
 		display: block;
+		max-height: auto;
 	}
 
 	.card-specialoffers:hover .hover-card-bottom {
 		display: block;
+		max-height: auto;
 	}
 
 	.card-image {
