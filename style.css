@@ -484,6 +484,7 @@ h5:hover {
 	padding-bottom: 15px;
 	padding-right: 15px;
 	padding-top: 5px;
+	position: relative;
 }
 
 .container-specialoffers::-webkit-scrollbar {
@@ -923,6 +924,7 @@ h5:hover {
 		padding-bottom: 15px;
 		padding-right: 15px;
 		padding-top: 5px;
+		position: relative;
 	}
 
 	.container-specialoffers::-webkit-scrollbar {
@@ -1639,6 +1641,7 @@ h5:hover {
 		padding-bottom: 15px;
 		padding-right: 15px;
 		padding-top: 5px;
+		position: relative;
 	}
 
 	.container-specialoffers::-webkit-scrollbar {
@@ -2053,6 +2056,7 @@ h5:hover {
 		padding-bottom: 15px;
 		padding-right: 15px;
 		padding-top: 5px;
+		position: relative;
 	}
 
 	.container-specialoffers::-webkit-scrollbar {
