@@ -104,3 +104,65 @@ document.querySelectorAll('.container-newreleases-desktop').forEach(container =>
 		});
 	});
 });
+
+
+
+// HOVER PICTURE/CARD //
+// Special Offers
+const specialoffersItems = document.querySelectorAll('.card-specialoffers');
+
+specialoffersItems.forEach((specialoffersItem) => {
+	const hoverCard = specialoffersItem.querySelector('.hover-card-top');
+
+	specialoffersItem.addEventListener('mouseenter', () => {
+		hoverCard.style.display = 'block'; // Tampilkan hover card saat di-hover
+		startSlideShow(hoverCard); // Jalankan slideshow di hover card
+	});
+
+	specialoffersItem.addEventListener('mouseleave', () => {
+		hoverCard.style.display = 'none'; // Sembunyikan hover card ketika tidak di-hover
+	});
+});
+
+const specialoffers2Items = document.querySelectorAll('.card-specialoffers');
+
+specialoffers2Items.forEach((specialoffersItem) => {
+	const hoverCard = specialoffersItem.querySelector('.hover-card-bottom');
+
+	specialoffersItem.addEventListener('mouseenter', () => {
+		hoverCard.style.display = 'block'; // Tampilkan hover card saat di-hover
+		startSlideShow(hoverCard); // Jalankan slideshow di hover card
+	});
+
+	specialoffersItem.addEventListener('mouseleave', () => {
+		hoverCard.style.display = 'none'; // Sembunyikan hover card ketika tidak di-hover
+	});
+});
+
+// Slideshow Logic
+function startSlideShow(hoverCard) {
+	var slideIndex = 0;
+	var slides = hoverCard.getElementsByClassName("slide");
+
+	function showSlides() {
+		// Sembunyikan semua slide
+		for (var i = 0; i < slides.length; i++) {
+			slides[i].classList.remove("active-slide");
+		}
+
+		// Tampilkan slide aktif
+		slides[slideIndex].classList.add("active-slide");
+
+		// Geser ke slide berikutnya
+		slideIndex++;
+		if (slideIndex >= slides.length) {
+			slideIndex = 0;
+		}
+
+		// Jalankan lagi fungsi setelah 2 detik
+		setTimeout(showSlides, 4000); // Ganti slide setiap 2 detik
+	}
+
+	// Mulai slideshow
+	showSlides();
+}

@@ -508,7 +508,8 @@ h5:hover {
 	transition: transform 0.3s ease;
 	font-family: sans-serif;
 	cursor: pointer;
-	overflow: hidden;
+	overflow: visible;
+	position: relative;
 }
 
 .card-image {
@@ -543,6 +544,115 @@ h5:hover {
 	margin-left: -10px;
 }
 
+/* Popup card yang muncul di hover-top */
+.hover-card-top {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* Appear next to the card */
+	width: auto;
+	/* Larger width */
+	background-color: white;
+	padding: 10px;
+	color: #171a21;
+	z-index: 999;
+	/* Higher z-index to ensure it appears on top */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hover-card-top img {
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+}
+
+.card:hover .hover-card-top {
+	display: block;
+}
+
+.hover-card-top h1 {
+	margin-top: -3px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.hover-card-top h2 {
+	margin-top: -10px;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.hover-card-top h3 {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+/* Popup card yang muncul di hover-bottom */
+.hover-card-bottom {
+	display: none;
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	left: 0;
+	/* Appear next to the card */
+	width: auto;
+	/* Larger width */
+	background-color: white;
+	padding: 10px;
+	color: #171a21;
+	z-index: 999;
+	/* Higher z-index to ensure it appears on top */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hover-card-bottom img {
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+}
+
+.card:hover .hover-card-bottom {
+	display: block;
+}
+
+.hover-card-bottom h1 {
+	margin-top: -3px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.hover-card-bottom h2 {
+	margin-top: -10px;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.hover-card-bottom h3 {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.tag {
+	display: inline-block;
+	background-color: #717579;
+	color: white;
+	padding: 3px 7px;
+	border-radius: 2px;
+	gap: 5px;
+	font-size: 10px;
+}
+
+/* Setiap slide */
+.slide {
+	display: none;
+}
+
+/* Slide aktif akan terlihat dengan opacity penuh */
+.active-slide {
+	display: block;
+}
+
 /* SPECIAL OFFERS */
 
 /* CARD POPULAR SHORT STORIES */
@@ -574,6 +684,8 @@ h5:hover {
 	color: white;
 	font-family: sans-serif;
 	scroll-snap-align: center;
+	overflow: visible;
+	position: relative;
 }
 
 .card-popularshortstories img {
@@ -835,7 +947,12 @@ h5:hover {
 		transition: transform 0.3s ease;
 		font-family: sans-serif;
 		cursor: pointer;
-		overflow: hidden;
+		overflow: visible;
+		position: relative;
+	}
+
+	.card-specialoffers:hover .hover-card {
+		display: block;
 	}
 
 	.card-image {
@@ -870,7 +987,128 @@ h5:hover {
 		margin-left: -10px;
 	}
 
+	/* Popup card yang muncul di hover-top */
+	.hover-card-top {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		/* Appear next to the card */
+		width: auto;
+		/* Larger width */
+		background-color: white;
+		padding: 10px;
+		color: #171a21;
+		z-index: 999;
+		/* Higher z-index to ensure it appears on top */
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+
+	.hover-card-top img {
+		width: 100%;
+		height: auto;
+		margin-top: 5px;
+	}
+
+	.card:hover .hover-card-top {
+		display: block;
+	}
+
+	.hover-card-top h1 {
+		margin-top: -3px;
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.hover-card-top h2 {
+		margin-top: -10px;
+		font-size: 11px;
+		font-weight: normal;
+	}
+
+	.hover-card-top h3 {
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	/* Popup card yang muncul di hover-bottom */
+	.hover-card-bottom {
+		display: none;
+		position: absolute;
+		top: auto;
+		bottom: 0;
+		left: 0;
+		/* Appear next to the card */
+		width: auto;
+		/* Larger width */
+		background-color: white;
+		padding: 10px;
+		color: #171a21;
+		z-index: 999;
+		/* Higher z-index to ensure it appears on top */
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+
+	.hover-card-bottom img {
+		width: 100%;
+		height: auto;
+		margin-top: 5px;
+	}
+
+	.card:hover .hover-card-bottom {
+		display: block;
+	}
+
+	.hover-card-bottom h1 {
+		margin-top: -3px;
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.hover-card-bottom h2 {
+		margin-top: -10px;
+		font-size: 11px;
+		font-weight: normal;
+	}
+
+	.hover-card-bottom h3 {
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.tag {
+		display: inline-block;
+		background-color: #717579;
+		color: white;
+		padding: 3px 7px;
+		border-radius: 2px;
+		gap: 5px;
+		font-size: 10px;
+	}
+
+	/* Setiap slide */
+	.slide {
+		display: none;
+	}
+
+	/* Slide aktif akan terlihat dengan opacity penuh */
+	.active-slide {
+		display: block;
+	}
+
 	/* SPECIAL OFFERS */
+
+	/* CARD POPULAR SHORT STORIES */
+	.card-popularshortstories {
+		width: 250px;
+	}
+
+	.card-popularshortstories img {
+		width: 250px;
+		height: auto;
+	}
+
+	/* CARD POPULAR SHORT STORIES */
 
 	/* GRID CARD */
 	.grid-wrapper {
@@ -904,18 +1142,6 @@ h5:hover {
 
 	/* GRID CARD */
 
-	/* CARD POPULAR SHORT STORIES */
-	.card-popularshortstories {
-		width: 250px;
-	}
-
-	.card-popularshortstories img {
-		width: 250px;
-		height: 135px;
-	}
-
-	/* CARD POPULAR SHORT STORIES */
-
 	/* BANNER */
 	.card-topnewreleases {
 		width: 250px;
@@ -923,7 +1149,7 @@ h5:hover {
 
 	.card-topnewreleases img {
 		width: 250px;
-		height: 135px;
+		height: auto;
 	}
 
 	/* BANNER */
@@ -950,7 +1176,7 @@ h5:hover {
 		display: block;
 	}
 
-	/*FEATURED & RECOMMENDED DESKTOP */
+	/* FEATURED & RECOMMENDED DESKTOP */
 	.wrapper-newreleases-desktop {
 		display: flex;
 		overflow-x: auto;
@@ -1022,7 +1248,7 @@ h5:hover {
 	.recommended p {
 		font-size: 12px;
 		background: #4a4c4f;
-		padding: 5px;
+		padding: 4px;
 		margin-top: -13px;
 		width: max-content;
 		color: white;
@@ -1043,7 +1269,7 @@ h5:hover {
 		box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3);
 	}
 
-	/*FEATURED & RECOMMENDED DESKTOP */
+	/* FEATURED & RECOMMENDED DESKTOP */
 
 	.nav-newreleases {
 		display: flex;
@@ -1306,7 +1532,7 @@ h5:hover {
 		display: none;
 	}
 
-	/*FEATURED & RECOMMENDED DESKTOP */
+	/* FEATURED & RECOMMENDED DESKTOP */
 	.wrapper-newreleases-desktop {
 		display: flex;
 		overflow-x: auto;
@@ -1378,7 +1604,7 @@ h5:hover {
 	.recommended p {
 		font-size: 10px;
 		background: #4a4c4f;
-		padding: 5px;
+		padding: 4px;
 		margin-top: -13px;
 		width: max-content;
 		color: white;
@@ -1399,7 +1625,194 @@ h5:hover {
 		box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3);
 	}
 
-	/*FEATURED & RECOMMENDED DESKTOP */
+	/* FEATURED & RECOMMENDED DESKTOP */
+
+	/* SPECIAL OFFERS */
+	.container-specialoffers {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 10px;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		margin: 10px;
+		padding-bottom: 15px;
+		padding-right: 15px;
+		padding-top: 5px;
+	}
+
+	.container-specialoffers::-webkit-scrollbar {
+		height: 8px;
+	}
+
+	.container-specialoffers::-webkit-scrollbar-thumb {
+		background-color: #2A475E;
+		border-radius: 3px;
+	}
+
+	.double-card {
+		display: grid;
+		grid-gap: 10px;
+	}
+
+	.card-specialoffers {
+		background: linear-gradient(to bottom, #2a5f88, #58a7c9);
+		width: 320px;
+		height: 220px;
+		box-shadow: 3px 3px 3px #171a21;
+		transition: transform 0.3s ease;
+		font-family: sans-serif;
+		cursor: pointer;
+		overflow: visible;
+		position: relative;
+	}
+
+	.card-specialoffers:hover .hover-card {
+		display: block;
+	}
+
+	.card-image {
+		height: auto;
+		width: 320px;
+		display: block;
+	}
+
+	.card-content-specialoffers {
+		padding: 15px;
+		text-align: left;
+	}
+
+	.button-freetoread {
+		width: max-content;
+		padding: 6px;
+		font-size: 16px;
+		color: white;
+		font-weight: bold;
+		margin-top: -10px;
+		margin-left: -10px;
+	}
+
+	.button-comingsoon {
+		background: linear-gradient(to bottom, #627a05, #819c13);
+		width: max-content;
+		padding: 6px;
+		font-size: 16px;
+		color: yellow;
+		font-weight: 500;
+		margin-top: -10px;
+		margin-left: -10px;
+	}
+
+	/* Popup card yang muncul di hover-top */
+	.hover-card-top {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		/* Appear next to the card */
+		width: auto;
+		/* Larger width */
+		background-color: white;
+		padding: 10px;
+		color: #171a21;
+		z-index: 999;
+		/* Higher z-index to ensure it appears on top */
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+
+	.hover-card-top img {
+		width: 100%;
+		height: auto;
+		margin-top: 5px;
+	}
+
+	.card:hover .hover-card-top {
+		display: block;
+	}
+
+	.hover-card-top h1 {
+		margin-top: -3px;
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.hover-card-top h2 {
+		margin-top: -10px;
+		font-size: 11px;
+		font-weight: normal;
+	}
+
+	.hover-card-top h3 {
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	/* Popup card yang muncul di hover-bottom */
+	.hover-card-bottom {
+		display: none;
+		position: absolute;
+		top: auto;
+		bottom: 0;
+		left: 0;
+		/* Appear next to the card */
+		width: auto;
+		/* Larger width */
+		background-color: white;
+		padding: 10px;
+		color: #171a21;
+		z-index: 999;
+		/* Higher z-index to ensure it appears on top */
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+
+	.hover-card-bottom img {
+		width: 100%;
+		height: auto;
+		margin-top: 5px;
+	}
+
+	.card:hover .hover-card-bottom {
+		display: block;
+	}
+
+	.hover-card-bottom h1 {
+		margin-top: -3px;
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.hover-card-bottom h2 {
+		margin-top: -10px;
+		font-size: 11px;
+		font-weight: normal;
+	}
+
+	.hover-card-bottom h3 {
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.tag {
+		display: inline-block;
+		background-color: #717579;
+		color: white;
+		padding: 3px 7px;
+		border-radius: 2px;
+		gap: 5px;
+		font-size: 10px;
+	}
+
+	/* Setiap slide */
+	.slide {
+		display: none;
+	}
+
+	/* Slide aktif akan terlihat dengan opacity penuh */
+	.active-slide {
+		display: block;
+	}
+
+	/* SPECIAL OFFERS */
 
 	.grid {
 		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -1533,7 +1946,7 @@ h5:hover {
 		display: none;
 	}
 
-	/*FEATURED & RECOMMENDED DESKTOP */
+	/* FEATURED & RECOMMENDED DESKTOP */
 	.wrapper-newreleases-desktop {
 		display: flex;
 		overflow-x: auto;
@@ -1605,7 +2018,7 @@ h5:hover {
 	.recommended p {
 		font-size: 12px;
 		background: #4a4c4f;
-		padding: 5px;
+		padding: 4px;
 		margin-top: -13px;
 		width: max-content;
 		color: white;
@@ -1626,7 +2039,194 @@ h5:hover {
 		box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3);
 	}
 
-	/*FEATURED & RECOMMENDED DESKTOP */
+	/* FEATURED & RECOMMENDED DESKTOP */
+
+	/* SPECIAL OFFERS */
+	.container-specialoffers {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 10px;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+		margin: 10px;
+		padding-bottom: 15px;
+		padding-right: 15px;
+		padding-top: 5px;
+	}
+
+	.container-specialoffers::-webkit-scrollbar {
+		height: 8px;
+	}
+
+	.container-specialoffers::-webkit-scrollbar-thumb {
+		background-color: #2A475E;
+		border-radius: 3px;
+	}
+
+	.double-card {
+		display: grid;
+		grid-gap: 10px;
+	}
+
+	.card-specialoffers {
+		background: linear-gradient(to bottom, #2a5f88, #58a7c9);
+		width: 320px;
+		height: 220px;
+		box-shadow: 3px 3px 3px #171a21;
+		transition: transform 0.3s ease;
+		font-family: sans-serif;
+		cursor: pointer;
+		overflow: visible;
+		position: relative;
+	}
+
+	.card-specialoffers:hover .hover-card {
+		display: block;
+	}
+
+	.card-image {
+		height: auto;
+		width: 320px;
+		display: block;
+	}
+
+	.card-content-specialoffers {
+		padding: 15px;
+		text-align: left;
+	}
+
+	.button-freetoread {
+		width: max-content;
+		padding: 6px;
+		font-size: 16px;
+		color: white;
+		font-weight: bold;
+		margin-top: -10px;
+		margin-left: -10px;
+	}
+
+	.button-comingsoon {
+		background: linear-gradient(to bottom, #627a05, #819c13);
+		width: max-content;
+		padding: 6px;
+		font-size: 16px;
+		color: yellow;
+		font-weight: 500;
+		margin-top: -10px;
+		margin-left: -10px;
+	}
+
+	/* Popup card yang muncul di hover-top */
+	.hover-card-top {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		/* Appear next to the card */
+		width: auto;
+		/* Larger width */
+		background-color: white;
+		padding: 10px;
+		color: #171a21;
+		z-index: 999;
+		/* Higher z-index to ensure it appears on top */
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+
+	.hover-card-top img {
+		width: 100%;
+		height: auto;
+		margin-top: 5px;
+	}
+
+	.card:hover .hover-card-top {
+		display: block;
+	}
+
+	.hover-card-top h1 {
+		margin-top: -3px;
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.hover-card-top h2 {
+		margin-top: -10px;
+		font-size: 11px;
+		font-weight: normal;
+	}
+
+	.hover-card-top h3 {
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	/* Popup card yang muncul di hover-bottom */
+	.hover-card-bottom {
+		display: none;
+		position: absolute;
+		top: auto;
+		bottom: 0;
+		left: 0;
+		/* Appear next to the card */
+		width: auto;
+		/* Larger width */
+		background-color: white;
+		padding: 10px;
+		color: #171a21;
+		z-index: 999;
+		/* Higher z-index to ensure it appears on top */
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+
+	.hover-card-bottom img {
+		width: 100%;
+		height: auto;
+		margin-top: 5px;
+	}
+
+	.card:hover .hover-card-bottom {
+		display: block;
+	}
+
+	.hover-card-bottom h1 {
+		margin-top: -3px;
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.hover-card-bottom h2 {
+		margin-top: -10px;
+		font-size: 11px;
+		font-weight: normal;
+	}
+
+	.hover-card-bottom h3 {
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.tag {
+		display: inline-block;
+		background-color: #717579;
+		color: white;
+		padding: 3px 7px;
+		border-radius: 2px;
+		gap: 5px;
+		font-size: 10px;
+	}
+
+	/* Setiap slide */
+	.slide {
+		display: none;
+	}
+
+	/* Slide aktif akan terlihat dengan opacity penuh */
+	.active-slide {
+		display: block;
+	}
+
+	/* SPECIAL OFFERS */
 
 	.grid {
 		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
