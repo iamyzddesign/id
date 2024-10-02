@@ -320,6 +320,14 @@ h5:hover {
 
 /* DROPDOWN MENU */
 
+/* COMING SOON */
+.coming-soon img {
+	width: 100%;
+	height: auto;
+}
+
+/* COMING SOON */
+
 .nav-end {
 	display: flex;
 	justify-content: flex-start;

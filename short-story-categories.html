@@ -24,7 +24,7 @@
                     <li class="has-submenu">
                         <a href="#" class="submenu-toggle">New & Noteworthy</a>
                         <ul class="submenu">
-                            <li><a href="short-story-categories.html#new-releases" class="menu-link">Top Short Stories</a></li>
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Top Short Stories</a></li>
                             <li><a href="poster-categories.html#new-releases" class="menu-link">New Poster Releases</a></li>
                             <!-- Add more menu items as needed -->
                         </ul>
@@ -43,7 +43,7 @@
                         <ul class="submenu">
                             <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
                             <li><a href="poster-categories.html#new-releases" class="menu-link">Posters</a></li>
-                            <li><a href="short-story-categories.html#new-releases" class="menu-link">Short Stories</a></li>
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Short Stories</a></li>
                             <li><a href="collaboration.html" class="menu-link">Collaboration</a></li>
                             <!-- Add more menu items as needed -->
                         </ul>
@@ -74,7 +74,7 @@
         <li class="dropdown">
             <a href="#" class="nama-second-navbar">New & Noteworthy</a>
             <div id="myDropDown" class="dropdown-content">
-                <a href="short-story-categories.html#new-releases" class="menu-link">Top Short Stories</a>
+                <a href="short-story-categories.html#coming-soon" class="menu-link">Top Short Stories</a>
                 <a href="poster-categories.html#new-releases" class="menu-link">New Poster Releases</a>
             </div>
         </li>
@@ -104,6 +104,11 @@
             <button onclick="search()" id="btn-search"><img src="LOGO SEARCH.png" alt="" class="logo-search"></button>
         </div>
     </div>
+
+    <a href="news.html#coming-soon">
+    <div class="coming-soon" id="coming-soon">
+        <img src="https://iamyzddesign.github.io/thumbnail-1/SIGNAL (THUMBNAIL).jpg" alt="">
+    </div></a>
 
     <div class="new-short-story-releases-desktop">
         <div class="nav-newreleases" id="new-releases">
@@ -174,58 +179,6 @@
                     </div>
                     <div class="card-title">
                         <h3>Unknown Corporation : Silent Pandemic #S1</h3>
-                        <p>Free To Read</p>
-                    </div>
-                </div></a>
-            
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 4 - ALIZA ROSE (THUMBNAIL).jpg" alt="">
-                    </div>
-                    <div class="card-title">
-                        <h3>Still Alive 4 : Aliza Rose</h3>
-                        <p>Free To Read</p>
-                    </div>
-                </div>
-    
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://iamyzddesign.github.io/thumbnail-1/LABORATORY - ALIZA ROSE (THUMBNAIL).jpg" alt="">
-                    </div>
-                    <div class="card-title">
-                        <h3>Laboratory : Aliza Rose</h3>
-                        <p>Free To Read</p>
-                    </div>
-                </div>
-    
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 3 (THUMBNAIL).jpg" alt="">
-                    </div>
-                    <div class="card-title">
-                        <h3>Still Alive 3</h3>
-                        <p>Free To Read</p>
-                    </div>
-                </div>
-    
-                <a href="still-alive-2.html#still-alive-2">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 2 (THUMBNAIL).jpg" alt="">
-                    </div>
-                    <div class="card-title">
-                        <h3>Still Alive 2</h3>
-                        <p>Free To Read</p>
-                    </div>
-                </div></a>
-                
-                <a href="still-alive-1.html#still-alive-1">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 1 (THUMBNAIL).jpg" alt="">
-                    </div>
-                    <div class="card-title">
-                        <h3>Still Alive 1</h3>
                         <p>Free To Read</p>
                     </div>
                 </div></a>
@@ -643,6 +596,24 @@
             search(); // Panggil fungsi pencarian jika tombol enter ditekan
           }
         }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector('.wrapper-newreleases-desktop');
+            const cards = Array.from(container.children);
+
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            shuffle(cards);
+            cards.forEach(card => container.appendChild(card));
+        })
     </script>
 
     <script>
