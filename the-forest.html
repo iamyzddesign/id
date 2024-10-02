@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleShortStories.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>The Forest : Survival Isolation</title>
+</head>
+
+<body>
+    <section>
+        <nav class="mobile-menu">
+            <div class="container-logoweb">
+                <a href="home.html#coming-soon"><img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-website"></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+            </div>
+            <div class="menu-content" id="menu-content">
+                <ul>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">New & Noteworthy</a>
+                        <ul class="submenu">
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Top Short
+                                    Stories</a></li>
+                            <li><a href="poster-categories.html#new-releases" class="menu-link">New Poster Releases</a>
+                            </li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Store</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a></li>
+                            <li><a href="news.html" class="menu-link">News</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Community</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="poster-categories.html#new-releases" class="menu-link">Posters</a></li>
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Short Stories</a>
+                            </li>
+                            <li><a href="collaboration.html" class="menu-link">Collaboration</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="about.html" class="menu-link">About</a></li>
+                    <li class="has-submenu"><a href="support.html" class="menu-link">Support</a></li>
+                    <!-- Add more main menu items as needed -->
+
+                    <div class="footer">
+                        <img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-footer">
+                        <p>Copyright &copy; 2024 YZD Design. All rights reserved. <a
+                                href="mailto:yzddesign1@gmail.com">Feedback</a> | <a
+                                href="mailto:yzddesign1@gmail.com">Contact</a></p>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="overlay"></div>
+    </section>
+
+    <div class="second-navbar">
+        <li class="dropdown">
+            <a href="#" class="nama-second-navbar">Your Store</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="home.html#coming-soon" class="menu-link">Home</a>
+                <a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="nama-second-navbar">New & Noteworthy</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="short-story-categories.html#coming-soon" class="menu-link">Top Short Stories</a>
+                <a href="poster-categories.html#new-releases" class="menu-link">New Poster Releases</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="nama-second-navbar">Categories</a>
+            <div id="myDropDown" class="dropdown-content">
+                <h5 class="nama-second-navbar">Posters</h5>
+                <div class="dropdown-content">
+                    <a href="arabic-posters-page1.html#new-releases" class="menu-link">Arabic Posters</a>
+                    <a href="indonesian-posters-page1.html#new-releases" class="menu-link">Indonesian Posters</a>
+                    <a href="english-posters-page1.html#new-releases" class="menu-link">English Posters</a>
+                    <a href="japan-posters-page1.html#new-releases" class="menu-link">Japan Posters</a>
+                    <a href="adult-posters-page1.html#new-releases" class="menu-link">Adult Posters</a>
+                    <a href="anime-posters-page1.html#new-releases" class="menu-link">Anime Posters</a>
+                    <a href="comedy-posters-page1.html#new-releases" class="menu-link">Comedy Posters</a>
+                    <a href="death-posters-page1.html#new-releases" class="menu-link">Death Posters</a>
+                    <a href="movie-posters-page1.html#new-releases" class="menu-link">Movie Posters</a>
+                    <a href="politics-posters-page1.html#new-releases" class="menu-link">Politics Posters</a>
+                    <a href="product-posters-page1.html#new-releases" class="menu-link">Product Posters</a>
+                    <a href="romance-posters-page1.html#new-releases" class="menu-link">Romance Posters</a>
+                </div>
+            </div>
+        </li>
+        <li><a href="news.html" class="nama-second-navbar-disable">News</a></li>
+        <div class="box-input">
+            <input type="text" id="searchInput" placeholder="search" onkeyup="checkEnter(event)">
+            <button onclick="search()" id="btn-search"><img src="LOGO SEARCH.png" alt="" class="logo-search"></button>
+        </div>
+    </div>
+
+    <div class="shortstory-card" id="the-forest-survival-isolation">
+        <div class="shortstory-image">
+            <img src="https://iamyzddesign.github.io/thumbnail-1/THE FOREST - SURVIVAL ISOLATION (THUMBNAIL).jpg" alt="">
+        </div>
+        <div class="shortstory-info">
+            <h2 class="shortstory-title">The Forest : Survival Isolation</h2>
+            <div class="creator-info">
+                <p>Creator: <a href="#">YZD Design</a></p>
+                <p>Publisher: <a href="#">YZD Design</a></p>
+                <p>Released: <span>13 Jul, 2024</span></p>
+            </div>
+            <div class="shortstory-description">
+                <p>The story revolves around a young man, stranded in an unknown and dangerous forest. The wilderness is
+                    vast, and the environment is harsh, filled with obstacles like wild animals, difficult terrain, and
+                    unpredictable weather.</p>
+            </div>
+            <div class="tags">
+                <span class="tag">Survival</span>
+                <span class="tag">Anime</span>
+                <span class="tag">Action</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-screenshot">
+        <img src="https://iamyzddesign.github.io/screenshot-1/DARKBANE HUNTERS (SCREENSHOT) 1.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/DARKBANE HUNTERS (SCREENSHOT) 2.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/DARKBANE HUNTERS (SCREENSHOT) 3.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/DARKBANE HUNTERS (SCREENSHOT) 4.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/DARKBANE HUNTERS (SCREENSHOT) 5.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/DARKBANE HUNTERS (SCREENSHOT) 6.jpg" alt="">
+    </div>
+
+    <div class="container-shortstory">
+        <p class="paragraph-shortstory">Hari itu, langit kelabu menyelimuti seluruh bumi. Sebuah ledakan misterius
+            terjadi di kota, mengubah segalanya menjadi sunyi. Ares, seorang pria muda berumur 30 tahun, berhasil kabur
+            dari kekacauan tersebut. Dia kini terdampar di tengah hutan lebat, jauh dari peradaban. Dengan bekal
+            seadanya, dia sadar bahwa tidak ada jalan kembali. Di hadapannya, hanya ada hutan belantara yang penuh
+            dengan misteri dan bahaya. Ares memandang sekeliling, merasakan keheningan yang mencekam. "Apa yang
+            sebenarnya terjadi di sana? Aku harus menemukan tempat berlindung, sebelum gelap..." Ares (berbisik pada
+            diri
+            sendiri)</p>
+
+        <p class="paragraph-shortstory">Ares melangkah lebih dalam ke hutan. Setiap langkahnya membuat suara dedaunan
+            yang kering berderak. Udara semakin dingin, dan dia mulai merasa tidak nyaman. Dia menemukan gua kecil, yang
+            tampaknya bisa melindunginya untuk malam itu. Dengan peralatan terbatas, dia membuat api unggun dan berusaha
+            menenangkan diri. "Ini baru permulaan. Aku harus bertahan. Setidaknya, sampai aku menemukan jawaban." Ares
+            (dalam hati). "Aku berharap ada orang lain yang selamat" ucap Ares.</p>
+
+        <p class="paragraph-shortstory">Ketika fajar menyingsing, Ares bangun dari tidurnya yang tak nyenyak. Dia
+            mendengar suara gemerisik dari dalam hutan. Dia segera meraih senapan yang dia temukan di jalan sebelum
+            melarikan diri. Ternyata, seekor serigala liar mengintainya. Dengan cepat, Ares menembak untuk menakutinya.
+            Namun, dia tahu ini baru permulaan. Hutan ini bukan tempat yang aman. "Aku tidak bisa tetap di sini terlalu
+            lama. Bahaya bisa datang kapan saja." ucap Ares (Ares memasukkan beberapa amunisi ke dalam senapannya dan
+            bergegas meninggalkan gua.).</p>
+
+        <p class="paragraph-shortstory">Setelah berjalan sepanjang hari, Ares menemukan jejak kaki manusia. Itu
+            memberinya harapan bahwa ada orang lain yang mungkin selamat. Dia mengikuti jejak itu, hingga sampai di
+            sebuah kabin tua yang tampaknya sudah lama ditinggalkan. Di dalamnya, dia menemukan catatan yang tertinggal,
+            menceritakan tentang sebuah wabah yang melanda kota. "Jadi, wabah itu nyata... Semua orang yang terinfeksi
+            berubah menjadi sesuatu yang lain..." ucap Ares. "Hutan ini adalah satu-satunya tempat perlindungan, tapi
+            berapa lama aku bisa bertahan di sini?" Ares (membaca catatan).</p>
+
+        <p class="paragraph-shortstory">Di tengah perjalanannya, Ares mendengar suara langkah kaki dari belakang. Dia
+            berbalik dan melihat seorang pria lain, tampak kurus dan kotor. Pria itu memegang busur, siap menyerang
+            kapan saja. Ares mencoba berbicara dengannya, tapi dia tampaknya ketakutan. "Hei! Aku bukan musuh. Aku juga
+            berusaha bertahan hidup." ucap Ares. "Jangan dekati aku! Aku tahu apa yang terjadi di kota. Kau salah satu
+            dari mereka, bukan?" jawab Pria tak dikenal. "Aku selamat, sama seperti kamu. Kita bisa bekerja sama..."
+            ucap Ares.</p>
+
+        <p class="paragraph-shortstory">Setelah percakapan yang menegangkan, pria itu akhirnya mempercayai Ares. Namanya
+            adalah Johan, salah satu dari sedikit yang berhasil kabur dari wabah. Mereka berdua memutuskan untuk bekerja
+            sama, saling melindungi di tengah ancaman hutan yang semakin liar. Mereka berbagi cerita tentang apa yang
+            terjadi di kota sebelum semuanya hancur. "Kota itu tidak akan pernah sama lagi. Mereka semua berubah menjadi
+            monster yang haus darah." ucap Johan. "Aku harus kembali ke kota. Ada seseorang yang harus aku temukan."
+            ucap Ares. "Kembali ke kota? Itu misi bunuh diri." jawab Johan.</p>
+
+        <p class="paragraph-shortstory">Di malam hari, ketika mereka sedang beristirahat di sebuah gubuk yang mereka
+            temukan, suara-suara aneh mulai terdengar di sekitar mereka. Ternyata, sekelompok manusia yang terinfeksi
+            telah mengikuti mereka. Ares dan Johan segera bersiap untuk bertarung. "Mereka datang! Siapkan senjatamu!"
+            ucap Ares. "Mereka lebih cepat dari yang aku kira!" jawab Johan. (Ares menembakkan senjatanya ke arah
+            makhluk-makhluk itu, sementara Johan berusaha menjaga jarak dan melindungi sisi lain).</p>
+
+        <p class="paragraph-shortstory">Pertarungan berlangsung sengit. Meskipun mereka berhasil mengalahkan sebagian
+            besar makhluk yang menyerang, Johan terluka parah. Ares menyadari bahwa mereka tidak bisa bertahan lebih
+            lama lagi di hutan ini. Dia harus segera menemukan jalan keluar atau mereka berdua akan mati di sini.
+            "Bertahanlah, Johan! Aku akan mencari sesuatu untuk menghentikan pendarahanmu." ucap Ares. "Tidak ada
+            waktu... Kau harus pergi... tinggalkan aku…" jawab Johan. "Tidak! Kita berdua akan keluar dari sini." ucap
+            Ares.</p>
+
+        <p class="paragraph-shortstory">Dengan tenaga yang tersisa, Ares berhasil membawa Johan ke tempat yang lebih
+            aman. Namun, di tengah perjalanan, Johan kehilangan banyak darah dan akhirnya meninggal. Ares, yang kini
+            sendirian lagi, merasa bersalah karena tidak bisa menyelamatkan rekannya. Dia mulai meragukan kemampuannya
+            untuk bertahan di hutan ini. "Aku seharusnya lebih cepat. Aku seharusnya bisa menyelamatkannya..." Ares
+            (dalam hati). "Apa gunanya semua ini jika aku terus kehilangan orang-orang di sekitarku?" ucap Ares.</p>
+
+        <p class="paragraph-shortstory">Dalam keputusasaan, Ares menemukan sebuah peta yang terselip di dalam ransel
+            Johan. Peta itu menunjukkan sebuah rute menuju pegunungan, tempat di mana sebuah pemukiman kecil diyakini
+            masih ada. Dengan harapan yang kembali bangkit, Ares memutuskan untuk melanjutkan perjalanannya. Di tengah
+            hutan yang penuh dengan bahaya, hanya ada satu tujuan: bertahan hidup. "Aku tidak bisa berhenti di sini.
+            Johan, kematianmu tidak akan sia-sia. Aku akan menemukan tempat itu." Ares (berbisik).</p>
+
+        <p class="paragraph-shortstory">Ares mulai mengikuti petunjuk yang tertulis di peta. Jalan menuju pegunungan itu
+            tidak mudah, penuh dengan medan curam dan lembah yang terjal. Dia harus menyeberangi sungai yang deras dan
+            menghindari jebakan alam liar. Setiap langkahnya terasa berat, namun pemandangan yang semakin tinggi
+            memberinya sedikit harapan bahwa mungkin ada kehidupan di ujung jalan ini. "Tidak ada yang tahu apa yang
+            akan kutemukan di sana... Tapi aku harus melanjutkan. Johan sudah mengorbankan segalanya." Ares (dalam
+            hati). "Hanya sedikit lagi... Aku harus bertahan." ucap Ares.</p>
+
+        <p class="paragraph-shortstory">Saat Ares mulai mencapai ketinggian yang lebih tinggi, salju mulai menutupi
+            tanah. Di kejauhan, dia melihat jejak kaki lain yang tampaknya baru. Adakah orang lain yang juga mencoba
+            mencapai pegunungan ini? Ares merasa waspada, namun rasa penasarannya semakin besar. Jejak itu tampak menuju
+            ke arah yang sama dengannya. "Jejak ini masih segar. Ada seseorang di luar sana…" Ares (berbisik). "Siapa
+            pun itu, aku harus lebih berhati-hati." ucap Ares.</p>
+
+        <p class="paragraph-shortstory">Di tengah perjalanan, Ares menemukan sosok yang sedang berjuang menuruni bukit
+            salju. Dia tampak kelelahan dan tersesat. Setelah mendekatinya dengan hati-hati, Ares menyadari bahwa orang
+            tersebut adalah seorang wanita muda bernama Lina, yang juga selamat dari kekacauan di kota. Keduanya mulai
+            berbicara dan berbagi cerita. "Kamu siapa? Apa yang kamu lakukan di sini?" ucap Ares. "Namaku Lina. Aku
+            berusaha menemukan tempat yang aman... tapi aku tersesat." jawab Lina. "Kalau begitu, kita akan berjalan
+            bersama. Lebih aman jika kita tidak sendirian." ucap Ares.</p>
+
+        <p class="paragraph-shortstory">Dengan Lina di sisinya, Ares merasa beban perjalanannya sedikit lebih ringan.
+            Mereka bekerja sama dalam menghadapi tantangan alam, membagi makanan dan perlengkapan yang mereka miliki.
+            Namun, perjalanan menuju pegunungan menjadi semakin sulit, terutama dengan suhu yang semakin dingin. Mereka
+            harus mencari perlindungan dari angin kencang yang menusuk kulit. "Kamu sudah berapa lama berada di sini?"
+            ucap Lina. "Beberapa hari. Aku kehilangan seorang teman di jalan." jawab Ares. "Kita harus saling menjaga.
+            Hutan ini tidak bisa ditebak." ucap Lina.</p>
+
+        <p class="paragraph-shortstory">Setelah berhari-hari mendaki, Ares dan Lina akhirnya tiba di sebuah pemukiman
+            tua di kaki pegunungan. Tempat itu terlihat kosong, namun ada tanda-tanda kehidupan baru-baru ini. Mereka
+            memasuki salah satu bangunan yang tampak utuh, berharap menemukan makanan atau peralatan yang bisa membantu
+            mereka. "Pemukiman ini sudah lama ditinggalkan, tapi tidak terlalu lama. Mungkin mereka baru saja pergi."
+            ucap Ares. "Kita harus berhati-hati. Mungkin ada sesuatu yang terjadi di sini." ucap Lina.</p>
+
+        <p class="paragraph-shortstory">Saat menjelajahi pemukiman tersebut, mereka mendengar suara gemerisik di luar.
+            Tanpa peringatan, sekawanan makhluk yang terinfeksi menyerbu pemukiman. Ares dan Lina dengan cepat
+            berlindung dan mulai melawan balik. Pertempuran berlangsung sengit, namun mereka berhasil melarikan diri dan
+            bersembunyi di salah satu bangunan tua. "Apa itu tadi?! Mereka muncul begitu saja!" ucap Lina.
+            "Makhluk-makhluk terinfeksi. Mereka sudah lama menguasai tempat ini." jawab Ares. "Kita tidak bisa tinggal
+            di sini. Mereka akan kembali." ucap Lina.</p>
+
+        <p class="paragraph-shortstory">Setelah melarikan diri dari pemukiman, Ares dan Lina terus berjalan menuju
+            puncak pegunungan. Namun, para makhluk yang terinfeksi tampaknya tidak berhenti mengejar mereka. Mereka
+            harus menggunakan semua yang mereka miliki untuk bertahan hidup, baik dengan senjata maupun jebakan alam.
+            "Kita harus bergerak cepat. Mereka tidak akan berhenti sampai kita mati." ucap Ares. "Aku tidak tahu berapa
+            lama lagi aku bisa bertahan…" jawab Lina. "Kamu harus kuat. Kita hampir sampai." ucap Ares.</p>
+
+        <p class="paragraph-shortstory">Di ujung pendakian, Ares dan Lina menemukan sebuah bunker tua yang tampaknya
+            masih berfungsi. Setelah masuk ke dalamnya, mereka mendapati bahwa tempat itu ditinggalkan dengan
+            tergesa-gesa, namun ada persediaan yang cukup untuk bertahan beberapa minggu. Untuk pertama kalinya, mereka
+            merasa sedikit aman. "Kita benar-benar menemukan tempat yang aman. Setidaknya untuk sementara." ucap Lina.
+            "Ini hanya permulaan. Kita harus mencari tahu apa yang sebenarnya terjadi di luar sana." ucap Ares.</p>
+
+        <p class="paragraph-shortstory">Saat menjelajahi bunker tersebut, Ares menemukan sebuah radio yang masih
+            berfungsi. Dia mencoba berbagai frekuensi, berharap mendapatkan sinyal. Setelah beberapa saat, dia mendengar
+            suara samar dari seseorang yang berbicara tentang pemukiman yang masih selamat di wilayah utara. Suara itu
+            memberinya harapan baru. "Ada orang lain di luar sana. Mereka masih hidup!" ucap Ares. "Apa mereka bisa
+            membantu kita?" ucap Lina. "Kita harus mencari mereka. Ini satu-satunya kesempatan kita." jawab Ares.</p>
+
+        <p class="paragraph-shortstory">Dengan informasi baru dari radio, Ares dan Lina memutuskan untuk meninggalkan
+            bunker dan menuju ke pemukiman yang disebutkan. Mereka tahu perjalanan ini akan lebih berbahaya dari
+            sebelumnya, namun mereka tidak punya pilihan lain. Dengan tekad kuat, mereka melangkah kembali ke hutan,
+            siap menghadapi segala rintangan yang ada di depan. "Perjalanan ini mungkin yang terakhir, tapi aku yakin
+            kita bisa berhasil." ucap Ares. "Selama kita bersama, kita pasti bisa bertahan." ucap Lina. "Mari kita
+            akhiri semua ini dan temukan keselamatan." ucap Ares.</p>
+
+        <h2 class="note">Disclaimer: This story is purely fictional. We apologize if there are any similarities in
+            names, places, times, or dates. Thank you!</h2>
+    </div>
+
+    <!-- Add here -->
+    <link rel="Shortcut Icon" type="image/png" href="YZD LOGO.png">
+
+    <script>
+        function search() {
+            var input, filter, elements, i, txtValue;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            elements = document.querySelectorAll('*'); // Mengambil semua elemen dalam dokumen
+            matchFound = false;
+
+            elements.forEach(function (element) {
+                txtValue = element.textContent || element.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    var pageURL = window.location.href; // Mendapatkan URL halaman saat ini
+                    var baseURL = pageURL.substring(0, pageURL.lastIndexOf("/") + 1); // Mendapatkan baseURL
+
+                    // Jika ditemukan elemen yang cocok, langsung arahkan pengguna ke halaman yang sesuai
+                    if (element.tagName === 'A' && txtValue.toUpperCase() === filter) {
+                        var link = element.getAttribute("href");
+                        window.location.href = baseURL + link; // Redirect ke halaman yang sesuai
+                        matchFound = true;
+                    }
+                }
+            });
+
+            if (!matchFound) {
+                alert("Page not found!");
+            }
+        }
+
+        function clearSearchInput() {
+            var input = document.getElementById('searchInput');
+            if (input) {
+                input.value = '';
+            }
+        }
+
+        window.onload = clearSearchInput;
+
+        // Fungsi untuk mengecek jika tombol enter ditekan
+        function checkEnter(event) {
+            if (event.keyCode === 13) { // 13 adalah kode tombol enter
+                search(); // Panggil fungsi pencarian jika tombol enter ditekan
+            }
+        }
+    </script>
+
+    <script src="hamburger.js"></script>
+</body>
+
+</html>
