@@ -229,6 +229,10 @@ a:hover {
 	padding: 15px;
 }
 
+.content:hover {
+	color: #ffffff;
+}
+
 .announcement-image {
 	width: 100%;
 	border-radius: 3px;

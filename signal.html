@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleShortStories.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Signal</title>
+</head>
+
+<body>
+    <section>
+        <nav class="mobile-menu">
+            <div class="container-logoweb">
+                <a href="home.html#coming-soon"><img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-website"></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+            </div>
+            <div class="menu-content" id="menu-content">
+                <ul>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">New & Noteworthy</a>
+                        <ul class="submenu">
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Top Short
+                                    Stories</a></li>
+                            <li><a href="poster-categories.html#new-releases" class="menu-link">New Poster Releases</a>
+                            </li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Store</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a></li>
+                            <li><a href="news.html" class="menu-link">News</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Community</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="poster-categories.html#new-releases" class="menu-link">Posters</a></li>
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Short Stories</a>
+                            </li>
+                            <li><a href="collaboration.html" class="menu-link">Collaboration</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="about.html" class="menu-link">About</a></li>
+                    <li class="has-submenu"><a href="support.html" class="menu-link">Support</a></li>
+                    <!-- Add more main menu items as needed -->
+
+                    <div class="footer">
+                        <img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-footer">
+                        <p>Copyright &copy; 2024 YZD Design. All rights reserved. <a
+                                href="mailto:yzddesign1@gmail.com">Feedback</a> | <a
+                                href="mailto:yzddesign1@gmail.com">Contact</a></p>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="overlay"></div>
+    </section>
+
+    <div class="second-navbar">
+        <li class="dropdown">
+            <a href="#" class="nama-second-navbar">Your Store</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="home.html#coming-soon" class="menu-link">Home</a>
+                <a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="nama-second-navbar">New & Noteworthy</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="short-story-categories.html#coming-soon" class="menu-link">Top Short Stories</a>
+                <a href="poster-categories.html#new-releases" class="menu-link">New Poster Releases</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="nama-second-navbar">Categories</a>
+            <div id="myDropDown" class="dropdown-content">
+                <h5 class="nama-second-navbar">Posters</h5>
+                <div class="dropdown-content">
+                    <a href="arabic-posters-page1.html#new-releases" class="menu-link">Arabic Posters</a>
+                    <a href="indonesian-posters-page1.html#new-releases" class="menu-link">Indonesian Posters</a>
+                    <a href="english-posters-page1.html#new-releases" class="menu-link">English Posters</a>
+                    <a href="japan-posters-page1.html#new-releases" class="menu-link">Japan Posters</a>
+                    <a href="adult-posters-page1.html#new-releases" class="menu-link">Adult Posters</a>
+                    <a href="anime-posters-page1.html#new-releases" class="menu-link">Anime Posters</a>
+                    <a href="comedy-posters-page1.html#new-releases" class="menu-link">Comedy Posters</a>
+                    <a href="death-posters-page1.html#new-releases" class="menu-link">Death Posters</a>
+                    <a href="movie-posters-page1.html#new-releases" class="menu-link">Movie Posters</a>
+                    <a href="politics-posters-page1.html#new-releases" class="menu-link">Politics Posters</a>
+                    <a href="product-posters-page1.html#new-releases" class="menu-link">Product Posters</a>
+                    <a href="romance-posters-page1.html#new-releases" class="menu-link">Romance Posters</a>
+                </div>
+            </div>
+        </li>
+        <li><a href="news.html" class="nama-second-navbar-disable">News</a></li>
+        <div class="box-input">
+            <input type="text" id="searchInput" placeholder="search" onkeyup="checkEnter(event)">
+            <button onclick="search()" id="btn-search"><img src="LOGO SEARCH.png" alt="" class="logo-search"></button>
+        </div>
+    </div>
+
+    <div class="shortstory-card" id="signal">
+        <div class="shortstory-image">
+            <img src="https://iamyzddesign.github.io/thumbnail-1/SIGNAL (THUMBNAIL).jpg" alt="">
+        </div>
+        <div class="shortstory-info">
+            <h2 class="shortstory-title">Signal</h2>
+            <div class="creator-info">
+                <p>Creator: <a href="#">YZD Design</a></p>
+                <p>Publisher: <a href="#">YZD Design</a></p>
+                <p>Released: <span>3 Oct, 2024</span></p>
+            </div>
+            <div class="shortstory-description">
+                <p>Ghost hunters trapped in a dead city inhabited by many ghosts. The atmosphere of the city is silent
+                    and terrifying. The signals of the ghosts presence are constanly detected by the advanced equipment
+                    owned by the ghost hunters.</p>
+            </div>
+            <div class="tags">
+                <span class="tag">Survival</span>
+                <span class="tag">Action</span>
+                <span class="tag">Horror</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-screenshot">
+        <img src="https://iamyzddesign.github.io/screenshot-1/SIGNAL (SCREENSHOT) 1.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/SIGNAL (SCREENSHOT) 2.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/SIGNAL (SCREENSHOT) 3.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/SIGNAL (SCREENSHOT) 4.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/SIGNAL (SCREENSHOT) 5.jpg" alt="">
+    </div>
+
+    <div class="container-shortstory">
+        <p class="paragraph-shortstory">Andi, Bima, dan Rudi tiba di kota yang ditinggalkan bertahun-tahun lalu. Kota
+            ini dipenuhi dengan atmosfer kelam dan sunyi yang tidak wajar. Mereka datang untuk menyelidiki laporan
+            tentang penampakan hantu yang tak terhitung jumlahnya. Dengan alat canggih di tangan, mereka memulai
+            perjalanan ke pusat kota. Andi: "Kota ini benar-benar kosong. Rasanya... mati." Bima: "Menurut laporan,
+            sudah lama tidak ada yang berani datang ke sini." Rudi: "Tapi alat kita menangkap sinyal. Kita tidak
+            sendirian di sini."</p>
+
+        <p class="paragraph-shortstory">Di tengah jalan utama, alat pendeteksi hantu yang mereka bawa mulai berbunyi
+            keras. Sinyal itu semakin kuat saat mereka mendekati gedung tua di pinggir kota. Ada sesuatu—atau
+            seseorang—yang menunggu di dalam. Bima: "Ini terlalu kuat untuk satu entitas. Apa mungkin lebih dari satu?"
+            Andi: "Kita harus hati-hati. Kota ini penuh kejutan." Rudi: "Mari kita masuk, tapi jangan lepaskan alatnya.
+            Sinyal ini bisa hilang kapan saja."</p>
+
+        <p class="paragraph-shortstory">Gedung itu tampak seperti pabrik yang ditinggalkan. Pintu utama berderit ketika
+            mereka membukanya. Cahaya senter mereka menyorot ke dalam, mengungkap lorong-lorong berdebu. Suara langkah
+            kaki mereka bergema di kegelapan. Andi: "Kau merasakan sesuatu?" Bima: "Ya, udara di sini berbeda." Rudi:
+            "Sinyal makin kuat. Ayo, kita harus ke sumbernya."</p>
+
+        <p class="paragraph-shortstory">Saat mereka berjalan lebih dalam ke pabrik, rasa dingin yang tak wajar
+            menyelimuti mereka. Mesin deteksi hantu Bima mengeluarkan suara bising, menandakan kehadiran yang semakin
+            dekat. Lalu, mereka mendengar suara langkah kaki yang bukan milik mereka. Andi: "Kau dengar itu?"
+            Rudi: "Ya, seseorang... atau sesuatu, sedang mengikuti kita." Bima: "Tetap fokus. Jangan biarkan rasa takut
+            menguasai kita."</p>
+
+        <p class="paragraph-shortstory">Di ujung lorong, sosok transparan muncul, melayang di udara. Wajahnya tampak
+            samar namun dipenuhi kesedihan. Dia menatap mereka seolah ingin menyampaikan pesan. Sinyal pada alat mereka
+            mencapai puncaknya. Bima: "Astaga... Ini nyata." Rudi: "Kita harus merekam ini!" Andi: "Diam! Dia mencoba
+            berbicara... dengarkan baik-baik."</p>
+
+        <p class="paragraph-shortstory">Hantu itu tak berbicara, tetapi dari gestur tangannya, mereka bisa merasakan
+            bahwa ia meminta bantuan. Suhu ruangan semakin dingin, dan tiba-tiba sosok itu menghilang, meninggalkan
+            sinyal yang memudar perlahan. Andi: "Dia butuh bantuan kita." Bima: "Tapi bagaimana caranya? Kita bahkan
+            tidak tahu siapa dia." Rudi: "Kita akan cari tahu. Harus ada petunjuk di gedung ini."</p>
+
+        <p class="paragraph-shortstory">Mereka menemukan sebuah ruangan dengan catatan-catatan tua dan dokumen yang
+            berceceran. Banyak dari mereka adalah laporan tentang kecelakaan misterius yang terjadi di pabrik ini
+            bertahun-tahun lalu. Rudi menemukan nama di salah satu dokumen, nama yang cocok dengan perasaan kehadiran
+            hantu itu. Rudi: "Ini dia, namanya... Andara. Dia meninggal di sini." Andi: "Apa yang sebenarnya terjadi
+            padanya?" Bima: "Sepertinya ada lebih banyak rahasia di kota ini."</p>
+
+        <p class="paragraph-shortstory">Dengan nama Andara di tangan, mereka mulai menyelidiki sejarah kota. Semakin
+            mereka menggali, semakin mereka menyadari bahwa kota ini telah menjadi sarang bagi banyak roh yang terjebak
+            antara dunia. Hantu Andara hanyalah salah satu dari mereka. Andi: "Kota ini lebih dari sekadar kosong. Ini
+            adalah penjara bagi mereka yang tak bisa pergi." Rudi: "Dan kita harus mencari tahu kenapa." Bima: "Sinyal
+            makin kuat lagi. Ayo lanjutkan."</p>
+
+        <p class="paragraph-shortstory">Di tengah malam, sinyal lain muncul. Kali ini lebih ganas dan tidak ramah.
+            Mereka mendekati sumbernya, dan tiba-tiba angin kencang menerpa, pintu dan jendela mulai bergetar. Suara
+            jeritan hantu yang penuh dendam memenuhi udara. Andi: "Ini bukan seperti Andara... Hati-hati!" Rudi: "Alat
+            ini menangkap sesuatu yang sangat kuat!" Bima: "Kita harus keluar dari sini! Sekarang juga!"</p>
+
+        <p class="paragraph-shortstory">Sebuah entitas gelap muncul di depan mereka. Bukan sekadar sosok melayang, tapi
+            wujud yang penuh kemarahan dan kebencian. Gelombang energi hitam menyerang mereka, dan sinyal pada alat
+            deteksi mereka berubah menjadi sangat kacau. Rudi: "Kita tak bisa melawannya! Ini terlalu kuat!" Andi:
+            "Jangan menyerah! Kita harus bertahan!" Bima: "Ada cara untuk menghentikannya... kita harus menemukan sumber
+            kekuatannya!"</p>
+
+        <p class="paragraph-shortstory">Bima menyadari bahwa entitas tersebut terkait dengan tragedi masa lalu di kota
+            ini. Untuk menghentikannya, mereka harus memahami cerita di balik setiap arwah yang menghuni tempat ini.
+            Tapi waktu tidak berpihak pada mereka. Andi: "Kita perlu lebih banyak waktu untuk mengungkap semuanya."
+            Bima: "Aku akan mencoba memperlambat entitas ini. Kalian lanjutkan pencariannya!" Rudi: "Jangan lakukan ini,
+            Bima!" Bima: "Tidak ada cara lain. Pergilah!"</p>
+
+        <p class="paragraph-shortstory">Andi dan Rudi berhasil kabur dari serangan, tetapi mereka tahu Bima dalam
+            bahaya. Mereka menemukan sebuah jurnal yang ditulis oleh Andara sebelum kematiannya. Jurnal itu
+            mengungkapkan rahasia kelam kota ini dan bagaimana dia terjebak di sini. Rudi: "Ini petunjuk yang kita
+            butuhkan! Andara tahu segalanya." Andi: "Kita harus menyelamatkan Bima. Tapi, kita butuh informasi lebih
+            dulu."</p>
+
+        <p class="paragraph-shortstory">Dengan jurnal di tangan, Andi dan Rudi mulai memahami apa yang terjadi di kota
+            ini. Ternyata, sebuah ritual yang gagal dilakukan oleh penduduk kota bertahun-tahun lalu menjadi penyebab
+            munculnya entitas-entitas jahat. Para roh terjebak dalam siklus kemarahan yang tidak berujung. Andi: "Ritual
+            ini... mereka mencoba membangkitkan sesuatu yang seharusnya tidak pernah diusik." Rudi: "Dan sekarang kita
+            yang harus menanggung akibatnya. Kita harus menghentikannya."</p>
+
+        <p class="paragraph-shortstory">Mereka kembali ke pabrik, tempat Bima masih bertahan melawan entitas yang
+            semakin ganas. Rudi dan Andi tahu bahwa mereka harus menyelesaikan ritual yang belum pernah selesai untuk
+            membebaskan kota ini dari kegelapan. Sinyal alat mereka bergetar liar saat mendekati pusat pabrik. Rudi:
+            "Jika kita bisa menyelesaikan ritualnya, mungkin kita bisa menghentikan semuanya." Andi: "Tapi kita harus
+            cepat, sebelum entitas itu membunuh Bima."</p>
+
+        <p class="paragraph-shortstory">Bima terpojok oleh entitas yang semakin kuat. Energi gelap mengelilinginya,
+            menghancurkan setiap objek di sekitarnya. Saat dia hampir menyerah, Andi dan Rudi muncul dengan solusi yang
+            mereka temukan dari jurnal Andara. Bima: "Kalian... datang tepat waktu." Andi: "Jangan menyerah. Kita tahu
+            bagaimana cara mengakhirinya." Rudi: "Kau harus bertahan sebentar lagi!"</p>
+
+        <p class="paragraph-shortstory">Mereka menemukan tempat ritual yang telah lama terlupakan di ruang bawah tanah
+            pabrik. Altar yang rusak dan simbol-simbol kuno tersebar di seluruh ruangan. Andi dan Rudi mulai
+            mempersiapkan ritual sesuai petunjuk yang ditulis di jurnal Andara, sementara Bima menahan serangan entitas.
+            Andi: "Kita butuh lilin-lilin ini. Cepat, Rudi, bacakan mantranya." Rudi: "Aku harap ini berhasil. Kalau
+            tidak, kita semua akan mati di sini." Bima: "Aku tidak bisa menahan lebih lama lagi! Cepat!"</p>
+
+        <p class="paragraph-shortstory">Saat mereka mulai ritual, entitas semakin ganas. Getaran di tanah semakin kuat,
+            dan suara jeritan gaib mengisi ruangan. Entitas mencoba menghentikan mereka, tetapi kekuatan ritual mulai
+            mengunci keberadaannya. Entitas (bergema): "Kalian tidak bisa menghentikanku!" Bima: "Teruskan! Jangan
+            biarkan dia menghancurkan kita!" Andi: "Kita hampir selesai... sedikit lagi!"</p>
+
+        <p class="paragraph-shortstory">Ritual hampir selesai, tetapi entitas melepaskan serangan terakhir yang
+            menargetkan Rudi. Bima, yang terluka parah, melompat untuk melindungi Rudi, dan serangan itu mengenainya
+            secara langsung. Tubuh Bima terhempas ke dinding, tak bergerak. Andi: "Bima!! Tidak!!" Rudi: "Kita tidak
+            bisa berhenti sekarang... kita harus menyelesaikannya untuk Bima." Andi: "Aku tidak akan membiarkan
+            pengorbanannya sia-sia."</p>
+
+        <p class="paragraph-shortstory">Dengan hati yang berat, Andi dan Rudi menyelesaikan ritual itu. Cahaya putih
+            menyilaukan meledak dari altar, mengisi ruangan dengan energi suci. Entitas gelap melolong sebelum akhirnya
+            menghilang, terperangkap selamanya di dunia lain. Sinyal alat mereka perlahan memudar. Andi: "Sudah
+            selesai..." Rudi: "Tapi... apa kita benar-benar selamat?" Andi: "Lihat alatnya. Tidak ada sinyal. Kita
+            berhasil."</p>
+
+        <p class="paragraph-shortstory">Setelah semuanya tenang, mereka mendekati tubuh Bima yang tak bergerak. Andi
+            memeriksa denyut nadinya, tetapi harapan mereka pupus. Bima telah mengorbankan dirinya untuk melindungi
+            mereka dan menyelesaikan misi. Andi: "Dia sudah pergi." Rudi: "Dia menyelamatkan kita... Bima adalah
+            pahlawan." Andi: "Kita harus menghormati pengorbanannya. Kita tidak bisa tinggal di sini lebih lama."</p>
+
+        <p class="paragraph-shortstory">Andi dan Rudi meninggalkan kota itu, membawa tubuh Bima bersama mereka. Saat
+            mereka berjalan menuju perbatasan, mereka merasakan kelegaan karena tidak ada lagi sinyal aneh yang
+            terdeteksi oleh alat mereka. Kota yang mati kini bebas dari entitas jahat. Rudi: "Kota ini terasa berbeda
+            sekarang... lebih damai." Andi: "Ya, karena kutukannya sudah terangkat. Semua arwah telah pergi." Rudi:
+            "Tapi kita akan selalu ingat apa yang terjadi di sini."</p>
+
+        <p class="paragraph-shortstory">Setelah meninggalkan kota, Andi dan Rudi kembali ke markas mereka, mengabarkan
+            kejadian tersebut kepada tim mereka. Mereka berduka atas kehilangan Bima, namun juga bangga telah berhasil
+            menyelesaikan misi yang berbahaya ini. Andi: "Kita harus memberitahu keluarga Bima tentang apa yang
+            terjadi." Rudi: "Dia meninggal dengan keberanian. Mereka akan bangga padanya." Andi: "Ini adalah akhir dari
+            perjalanan kita di kota itu. Tapi kita tahu, masih ada yang harus kita lakukan."</p>
+
+        <p class="paragraph-shortstory">Beberapa minggu setelah kejadian di kota mati, Rudi menemukan sesuatu yang
+            mencurigakan di alat pendeteksi hantu mereka. Sinyal baru muncul, kali ini di kota yang berbeda. Apa yang
+            mereka pikir sudah selesai ternyata baru permulaan. Rudi: "Andi, kau harus melihat ini. Sinyal baru." Andi:
+            "Tidak mungkin... aku pikir semua sudah berakhir." Rudi: "Sepertinya ada lebih banyak yang kita belum
+            ketahui."</p>
+
+        <p class="paragraph-shortstory">Mereka mulai menyelidiki sinyal baru ini, dan menyadari bahwa kota tempat mereka
+            menyelesaikan ritual bukan satu-satunya yang terkutuk. Ada beberapa kota lain yang mengalami fenomena
+            serupa, seolah-olah ritual kuno itu tersebar ke berbagai tempat. Andi: "Ini lebih besar dari yang kita kira.
+            Ada banyak tempat lain yang terinfeksi kutukan ini." Rudi: "Kita harus menghentikan semuanya, sebelum lebih
+            banyak orang yang terjebak seperti Bima." Andi: "Kita tidak bisa melakukan ini sendirian. Kita butuh
+            bantuan."</p>
+
+        <p class="paragraph-shortstory">Untuk menangani ancaman yang lebih besar ini, Andi dan Rudi mulai merekrut
+            pemburu hantu baru ke dalam tim mereka. Mereka melatih mereka untuk menghadapi bahaya yang sama seperti yang
+            mereka alami, mempersiapkan mereka untuk melawan entitas dari dunia lain. Andi: "Kalian harus siap. Apa yang
+            akan kita hadapi lebih berbahaya dari yang bisa kalian bayangkan." Rudi: "Tapi dengan alat ini dan
+            pengetahuan kita, kita punya kesempatan untuk menghentikan mereka." Rekrutan: "Kami siap. Apa rencana
+            pertama?"</p>
+
+        <p class="paragraph-shortstory">Tim baru mereka tiba di kota kedua, di mana sinyal kuat mendeteksi keberadaan
+            beberapa entitas jahat. Kota ini, meskipun tidak sepenuhnya mati, sudah mulai kehilangan penduduk karena
+            ketakutan terhadap kejadian-kejadian misterius. Andi: "Kota ini belum sepenuhnya hancur, tapi tidak akan
+            lama lagi kalau kita tidak segera bertindak." Rudi: "Sinyal ini sangat kacau. Ada banyak entitas di sini."
+            Rekrutan: "Kita siap. Ayo kita mulai."</p>
+
+        <p class="paragraph-shortstory">Pertempuran dengan entitas di kota kedua lebih sulit dari yang mereka duga.
+            Entitas di sini lebih kuat dan lebih berbahaya, seolah-olah mereka telah berkembang dari apa yang terjadi di
+            kota pertama. Rudi: "Mereka lebih kuat dari yang kita duga! Ini tidak akan mudah." Andi: "Kita tidak punya
+            pilihan lain. Kita harus menghentikan mereka di sini dan sekarang!" Rekrutan: "Arahkan kami. Kami siap untuk
+            bertempur!"</p>
+
+        <p class="paragraph-shortstory">Dalam penyelidikan lebih lanjut, mereka menemukan bahwa kutukan ini tidak hanya
+            terjadi secara kebetulan. Ada kekuatan jahat yang mengendalikan semua ini dari balik layar, dan mereka harus
+            menemukan sumber utamanya. Andi: "Ini bukan sekadar ritual yang gagal. Ada seseorang atau sesuatu yang
+            memulai semua ini." Rudi: "Dan kita harus menemukan mereka sebelum lebih banyak kota yang terjatuh."
+            Rekrutan: "Bagaimana kita menemukannya?"</p>
+
+        <p class="paragraph-shortstory">Petunjuk yang mereka temukan mengarahkan mereka ke lokasi misterius yang dikenal
+            sebagai Sumber Kutukan. Di sana, mereka harus menghadapi musuh terbesar yang pernah mereka temui dan
+            memecahkan misteri yang telah menghantui kota-kota ini selama bertahun-tahun. Andi: "Ini dia... sumber dari
+            semuanya." Rudi: "Kita tidak tahu apa yang menunggu di sana, tapi kita harus siap." Rekrutan: "Apa pun yang
+            ada di sana, kita akan menghentikannya."</p>
+
+        <p class="paragraph-shortstory">Di Sumber Kutukan, mereka menemukan sosok misterius yang bertanggung jawab
+            atas segala kehancuran ini. Pertempuran terakhir mereka adalah pertempuran hidup dan mati, dan hanya dengan
+            keberanian, kerja sama, dan pengorbanan, mereka dapat menghentikan kutukan ini selamanya. Sosok Misterius:
+            "Kalian datang untuk menghentikan apa yang tidak bisa dihentikan." Andi: "Kami akan mengakhiri semuanya di
+            sini." Rudi: "Untuk Bima, dan untuk semua arwah yang terperangkap!" Rekrutan: "Ayo kita akhiri ini!"</p>
+
+        <p class="paragraph-shortstory">Setelah pertempuran besar, kutukan itu akhirnya dihentikan. Kota-kota yang telah
+            terkena dampaknya mulai kembali normal, dan arwah-arwah yang terperangkap akhirnya bisa beristirahat dengan
+            tenang. Namun, Andi, Rudi, dan tim mereka tahu bahwa dunia ini selalu penuh dengan misteri, dan perjuangan
+            mereka belum benar-benar berakhir. Andi: "Ini adalah akhir dari kutukan ini, tapi kita tahu masih banyak
+            lagi di luar sana." Rudi: "Kita akan selalu siap. Apa pun yang terjadi selanjutnya." Rekrutan: "Kami akan
+            berada di sisimu, siap melawan kegelapan."</p>
+
+        <h2 class="note">Disclaimer: This story is purely fictional. We apologize if there are any similarities in
+            names, places, times, or dates. Thank you!</h2>
+    </div>
+
+    <!-- Add here -->
+    <link rel="Shortcut Icon" type="image/png" href="YZD LOGO.png">
+
+    <script>
+        function search() {
+            var input, filter, elements, i, txtValue;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            elements = document.querySelectorAll('*'); // Mengambil semua elemen dalam dokumen
+            matchFound = false;
+
+            elements.forEach(function (element) {
+                txtValue = element.textContent || element.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    var pageURL = window.location.href; // Mendapatkan URL halaman saat ini
+                    var baseURL = pageURL.substring(0, pageURL.lastIndexOf("/") + 1); // Mendapatkan baseURL
+
+                    // Jika ditemukan elemen yang cocok, langsung arahkan pengguna ke halaman yang sesuai
+                    if (element.tagName === 'A' && txtValue.toUpperCase() === filter) {
+                        var link = element.getAttribute("href");
+                        window.location.href = baseURL + link; // Redirect ke halaman yang sesuai
+                        matchFound = true;
+                    }
+                }
+            });
+
+            if (!matchFound) {
+                alert("Page not found!");
+            }
+        }
+
+        function clearSearchInput() {
+            var input = document.getElementById('searchInput');
+            if (input) {
+                input.value = '';
+            }
+        }
+
+        window.onload = clearSearchInput;
+
+        // Fungsi untuk mengecek jika tombol enter ditekan
+        function checkEnter(event) {
+            if (event.keyCode === 13) { // 13 adalah kode tombol enter
+                search(); // Panggil fungsi pencarian jika tombol enter ditekan
+            }
+        }
+    </script>
+
+    <script src="hamburger.js"></script>
+</body>
+
+</html>

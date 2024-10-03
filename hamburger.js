@@ -126,30 +126,45 @@ specialoffersItems.forEach((specialoffersItem) => {
 
 const specialoffers2Items = document.querySelectorAll('.card-specialoffers');
 
-specialoffers2Items.forEach((specialoffersItem) => {
-	const hoverCard = specialoffersItem.querySelector('.hover-card-bottom');
+specialoffers2Items.forEach((specialoffers2Item) => {
+	const hoverCard = specialoffers2Item.querySelector('.hover-card-bottom');
 
-	specialoffersItem.addEventListener('mouseenter', () => {
+	specialoffers2Item.addEventListener('mouseenter', () => {
 		hoverCard.style.display = 'block'; // Tampilkan hover card saat di-hover
 		startSlideShow(hoverCard); // Jalankan slideshow di hover card
 	});
 
-	specialoffersItem.addEventListener('mouseleave', () => {
+	specialoffers2Item.addEventListener('mouseleave', () => {
 		hoverCard.style.display = 'none'; // Sembunyikan hover card ketika tidak di-hover
 	});
 });
 
 const specialofferssingleItems = document.querySelectorAll('.card-specialoffers-single');
 
-specialofferssingleItems.forEach((specialoffersItem) => {
-	const hoverCard = specialoffersItem.querySelector('.hover-card-top');
+specialofferssingleItems.forEach((specialofferssingleItem) => {
+	const hoverCard = specialofferssingleItem.querySelector('.hover-card-top');
 
-	specialoffersItem.addEventListener('mouseenter', () => {
+	specialofferssingleItem.addEventListener('mouseenter', () => {
 		hoverCard.style.display = 'block'; // Tampilkan hover card saat di-hover
 		startSlideShow(hoverCard); // Jalankan slideshow di hover card
 	});
 
-	specialoffersItem.addEventListener('mouseleave', () => {
+	specialofferssingleItem.addEventListener('mouseleave', () => {
+		hoverCard.style.display = 'none'; // Sembunyikan hover card ketika tidak di-hover
+	});
+});
+
+const updatesandoffersItems = document.querySelectorAll('.card-updatesandoffers');
+
+updatesandoffersItems.forEach((updatesandoffersItem) => {
+	const hoverCard = updatesandoffersItem.querySelector('.hover-card');
+
+	updatesandoffersItem.addEventListener('mouseenter', () => {
+		hoverCard.style.display = 'block'; // Tampilkan hover card saat di-hover
+		startSlideShow(hoverCard); // Jalankan slideshow di hover card
+	});
+
+	updatesandoffersItem.addEventListener('mouseleave', () => {
 		hoverCard.style.display = 'none'; // Sembunyikan hover card ketika tidak di-hover
 	});
 });
