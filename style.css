@@ -514,6 +514,18 @@ h5:hover {
 	position: relative;
 }
 
+.card-specialoffers-single {
+	background: linear-gradient(to bottom, #2a5f88, #58a7c9);
+	width: 235px;
+	height: auto;
+	box-shadow: 3px 3px 3px #171a21;
+	transition: transform 0.3s ease;
+	font-family: sans-serif;
+	cursor: pointer;
+	overflow: visible;
+	position: relative;
+}
+
 .card-image {
 	height: auto;
 	width: 100%;
@@ -543,6 +555,28 @@ h5:hover {
 	color: yellow;
 	font-weight: 500;
 	margin-top: -10px;
+	margin-left: -10px;
+}
+
+.button-nowavailable {
+	background: linear-gradient(to bottom, #627a05, #819c13);
+	width: max-content;
+	padding: 5px;
+	font-size: 18px;
+	color: yellow;
+	font-weight: 500;
+	margin-top: -10px;
+	margin-bottom: 5px;
+	margin-left: -5px;
+}
+
+.date-released {
+	width: max-content;
+	padding: 5px;
+	font-size: 13px;
+	color: white;
+	font-weight: normal;
+	margin-top: -20px;
 	margin-left: -10px;
 }
 
@@ -935,6 +969,18 @@ h5:hover {
 		position: relative;
 	}
 
+	.card-specialoffers-single {
+		background: linear-gradient(to bottom, #2a5f88, #58a7c9);
+		width: 320px;
+		height: auto;
+		box-shadow: 3px 3px 3px #171a21;
+		transition: transform 0.3s ease;
+		font-family: sans-serif;
+		cursor: pointer;
+		overflow: visible;
+		position: relative;
+	}
+
 	.card-image {
 		height: auto;
 		width: 100%;
@@ -964,6 +1010,28 @@ h5:hover {
 		color: yellow;
 		font-weight: 500;
 		margin-top: -10px;
+		margin-left: -10px;
+	}
+
+	.button-nowavailable {
+		background: linear-gradient(to bottom, #627a05, #819c13);
+		width: max-content;
+		padding: 6px;
+		font-size: 18px;
+		color: yellow;
+		font-weight: 500;
+		margin-top: -10px;
+		margin-bottom: 5px;
+		margin-left: -5px;
+	}
+	
+	.date-released {
+		width: max-content;
+		padding: 6px;
+		font-size: 13px;
+		color: white;
+		font-weight: normal;
+		margin-top: -20px;
 		margin-left: -10px;
 	}
 
@@ -1641,6 +1709,18 @@ h5:hover {
 		position: relative;
 	}
 
+	.card-specialoffers-single {
+		background: linear-gradient(to bottom, #2a5f88, #58a7c9);
+		width: 320px;
+		height: auto;
+		box-shadow: 3px 3px 3px #171a21;
+		transition: transform 0.3s ease;
+		font-family: sans-serif;
+		cursor: pointer;
+		overflow: visible;
+		position: relative;
+	}
+
 	.card-image {
 		height: auto;
 		width: 100%;
@@ -1670,6 +1750,28 @@ h5:hover {
 		color: yellow;
 		font-weight: 500;
 		margin-top: -10px;
+		margin-left: -10px;
+	}
+
+	.button-nowavailable {
+		background: linear-gradient(to bottom, #627a05, #819c13);
+		width: max-content;
+		padding: 6px;
+		font-size: 18px;
+		color: yellow;
+		font-weight: 500;
+		margin-top: -10px;
+		margin-bottom: 5px;
+		margin-left: -5px;
+	}
+	
+	.date-released {
+		width: max-content;
+		padding: 6px;
+		font-size: 13px;
+		color: white;
+		font-weight: normal;
+		margin-top: -20px;
 		margin-left: -10px;
 	}
 
@@ -2045,6 +2147,18 @@ h5:hover {
 		position: relative;
 	}
 
+	.card-specialoffers-single {
+		background: linear-gradient(to bottom, #2a5f88, #58a7c9);
+		width: 320px;
+		height: auto;
+		box-shadow: 3px 3px 3px #171a21;
+		transition: transform 0.3s ease;
+		font-family: sans-serif;
+		cursor: pointer;
+		overflow: visible;
+		position: relative;
+	}
+
 	.card-image {
 		height: auto;
 		width: 100%;
@@ -2074,6 +2188,28 @@ h5:hover {
 		color: yellow;
 		font-weight: 500;
 		margin-top: -10px;
+		margin-left: -10px;
+	}
+
+	.button-nowavailable {
+		background: linear-gradient(to bottom, #627a05, #819c13);
+		width: max-content;
+		padding: 6px;
+		font-size: 18px;
+		color: yellow;
+		font-weight: 500;
+		margin-top: -10px;
+		margin-bottom: 5px;
+		margin-left: -5px;
+	}
+	
+	.date-released {
+		width: max-content;
+		padding: 6px;
+		font-size: 13px;
+		color: white;
+		font-weight: normal;
+		margin-top: -20px;
 		margin-left: -10px;
 	}
 

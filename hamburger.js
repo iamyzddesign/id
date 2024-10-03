@@ -139,6 +139,21 @@ specialoffers2Items.forEach((specialoffersItem) => {
 	});
 });
 
+const specialofferssingleItems = document.querySelectorAll('.card-specialoffers-single');
+
+specialofferssingleItems.forEach((specialoffersItem) => {
+	const hoverCard = specialoffersItem.querySelector('.hover-card-top');
+
+	specialoffersItem.addEventListener('mouseenter', () => {
+		hoverCard.style.display = 'block'; // Tampilkan hover card saat di-hover
+		startSlideShow(hoverCard); // Jalankan slideshow di hover card
+	});
+
+	specialoffersItem.addEventListener('mouseleave', () => {
+		hoverCard.style.display = 'none'; // Sembunyikan hover card ketika tidak di-hover
+	});
+});
+
 // Slideshow Logic
 function startSlideShow(hoverCard) {
 	var slideIndex = 0;
