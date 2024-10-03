@@ -504,8 +504,8 @@ h5:hover {
 
 .card-specialoffers {
 	background: linear-gradient(to bottom, #2a5f88, #58a7c9);
-	width: 235px;
-	height: 170px;
+	width: 280px;
+	height: 195px;
 	box-shadow: 3px 3px 3px #171a21;
 	transition: transform 0.3s ease;
 	font-family: sans-serif;
@@ -516,7 +516,7 @@ h5:hover {
 
 .card-specialoffers-single {
 	background: linear-gradient(to bottom, #2a5f88, #58a7c9);
-	width: 235px;
+	width: 280px;
 	height: auto;
 	box-shadow: 3px 3px 3px #171a21;
 	transition: transform 0.3s ease;
