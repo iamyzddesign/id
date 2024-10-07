@@ -852,6 +852,47 @@ h5:hover {
 
 /* DESKTOP SITE (MOBILE DEVICES) */
 @media screen and (min-width: 768px) and (max-width: 1080px) {
+	.second-navbar {
+		display: flex;
+		justify-content: center;
+		gap: 30px;
+		padding: 2px;
+		background-color: rgba(0, 0, 255, 0.6);
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+		margin: 20px;
+		list-style: none;
+		font-family: sans-serif;
+		font-size: 11px;
+		font-weight: bolder;
+	}
+
+	.dropdown {
+		position: relative;
+	}
+
+	.dropdown-content {
+		display: none;
+	}
+
+	.dropdown-content a {
+		gap: 5px;
+		text-align: center;
+		display: flex;
+		margin: 10px;
+		margin-left: -10px;
+		font-size: 11px;
+		font-weight: 500;
+		position: relative;
+	}
+
+	.dropdown-content a:hover {
+		text-decoration: underline;
+	}
+
+	.nama-second-navbar {
+		font-size: 11px;
+	}
+
 	.new-short-story-releases-desktop {
 		display: block;
 	}
@@ -1046,6 +1087,47 @@ h5:hover {
 }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape) {
+	.second-navbar {
+		display: flex;
+		justify-content: center;
+		gap: 30px;
+		padding: 2px;
+		background-color: rgba(0, 0, 255, 0.6);
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+		margin: 20px;
+		list-style: none;
+		font-family: sans-serif;
+		font-size: 11px;
+		font-weight: bolder;
+	}
+
+	.dropdown {
+		position: relative;
+	}
+
+	.dropdown-content {
+		display: none;
+	}
+
+	.dropdown-content a {
+		gap: 5px;
+		text-align: center;
+		display: flex;
+		margin: 10px;
+		margin-left: -10px;
+		font-size: 11px;
+		font-weight: 500;
+		position: relative;
+	}
+
+	.dropdown-content a:hover {
+		text-decoration: underline;
+	}
+
+	.nama-second-navbar {
+		font-size: 11px;
+	}
+
 	.new-short-story-releases-desktop {
 		display: block;
 	}
