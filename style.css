@@ -1032,6 +1032,49 @@ h5:hover {
 
 
 @media screen and (min-width: 1280px) {
+
+	/* SEARCH ENGINE */
+	#searchInput {
+		width: 95%;
+		background-color: #2a475e;
+		border-radius: 3px;
+		box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
+		padding: 10px;
+		border: 1px solid rgb(128, 128, 128);
+		margin-top: auto;
+		margin-bottom: auto;
+		color: #666464;
+		font-style: italic;
+	}
+
+	#searchInput2 {
+		width: 200px;
+		background-color: #2a475e;
+		border-radius: 3px;
+		box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
+		padding: 5px;
+		border: 1px solid rgb(128, 128, 128);
+		margin-top: 8.5px;
+		color: #666464;
+	}
+
+	#btn-search {
+		background-color: rgba(0, 0, 0, 0);
+		border: none;
+		width: 27px;
+		border-radius: 3px;
+		padding: 3px;
+		margin: -33px;
+	}
+
+	.logo-search {
+		width: 13px;
+		height: 13px;
+	}
+
+	/* SEARCH ENGINE */
+
+	/* DROPDOWN MENU */
 	.second-navbar {
 		display: flex;
 		justify-content: center;
@@ -1068,6 +1111,8 @@ h5:hover {
 	.dropdown-content a:hover {
 		text-decoration: underline;
 	}
+
+	/* DROPDOWN MENU */
 
 	.featured-and-recommended-mobile {
 		display: none;
@@ -1846,6 +1891,49 @@ h5:hover {
 
 /* DESKTOP SITE (MOBILE DEVICES) */
 @media screen and (min-width: 768px) and (max-width: 1080px) {
+
+	/* SEARCH ENGINE */
+	#searchInput {
+		width: 95%;
+		background-color: #2a475e;
+		border-radius: 3px;
+		box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
+		padding: 9px;
+		border: 1px solid rgb(128, 128, 128);
+		margin-top: auto;
+		margin-bottom: auto;
+		color: #666464;
+		font-style: italic;
+	}
+
+	#searchInput2 {
+		width: 200px;
+		background-color: #2a475e;
+		border-radius: 3px;
+		box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
+		padding: 5px;
+		border: 1px solid rgb(128, 128, 128);
+		margin-top: 8.5px;
+		color: #666464;
+	}
+
+	#btn-search {
+		background-color: rgba(0, 0, 0, 0);
+		border: none;
+		width: 27px;
+		border-radius: 3px;
+		padding: 3px;
+		margin: -33px;
+	}
+
+	.logo-search {
+		width: 11px;
+		height: 11px;
+	}
+
+	/* SEARCH ENGINE */
+
+	/* DROPDOWN MENU */
 	.second-navbar {
 		display: flex;
 		justify-content: center;
@@ -1887,10 +1975,7 @@ h5:hover {
 		font-size: 11px;
 	}
 
-	.logo-search {
-		width: 11px;
-		height: 11px;
-	}
+	/* DROPDOWN MENU */
 
 	.featured-and-recommended-desktop {
 		display: block;
@@ -2454,6 +2539,49 @@ h5:hover {
 }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape) {
+
+	/* SEARCH ENGINE */
+	#searchInput {
+		width: 95%;
+		background-color: #2a475e;
+		border-radius: 3px;
+		box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
+		padding: 9px;
+		border: 1px solid rgb(128, 128, 128);
+		margin-top: auto;
+		margin-bottom: auto;
+		color: #666464;
+		font-style: italic;
+	}
+
+	#searchInput2 {
+		width: 200px;
+		background-color: #2a475e;
+		border-radius: 3px;
+		box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
+		padding: 5px;
+		border: 1px solid rgb(128, 128, 128);
+		margin-top: 8.5px;
+		color: #666464;
+	}
+
+	#btn-search {
+		background-color: rgba(0, 0, 0, 0);
+		border: none;
+		width: 27px;
+		border-radius: 3px;
+		padding: 3px;
+		margin: -33px;
+	}
+
+	.logo-search {
+		width: 11px;
+		height: 11px;
+	}
+
+	/* SEARCH ENGINE */
+
+	/* DROPDOWN MENU */
 	.second-navbar {
 		display: flex;
 		justify-content: center;
@@ -2495,10 +2623,7 @@ h5:hover {
 		font-size: 11px;
 	}
 
-	.logo-search {
-		width: 11px;
-		height: 11px;
-	}
+	/* DROPDOWN MENU */
 
 	.featured-and-recommended-desktop {
 		display: block;
