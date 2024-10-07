@@ -1037,7 +1037,7 @@ h5:hover {
 		justify-content: center;
 		gap: 30px;
 		padding: 2px;
-		background: linear-gradient(to right, #66c0f4, rgba(34, 23, 68, 0.815));
+		background-color: rgba(0, 0, 255, 0.6);
 		box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 		margin: 20px;
 		list-style: none;
