@@ -724,6 +724,7 @@ h5:hover {
 	}
 }
 
+/* DESKTOP SITE (MOBILE DEVICES) */
 @media screen and (min-width: 768px) and (max-width: 1080px) {
 	.second-navbar {
 		display: flex;
@@ -764,6 +765,11 @@ h5:hover {
 
 	.nama-second-navbar {
 		font-size: 11px;
+	}
+
+	.logo-search {
+		width: 11px;
+		height: 11px;
 	}
 }
 
@@ -877,5 +883,10 @@ h5:hover {
 
 	.nama-second-navbar {
 		font-size: 11px;
+	}
+
+	.logo-search {
+		width: 11px;
+		height: 11px;
 	}
 }

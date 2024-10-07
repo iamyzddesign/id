@@ -893,6 +893,11 @@ h5:hover {
 		font-size: 11px;
 	}
 
+	.logo-search {
+		width: 11px;
+		height: 11px;
+	}
+
 	.new-short-story-releases-desktop {
 		display: block;
 	}
@@ -1126,6 +1131,11 @@ h5:hover {
 
 	.nama-second-navbar {
 		font-size: 11px;
+	}
+
+	.logo-search {
+		width: 11px;
+		height: 11px;
 	}
 
 	.new-short-story-releases-desktop {
